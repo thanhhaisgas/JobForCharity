@@ -20,6 +20,7 @@
         android:layout_height="match_parent"
         android:gravity="bottom|center_horizontal"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,7 +115,7 @@
                         android:id="@+id/btnFaceLogin"
                         android:layout_width="@dimen/dp60"
                         android:layout_height="@dimen/dp60"
-                        android:background="@drawable/tw_sign_in"
+                        android:background="@drawable/fb_sign_in"
                         android:scaleType="fitXY" />
 
                     <TextView
@@ -134,7 +135,7 @@
                         android:layout_width="@dimen/dp60"
                         android:layout_height="@dimen/dp60"
                         android:layout_weight="1"
-                        android:background="@drawable/fb_sign_in"
+                        android:background="@drawable/tw_sign_in"
                         android:scaleType="fitXY" />
 
                 </LinearLayout>
