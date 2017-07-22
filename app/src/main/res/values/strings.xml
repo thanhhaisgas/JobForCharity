@@ -22,4 +22,7 @@
     <string name="action_settings">Settings</string>
     <string name="categories">Categories</string>
     <string name="what_s_news">What\'s News</string>
+    <string name="job">Job:</string>
+    <string name="description">Description:</string>
+    <string name="rent">Rent</string>
 </resources>
