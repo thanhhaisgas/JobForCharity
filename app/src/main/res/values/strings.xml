@@ -25,4 +25,21 @@
     <string name="job">Job:</string>
     <string name="description">Description:</string>
     <string name="rent">Rent</string>
+
+    <!--Activity Create Job resources-->
+    <string name="job_detail_label">Detail</string>
+    <string name="job_name_label">Job Name</string>
+    <string name="begin_date_label">Begin date</string>
+    <string name="begin_time_label">Begin time</string>
+    <string name="job_list_label">End time</string>
+    <string name="create_label">Post</string>
+
+    <!--Spinner categories-->
+    <string-array name="spinner_categories">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+        <item>Category 4</item>
+        <item>Category 5</item>
+    </string-array>
 </resources>
