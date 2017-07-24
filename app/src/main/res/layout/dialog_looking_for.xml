@@ -46,8 +46,7 @@
                 android:background="@color/user1"
                 android:gravity="center_horizontal|center_vertical"
                 android:text="I'm looking for online work"
-                android:textSize="@dimen/dp30"
-                android:textColor="#009688" />
+                android:textSize="@dimen/dp30"/>
 
         </LinearLayout>
 
