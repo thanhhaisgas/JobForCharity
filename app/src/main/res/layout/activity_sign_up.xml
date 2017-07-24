@@ -148,7 +148,7 @@
             android:textColorHint="@android:color/black">
 
             <EditText
-                android:id="@+id/txtPassSUp"
+                android:id="@+id/txtPassSup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@android:color/black"
@@ -199,7 +199,7 @@
         android:paddingRight="10dp">
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/ckVerify"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@android:color/black" />
