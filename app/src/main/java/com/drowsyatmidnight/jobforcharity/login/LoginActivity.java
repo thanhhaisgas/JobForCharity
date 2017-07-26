@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.Utils.ValidChecking;
+import com.drowsyatmidnight.jobforcharity.hirer.View.Acitivities.CreateWorkActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -109,6 +110,10 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void loginSuccess() {
                     progressDialog.dismiss();
+                    /**/
+                    Intent mIntent = new Intent(LoginActivity.this, CreateWorkActivity.class);
+                    startActivity(mIntent);
+
                     Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
 
                 }

@@ -49,13 +49,13 @@
 
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/txtInputJobName"
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:theme="@style/InputTextLabel"
             >
             <EditText
-                android:id="@+id/txtJobName"
+                android:id="@+id/txtInputJobName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/job_name_label"
@@ -185,7 +185,7 @@
             android:textColor="@color/colorPrimaryHirer"
             />
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/btnAddDateTime"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
 
@@ -195,8 +195,8 @@
     </LinearLayout>
 
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/datetimeList"
+    <ListView
+        android:id="@+id/lvDatetime"
         android:background="@drawable/linear_border"
         android:layout_width="match_parent"
         android:layout_height="54dp"
@@ -212,10 +212,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="@dimen/dp10"
+        android:layout_weight="0.44"
         android:background="@color/colorPrimaryHirer"
-        android:text="@string/create_label"
 
-        android:textColor="@android:color/white"
-        android:layout_weight="0.44"/>
+        android:text="@string/create_label"
+        android:textColor="@android:color/white"/>
 
 </LinearLayout>

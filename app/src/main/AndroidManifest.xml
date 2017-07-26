@@ -19,11 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Home">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".login.SignUpActivity"
             android:theme="@style/signupActivity"/>
@@ -31,6 +27,14 @@
             android:name=".userhire.Home_UserHire"
             android:label="@string/title_activity_home__user_hire"
             android:theme="@style/fragment"></activity>
+
+        <activity android:name=".hirer.View.Acitivities.CreateWorkActivity"
+            android:theme="@style/joblistActivity"
+            />
+
+        <activity android:name=".hirer.View.Acitivities.NeededWorksMngmntActivity"
+            android:theme="@style/NeededWorksMngmntActivity"
+            />
     </application>
 
 </manifest>
