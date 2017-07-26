@@ -1,4 +1,4 @@
-package com.drowsyatmidnight.jobforcharity.hirer.View.Adapters;
+package com.drowsyatmidnight.jobforcharity.woker.View.Adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

@@ -1,6 +1,4 @@
-package com.drowsyatmidnight.jobforcharity.hirer.Models.Entity;
-
-import java.util.List;
+package com.drowsyatmidnight.jobforcharity.woker.Models.Entity;
 
 /**
  * Created by davidtran on 7/24/17.

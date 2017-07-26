@@ -1,20 +1,17 @@
-package com.drowsyatmidnight.jobforcharity.hirer.View.Adapters;
+package com.drowsyatmidnight.jobforcharity.woker.View.Adapters;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
-import com.drowsyatmidnight.jobforcharity.hirer.Models.Entity.Work;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.zip.Inflater;
 
 /**
  * Created by davidtran on 7/25/17.

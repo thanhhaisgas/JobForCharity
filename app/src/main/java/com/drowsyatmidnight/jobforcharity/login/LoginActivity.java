@@ -15,8 +15,6 @@ import android.widget.Toast;
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.Utils.ValidChecking;
 
-import com.drowsyatmidnight.jobforcharity.hirer.View.Acitivities.CreateWorkActivity;
-
 import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.Home_UserHire;
 import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;

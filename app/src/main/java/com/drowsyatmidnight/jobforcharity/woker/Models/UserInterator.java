@@ -1,26 +1,20 @@
-package com.drowsyatmidnight.jobforcharity.hirer.Models;
+package com.drowsyatmidnight.jobforcharity.woker.Models;
 
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.drowsyatmidnight.jobforcharity.hirer.Models.Entity.Work;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
 import com.drowsyatmidnight.jobforcharity.login.Authority;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static android.content.ContentValues.TAG;
 
 /**
  * Created by davidtran on 7/24/17.

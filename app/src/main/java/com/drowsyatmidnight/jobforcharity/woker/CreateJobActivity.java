@@ -1,4 +1,4 @@
-package com.drowsyatmidnight.jobforcharity.hirer;
+package com.drowsyatmidnight.jobforcharity.woker;
 
 
 import android.app.Activity;

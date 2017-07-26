@@ -1,4 +1,4 @@
-package com.drowsyatmidnight.jobforcharity.hirer.View.Fragments;
+package com.drowsyatmidnight.jobforcharity.woker.View.Fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

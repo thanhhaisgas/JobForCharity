@@ -1,7 +1,6 @@
-package com.drowsyatmidnight.jobforcharity.hirer.View.Acitivities;
+package com.drowsyatmidnight.jobforcharity.woker.View.Acitivities;
 
 
-import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
@@ -19,9 +18,9 @@ import android.widget.Spinner;
 import android.widget.TimePicker;
 
 import com.drowsyatmidnight.jobforcharity.R;
-import com.drowsyatmidnight.jobforcharity.hirer.Models.Entity.Work;
-import com.drowsyatmidnight.jobforcharity.hirer.Presenter.CreateWorkPresenter;
-import com.drowsyatmidnight.jobforcharity.hirer.View.Adapters.DatetimeAdapter;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
+import com.drowsyatmidnight.jobforcharity.woker.Presenter.CreateWorkPresenter;
+import com.drowsyatmidnight.jobforcharity.woker.View.Adapters.DatetimeAdapter;
 import com.drowsyatmidnight.jobforcharity.login.Authority;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -33,8 +32,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 import java.util.Calendar;

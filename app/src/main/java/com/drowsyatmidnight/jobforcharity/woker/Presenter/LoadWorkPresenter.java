@@ -1,9 +1,9 @@
-package com.drowsyatmidnight.jobforcharity.hirer.Presenter;
+package com.drowsyatmidnight.jobforcharity.woker.Presenter;
 
-import com.drowsyatmidnight.jobforcharity.hirer.Models.Entity.Work;
-import com.drowsyatmidnight.jobforcharity.hirer.Models.LoadWorkListener;
-import com.drowsyatmidnight.jobforcharity.hirer.Models.UserInterator;
-import com.drowsyatmidnight.jobforcharity.hirer.View.MainView;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
+import com.drowsyatmidnight.jobforcharity.woker.Models.LoadWorkListener;
+import com.drowsyatmidnight.jobforcharity.woker.Models.UserInterator;
+import com.drowsyatmidnight.jobforcharity.woker.View.MainView;
 
 import java.util.List;
 

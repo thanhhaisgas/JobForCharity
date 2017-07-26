@@ -1,4 +1,4 @@
-package com.drowsyatmidnight.jobforcharity.hirer.View.Fragments;
+package com.drowsyatmidnight.jobforcharity.woker.View.Fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,9 +13,10 @@ import com.drowsyatmidnight.jobforcharity.R;
  * Created by davidtran on 7/24/17.
  */
 
-public class ExpiredNeededWorksFragment extends Fragment {
-    public static ExpiredNeededWorksFragment newInstance(){
-        ExpiredNeededWorksFragment fragment = new ExpiredNeededWorksFragment();
+public class AllNeededWorksFragment extends Fragment {
+
+    public static AllNeededWorksFragment newInstance(){
+        AllNeededWorksFragment fragment = new AllNeededWorksFragment();
         /*Bundle bundle = new Bundle();
         bundle.putString(SEARCH_KEYWORD,searchKeyWord);
         fragment.setArguments(bundle);*/
@@ -26,7 +27,7 @@ public class ExpiredNeededWorksFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_expired_neededworks, container, false);
+        View view = inflater.inflate(R.layout.fragment_all_neededworks, container, false);
 
         return view;
 
@@ -38,4 +39,5 @@ public class ExpiredNeededWorksFragment extends Fragment {
 
 
     }
+
 }

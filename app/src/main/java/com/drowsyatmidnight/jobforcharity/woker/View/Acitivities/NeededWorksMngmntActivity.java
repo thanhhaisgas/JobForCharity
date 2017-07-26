@@ -1,6 +1,5 @@
-package com.drowsyatmidnight.jobforcharity.hirer.View.Acitivities;
+package com.drowsyatmidnight.jobforcharity.woker.View.Acitivities;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -9,11 +8,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import com.drowsyatmidnight.jobforcharity.R;
-import com.drowsyatmidnight.jobforcharity.hirer.View.Adapters.CustomPagerAdapter;
-import com.drowsyatmidnight.jobforcharity.hirer.View.Fragments.AllNeededWorksFragment;
-import com.drowsyatmidnight.jobforcharity.hirer.View.Fragments.ExpiredNeededWorksFragment;
-import com.drowsyatmidnight.jobforcharity.hirer.View.Fragments.FinishedNeededWorksFragment;
-import com.drowsyatmidnight.jobforcharity.hirer.View.Fragments.PerformingNeededWorksFragment;
+import com.drowsyatmidnight.jobforcharity.woker.View.Adapters.CustomPagerAdapter;
+import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.AllNeededWorksFragment;
+import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.ExpiredNeededWorksFragment;
+import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.FinishedNeededWorksFragment;
+import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.PerformingNeededWorksFragment;
 
 import java.util.ArrayList;
 
