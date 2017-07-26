@@ -34,6 +34,7 @@ public class LoginService {
             @Override
             public void onSuccess(AuthResult authResult) {
                 loginListener.loginSuccess();
+                Authority.sFirebaseAuth = auth;
             }
         });
     }
