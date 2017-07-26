@@ -14,6 +14,7 @@
     <string name="mobile_numbers">Mobile Numbers</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_home__user_hire">Home_UserHire</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -24,9 +25,4 @@
     <string name="job">Job:</string>
     <string name="description">Description:</string>
     <string name="rent">Rent</string>
-    <string name="jobs">Jobs:</string>
-    <string name="work_in_progress">Work in progress</string>
-    <string name="history">History</string>
-    <string name="details">Details</string>
-    <string name="reviews">Reviews</string>
 </resources>
