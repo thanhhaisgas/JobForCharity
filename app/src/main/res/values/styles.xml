@@ -22,10 +22,13 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <!--Style activity&fragment-->
     <style name="fragment"  parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -36,6 +39,9 @@
     <style name="RatingBar" parent="Theme.AppCompat">
         <item name="colorControlActivated">@color/yellow</item>
     </style>
-
     <color name="yellow">#FFEB3B</color>
+    <!--back arrow color-->
+    <style name="colorArrow" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
 </resources>

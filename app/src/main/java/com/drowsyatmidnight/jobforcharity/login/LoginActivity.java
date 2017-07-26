@@ -14,6 +14,9 @@ import android.widget.Toast;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.Utils.ValidChecking;
+import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
+import com.drowsyatmidnight.jobforcharity.userhire.Home_UserHire;
+import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -36,6 +39,7 @@ public class LoginActivity extends AppCompatActivity {
     private LoginService loginService;
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authStateListener;
+    private FirebaseUser user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,10 +86,10 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 //check verify of user
-                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                user = FirebaseAuth.getInstance().getCurrentUser();
                 if(user!=null){
                     if(user.isEmailVerified()){
-                        Toast.makeText(LoginActivity.this, "Email is verified", Toast.LENGTH_SHORT).show();
+                        //EmailVerified
                     }else {
                         auth.signOut();
                         AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
@@ -109,8 +113,10 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void loginSuccess() {
                     progressDialog.dismiss();
-                    Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
-
+                    KeyValueFirebase.UID = user.getUid();
+                    DataFirebase.createCategories(getResources().getStringArray(R.array.listCategoryName));
+                    Intent goHomeUserHire = new Intent(LoginActivity.this, Home_UserHire.class);
+                    startActivity(goHomeUserHire);
                 }
 
                 @Override

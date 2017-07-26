@@ -25,11 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login.SignUpActivity"
-            android:theme="@style/signupActivity"/>
+        <activity
+            android:name=".login.SignUpActivity"
+            android:theme="@style/signupActivity" />
         <activity
             android:name=".userhire.Home_UserHire"
-            android:label="@string/title_activity_home__user_hire"
+            android:theme="@style/fragment" />
+        <activity
+            android:name=".userhire.JobsCategory"
+            android:theme="@style/fragment" />
+        <activity android:name=".userhire.JobDetail"
             android:theme="@style/fragment"></activity>
     </application>
 

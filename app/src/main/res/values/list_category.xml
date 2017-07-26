@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listCategoryName">
+        <item>Education</item>
+        <item>Housework</item>
+        <item>Tour Guide</item>
+        <item>Delivery</item>
+        <item>Vehicle Pool</item>
+        <item>Fixing</item>
+        <item>Others</item>
+    </string-array>
+</resources>

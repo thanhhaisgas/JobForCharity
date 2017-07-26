@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_light_color_category">
+        <item>#bda5ff</item>
+        <item>#ff99c6</item>
+        <item>#ffff8f</item>
+        <item>#9e9e9e</item>
+        <item>#c4b8ff</item>
+        <item>#c0ff9f</item>
+        <item>#2c2c2c</item>
+    </string-array>
+</resources>

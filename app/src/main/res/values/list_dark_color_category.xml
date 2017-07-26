@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_dark_color_category">
+        <item>#5b4a9a</item>
+        <item>#c83068</item>
+        <item>#abae2b</item>
+        <item>#454545</item>
+        <item>#5c5bc8</item>
+        <item>#5bab40</item>
+        <item>#000000</item>
+    </string-array>
+</resources>
