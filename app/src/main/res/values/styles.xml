@@ -22,13 +22,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <!--Style activity&fragment-->
+
     <style name="fragment"  parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -39,8 +36,32 @@
     <style name="RatingBar" parent="Theme.AppCompat">
         <item name="colorControlActivated">@color/yellow</item>
     </style>
+
     <color name="yellow">#FFEB3B</color>
-    <!--back arrow color-->
+
+    <style name="joblistActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="NeededWorksMngmntActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="InputTextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorPrimaryHirer</item>
+        <item name="android:textSize">18sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorPrimaryHirer</item>
+        <item name="colorControlNormal">@color/colorPrimaryHirer</item>
+        <item name="colorControlActivated">@color/colorPrimaryHirer</item>
+    </style>
+
+
+
     <style name="colorArrow" parent="Theme.AppCompat.NoActionBar">
         <item name="android:textColorSecondary">@android:color/white</item>
     </style>

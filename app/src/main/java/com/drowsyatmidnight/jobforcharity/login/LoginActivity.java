@@ -14,9 +14,11 @@ import android.widget.Toast;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.Utils.ValidChecking;
+
 import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.Home_UserHire;
 import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -113,10 +115,12 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void loginSuccess() {
                     progressDialog.dismiss();
+
                     KeyValueFirebase.UID = user.getUid();
                     DataFirebase.createCategories(getResources().getStringArray(R.array.listCategoryName));
                     Intent goHomeUserHire = new Intent(LoginActivity.this, Home_UserHire.class);
                     startActivity(goHomeUserHire);
+
                 }
 
                 @Override

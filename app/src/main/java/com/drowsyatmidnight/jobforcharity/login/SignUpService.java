@@ -27,6 +27,7 @@ public class SignUpService {
         this.activity = activity;
         auth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference();
+
     }
 
     public interface RegisterListener {
