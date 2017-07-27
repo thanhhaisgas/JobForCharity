@@ -1,0 +1,290 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:5:5-39:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\haint\.android\build-cache\dd8d201fb583c37fb5c345301fee4409676a72b4\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\haint\.android\build-cache\6caa42be79a79888f62d308cc7d8673c5b3b41d8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\2e9b71a0bc03360d6c0d2540a11ddcdbb6af0ed3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\16d78c14b145014fff95fa609cc1605131ec5c25\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\haint\.android\build-cache\43f3f9be291c835601acf809f4021970f9819e9d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\haint\.android\build-cache\9ee98fdfdcb2d541995dc22ee073b21dbd81c33e\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\haint\.android\build-cache\99f662b695245351388b44777fb6fb48068c3206\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\47c7c42bfd26522ab926a75235f448bc839d2874\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\e314a24dbf7c1b7164fabcbda48f453966fb348b\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\haint\.android\build-cache\8d38e39ec14f91aa62503a746f541f6c5033c024\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\haint\.android\build-cache\f3e97e962d3a070ec2afe5130e3d8207c8778f0d\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\haint\.android\build-cache\c5641696496e1f52fa937ab81756dde11212d159\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\haint\.android\build-cache\f8188275d8b362355679222e5dbb8f207117cff8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\haint\.android\build-cache\a3cf08b5b8618c42c4dba9e47515eeeba019a9d6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\haint\.android\build-cache\b44aeeb209ac21bb69f69954581da94c48bebc4c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\haint\.android\build-cache\8744fc5e97736f512e799a4a880ab02d48d4cf94\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\haint\.android\build-cache\12fccd9c957f73017591c5064030259affd83c64\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.drowsyatmidnight.jobforcharity.login.LoginActivity
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:theme
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:14:13-49
+	android:name
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:13:13-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.drowsyatmidnight.jobforcharity.Home
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:21:19-39
+activity#com.drowsyatmidnight.jobforcharity.login.SignUpActivity
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:28:9-30:53
+	android:theme
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:30:13-50
+	android:name
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:29:13-49
+activity#com.drowsyatmidnight.jobforcharity.userhire.Home_UserHire
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:31:9-33:47
+	android:theme
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:32:13-51
+activity#com.drowsyatmidnight.jobforcharity.userhire.JobsCategory
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:34:9-36:47
+	android:theme
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:35:13-50
+activity#com.drowsyatmidnight.jobforcharity.userhire.JobDetail
+ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:37:9-38:56
+	android:theme
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:37:19-53
+uses-sdk
+INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\haint\.android\build-cache\dd8d201fb583c37fb5c345301fee4409676a72b4\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\haint\.android\build-cache\6caa42be79a79888f62d308cc7d8673c5b3b41d8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\2e9b71a0bc03360d6c0d2540a11ddcdbb6af0ed3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\16d78c14b145014fff95fa609cc1605131ec5c25\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\haint\.android\build-cache\ef703137a9b5be9996e8351229f78273149a4981\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\haint\.android\build-cache\43f3f9be291c835601acf809f4021970f9819e9d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\haint\.android\build-cache\9ee98fdfdcb2d541995dc22ee073b21dbd81c33e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.2] C:\Users\haint\.android\build-cache\0b5d7912dd06498764b655236dfaa91dc53fec82\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.2] C:\Users\haint\.android\build-cache\8bb0e7a9ee133b6ca800fd8bb495850fdd3b6767\output\AndroidManifest.xml:3:5-43
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\haint\.android\build-cache\f8ceefbe1392241ccea76d07a453965f3c84902b\output\AndroidManifest.xml:5:5-43
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\haint\.android\build-cache\26aabe29fcf264fb7e189ab6f941d4773f463ab5\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\haint\.android\build-cache\99f662b695245351388b44777fb6fb48068c3206\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\47c7c42bfd26522ab926a75235f448bc839d2874\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\e314a24dbf7c1b7164fabcbda48f453966fb348b\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\haint\.android\build-cache\8d38e39ec14f91aa62503a746f541f6c5033c024\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\haint\.android\build-cache\f3e97e962d3a070ec2afe5130e3d8207c8778f0d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\haint\.android\build-cache\c5641696496e1f52fa937ab81756dde11212d159\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\haint\.android\build-cache\f8188275d8b362355679222e5dbb8f207117cff8\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\haint\.android\build-cache\a3cf08b5b8618c42c4dba9e47515eeeba019a9d6\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\haint\.android\build-cache\b44aeeb209ac21bb69f69954581da94c48bebc4c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\haint\.android\build-cache\8744fc5e97736f512e799a4a880ab02d48d4cf94\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\haint\.android\build-cache\12fccd9c957f73017591c5064030259affd83c64\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\haint\.android\build-cache\6caa42be79a79888f62d308cc7d8673c5b3b41d8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\2e9b71a0bc03360d6c0d2540a11ddcdbb6af0ed3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\16d78c14b145014fff95fa609cc1605131ec5c25\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\haint\.android\build-cache\ef703137a9b5be9996e8351229f78273149a4981\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\haint\.android\build-cache\c5641696496e1f52fa937ab81756dde11212d159\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\haint\.android\build-cache\f8188275d8b362355679222e5dbb8f207117cff8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\haint\.android\build-cache\a3cf08b5b8618c42c4dba9e47515eeeba019a9d6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\haint\.android\build-cache\b44aeeb209ac21bb69f69954581da94c48bebc4c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\haint\.android\build-cache\8744fc5e97736f512e799a4a880ab02d48d4cf94\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\haint\.android\build-cache\12fccd9c957f73017591c5064030259affd83c64\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\output\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\47c7c42bfd26522ab926a75235f448bc839d2874\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\47c7c42bfd26522ab926a75235f448bc839d2874\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\47c7c42bfd26522ab926a75235f448bc839d2874\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\47c7c42bfd26522ab926a75235f448bc839d2874\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\47c7c42bfd26522ab926a75235f448bc839d2874\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\d391653bc66390ba4671617560bdaec110360525\output\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\c1322c3fd49fb4fe0dcd11ef463f9aec3b5fe020\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\e314a24dbf7c1b7164fabcbda48f453966fb348b\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\e314a24dbf7c1b7164fabcbda48f453966fb348b\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\e314a24dbf7c1b7164fabcbda48f453966fb348b\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\e314a24dbf7c1b7164fabcbda48f453966fb348b\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\e314a24dbf7c1b7164fabcbda48f453966fb348b\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\haint\.android\build-cache\f3e97e962d3a070ec2afe5130e3d8207c8778f0d\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\haint\.android\build-cache\f3e97e962d3a070ec2afe5130e3d8207c8778f0d\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\haint\.android\build-cache\f3e97e962d3a070ec2afe5130e3d8207c8778f0d\output\AndroidManifest.xml:20:20-65
