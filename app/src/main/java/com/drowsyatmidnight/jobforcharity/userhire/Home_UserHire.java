@@ -11,18 +11,12 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmCategory;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 public class Home_UserHire extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -53,38 +47,6 @@ public class Home_UserHire extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setCheckedItem(R.id.nav_category);
         onNavigationItemSelected(navigationView.getMenu().getItem(0));
-        getUser();
-    }
-
-    private void getUser(){
-        DatabaseReference mData;
-        mData = FirebaseDatabase.getInstance().getReference();
-        mData.child("USERS").addChildEventListener(new ChildEventListener() {
-            @Override
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                Log.d("Fname", dataSnapshot.getKey());
-            }
-
-            @Override
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
-            }
-
-            @Override
-            public void onChildRemoved(DataSnapshot dataSnapshot) {
-
-            }
-
-            @Override
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
     }
 
     @Override

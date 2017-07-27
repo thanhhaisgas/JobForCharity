@@ -4,11 +4,11 @@ package com.drowsyatmidnight.jobforcharity.model;
  * Created by haint on 26/07/2017.
  */
 
-public class Category_model {
+public class Category_Model {
     private String Name;
     private String Count;
 
-    public Category_model(String name, String count) {
+    public Category_Model(String name, String count) {
         Name = name;
         Count = count;
     }

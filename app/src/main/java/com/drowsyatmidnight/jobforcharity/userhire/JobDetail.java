@@ -79,7 +79,7 @@ public class JobDetail extends AppCompatActivity {
 
     private void setupViewPager(ViewPager vpJobDetail) {
         adapter = new TabsJobDetailPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new FmJobDetail());
+        adapter.addFragment(new FmJobDetail().newInstance(getIntent().getStringExtra("workName"), getIntent().getStringExtra("description"), getIntent().getSerializableExtra("shiftWorks")));
         adapter.addFragment(new FmUserReview());
         vpJobDetail.setAdapter(adapter);
     }

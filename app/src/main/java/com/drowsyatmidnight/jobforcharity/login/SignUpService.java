@@ -3,7 +3,7 @@ package com.drowsyatmidnight.jobforcharity.login;
 import android.app.Activity;
 import android.support.annotation.NonNull;
 
-import com.drowsyatmidnight.jobforcharity.model.User_model;
+import com.drowsyatmidnight.jobforcharity.model.User_Model;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -47,7 +47,7 @@ public class SignUpService {
                             public void onComplete(@NonNull Task<Void> task) {
                                 if(task.isSuccessful()){
                                     //save user info
-                                    User_model userModel = new User_model();
+                                    User_Model userModel = new User_Model();
                                     userModel.setUid(user.getUid());
                                     userModel.setFName(FName);
                                     userModel.setLName(LName);
@@ -75,7 +75,7 @@ public class SignUpService {
     }
 
     //push user info to rdb
-    public void createAccountInDatabase(User_model user_model, final RegisterListener listener){
+    public void createAccountInDatabase(User_Model user_model, final RegisterListener listener){
         databaseReference.child("USERS")
                 .child(user_model.getUid())
                 .setValue(user_model)

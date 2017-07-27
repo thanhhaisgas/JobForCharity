@@ -5,7 +5,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -18,7 +17,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
-import com.drowsyatmidnight.jobforcharity.userhire.adapter.CategoryAdapter;
 
 import java.util.Arrays;
 import java.util.List;
@@ -42,7 +40,7 @@ public class JobsCategory extends AppCompatActivity {
     Toolbar toolbarJobsCategory;
     @BindView(R.id.bgActivityJobsCategory)
     CoordinatorLayout bgActivityJobsCategory;
-    private CategoryAdapter categoryAdapter;
+    private String NameCategory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,10 +53,7 @@ public class JobsCategory extends AppCompatActivity {
     }
 
     private void setUpListJobs() {
-        categoryAdapter = new CategoryAdapter(this);
-        lvJobsCategory.setAdapter(categoryAdapter);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
-        lvJobsCategory.setLayoutManager(layoutManager);
+        DataFirebase.getJobsCategory(NameCategory,lvJobsCategory,this);
     }
 
     private void setUpToolBar() {
@@ -89,7 +84,7 @@ public class JobsCategory extends AppCompatActivity {
     }
 
     private void setUpView() {
-        String NameCategory = getIntent().getStringExtra("NameCategory");
+        NameCategory = getIntent().getStringExtra("NameCategory");
         String categoryColor = getIntent().getStringExtra("categoryColor");
         int idImgCategory = getIntent().getIntExtra("idImgCategory", R.drawable.icon_category_home);
         int position = getIntent().getIntExtra("position", 0);

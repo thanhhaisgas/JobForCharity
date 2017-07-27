@@ -4,7 +4,7 @@ package com.drowsyatmidnight.jobforcharity.model;
  * Created by haint on 23/07/2017.
  */
 
-public class User_model {
+public class User_Model {
     private String FName;
     private String LName;
     private String mobilePhone;
