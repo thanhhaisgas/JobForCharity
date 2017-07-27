@@ -30,6 +30,9 @@
     <string name="details">Details</string>
     <string name="reviews">Reviews</string>
 
+    <string name="expiration_date">Expiration date:</string>
+
+
     <!--Activity Create Job resources-->
     <string name="job_detail_label">Detail</string>
     <string name="job_name_label">Job Name</string>
@@ -46,4 +49,5 @@
         <item>Category 4</item>
         <item>Category 5</item>
     </string-array>
+
 </resources>

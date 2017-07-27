@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">692595519044-cam6plts15ffnjvkhum6l2qs59c1b6j0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://jobforcharity-b6ff6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">692595519044</string>
+    <string name="google_api_key" translatable="false">AIzaSyCiHxHIzTYCuxwrRS41CZ49bCHaOIbuCiI</string>
+    <string name="google_app_id" translatable="false">1:692595519044:android:c022dbb116a78086</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCiHxHIzTYCuxwrRS41CZ49bCHaOIbuCiI</string>
+    <string name="google_storage_bucket" translatable="false">jobforcharity-b6ff6.appspot.com</string>
+    <string name="project_id" translatable="false">jobforcharity-b6ff6</string>
+</resources>
