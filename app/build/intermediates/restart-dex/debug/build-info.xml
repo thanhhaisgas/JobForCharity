@@ -6,22 +6,22 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1501117630116"
+    timestamp="1501229625793"
     token="-2221192567533442568"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2604" />
+        duration="4302" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="30" />
+        duration="21" />
     <task
         name="verifier"
-        duration="69" />
+        duration="21" />
 
     <artifact
         location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1501117572936"
+        timestamp="1501229502069"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1501117630116"
+        timestamp="1501229625793"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_6.apk"

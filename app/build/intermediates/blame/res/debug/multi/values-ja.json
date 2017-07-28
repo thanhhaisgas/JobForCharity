@@ -691,8 +691,122 @@
                     "startLine": 38,
                     "startColumn": 4,
                     "startOffset": 4254,
+                    "endColumn": 65,
+                    "endOffset": 4315
+                },
+                "from": {
+                    "file": "C:\\Users\\haint\\.android\\build-cache\\aac5da2c988ba11fbc09a3c9a9e86d478b0bc39c\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 61,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4320,
+                    "endColumn": 89,
+                    "endOffset": 4405
+                },
+                "from": {
+                    "file": "C:\\Users\\haint\\.android\\build-cache\\aac5da2c988ba11fbc09a3c9a9e86d478b0bc39c\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 299,
+                        "endColumn": 85,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4410,
+                    "endColumn": 65,
+                    "endOffset": 4471
+                },
+                "from": {
+                    "file": "C:\\Users\\haint\\.android\\build-cache\\aac5da2c988ba11fbc09a3c9a9e86d478b0bc39c\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 385,
+                        "endColumn": 61,
+                        "endOffset": 446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4476,
+                    "endColumn": 66,
+                    "endOffset": 4538
+                },
+                "from": {
+                    "file": "C:\\Users\\haint\\.android\\build-cache\\aac5da2c988ba11fbc09a3c9a9e86d478b0bc39c\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 447,
+                        "endColumn": 62,
+                        "endOffset": 509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4543,
+                    "endColumn": 72,
+                    "endOffset": 4611
+                },
+                "from": {
+                    "file": "C:\\Users\\haint\\.android\\build-cache\\aac5da2c988ba11fbc09a3c9a9e86d478b0bc39c\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 510,
+                        "endColumn": 68,
+                        "endOffset": 578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4616,
+                    "endColumn": 87,
+                    "endOffset": 4699
+                },
+                "from": {
+                    "file": "C:\\Users\\haint\\.android\\build-cache\\aac5da2c988ba11fbc09a3c9a9e86d478b0bc39c\\output\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 579,
+                        "endColumn": 83,
+                        "endOffset": 662
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4704,
                     "endColumn": 77,
-                    "endOffset": 4327
+                    "endOffset": 4777
                 },
                 "from": {
                     "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-ja\\values-ja.xml",
@@ -707,11 +821,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 4332,
+                    "startOffset": 4782,
                     "endColumn": 100,
-                    "endOffset": 4428
+                    "endOffset": 4878
                 },
                 "from": {
                     "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-ja\\values-ja.xml",

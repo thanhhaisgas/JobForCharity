@@ -1,5 +1,17 @@
 [
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_playlist_play_white_24dp.png",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_playlist_play_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_add_neededjob_24dp.png",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_add_neededjob_24dp.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_add_green_24dp.png",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_add_green_24dp.png"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_menu_work_in_progress.png",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu_work_in_progress.png"
     },
@@ -14,6 +26,22 @@
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_menu_history.png",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu_history.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_playlist_finished_white_24dp.png",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_playlist_finished_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_history_white_24dp.png",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_history_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_list_white_24dp.png",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_list_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_failed_white_24dp.png",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_failed_white_24dp.png"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon_phone.png",

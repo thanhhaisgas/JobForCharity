@@ -1,77 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tool="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="@dimen/dp20">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/job"
-                android:textSize="@dimen/dp30"
-                android:textColor="@android:color/black"/>
-
-            <TextView
-                android:id="@+id/detailNameJob"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/dp8"
-                tool:text="Chay xe om"
-                android:textSize="@dimen/dp30"
-                android:textColor="@android:color/black"/>
-
-        </LinearLayout>
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="@dimen/dp18">
+            android:layout_margin="@dimen/dp20">
 
-            <TextView
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/job"
+                    android:textSize="@dimen/dp30"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/detailNameJob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp8"
+                    tool:text="Chay xe om"
+                    android:textSize="@dimen/dp30"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dp18">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description"
+                    android:textSize="@dimen/dp30"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/detailDescriptionJob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tool:text="Chay xe om khu akj dfsdf sf df asf asf saf ff as fsf"
+                    android:textSize="@dimen/dp25"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+            <ExpandableListView
+                android:id="@+id/lvJobDetailDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btnRentJob"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/description"
-                android:textSize="@dimen/dp30"
-                android:textColor="@android:color/black"/>
-
-            <TextView
-                android:id="@+id/detailDescriptionJob"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tool:text="Chay xe om khu akj dfsdf sf df asf asf saf ff as fsf"
-                android:textSize="@dimen/dp25"
+                android:layout_marginTop="@dimen/dp18"
+                android:layout_gravity="end"
+                android:text="@string/rent"
                 android:textColor="@android:color/black"/>
 
         </LinearLayout>
-
-        <ListView
-            android:id="@+id/lvDetailDate"
-            android:layout_marginTop="@dimen/dp18"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"/>
-        
-        <Button
-            android:id="@+id/btnRentJob"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp18"
-            android:layout_gravity="end"
-            android:text="@string/rent"
-            android:textColor="@android:color/black"/>
-
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

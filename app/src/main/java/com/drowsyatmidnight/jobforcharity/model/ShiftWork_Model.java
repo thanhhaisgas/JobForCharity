@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 public class ShiftWork_Model implements Serializable {
     private String Date;
-    private String biginTime;
+    private String beginTime;
     private String endTime;
     private String status;
     private String uidHirer;
@@ -21,12 +21,12 @@ public class ShiftWork_Model implements Serializable {
         Date = date;
     }
 
-    public String getBiginTime() {
-        return biginTime;
+    public String getBeginTime() {
+        return beginTime;
     }
 
-    public void setBiginTime(String biginTime) {
-        this.biginTime = biginTime;
+    public void setBeginTime(String beginTime) {
+        this.beginTime = beginTime;
     }
 
     public String getEndTime() {
@@ -51,5 +51,16 @@ public class ShiftWork_Model implements Serializable {
 
     public void setUidHirer(String uidHirer) {
         this.uidHirer = uidHirer;
+    }
+
+    @Override
+    public String toString() {
+        return "ShiftWork_Model{" +
+                "Date='" + Date + '\'' +
+                ", beginTime='" + beginTime + '\'' +
+                ", endTime='" + endTime + '\'' +
+                ", status='" + status + '\'' +
+                ", uidHirer='" + uidHirer + '\'' +
+                '}';
     }
 }

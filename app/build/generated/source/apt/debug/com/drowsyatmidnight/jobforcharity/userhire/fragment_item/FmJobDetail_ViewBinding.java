@@ -4,6 +4,7 @@ package com.drowsyatmidnight.jobforcharity.userhire.fragment_item;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
+import android.widget.ExpandableListView;
 import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -20,6 +21,7 @@ public class FmJobDetail_ViewBinding implements Unbinder {
 
     target.detailNameJob = Utils.findRequiredViewAsType(source, R.id.detailNameJob, "field 'detailNameJob'", TextView.class);
     target.detailDescriptionJob = Utils.findRequiredViewAsType(source, R.id.detailDescriptionJob, "field 'detailDescriptionJob'", TextView.class);
+    target.lvJobDetailDateTime = Utils.findRequiredViewAsType(source, R.id.lvJobDetailDateTime, "field 'lvJobDetailDateTime'", ExpandableListView.class);
   }
 
   @Override
@@ -31,5 +33,6 @@ public class FmJobDetail_ViewBinding implements Unbinder {
 
     target.detailNameJob = null;
     target.detailDescriptionJob = null;
+    target.lvJobDetailDateTime = null;
   }
 }

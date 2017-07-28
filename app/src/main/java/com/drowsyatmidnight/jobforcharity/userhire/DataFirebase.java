@@ -68,7 +68,6 @@ public class DataFirebase {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 List<ShiftWork_Model> listDate = new ArrayList<>();
                 List<Job_Model> listJob = new ArrayList<>();
-                listDate.clear();
                 for (DataSnapshot dsp : dataSnapshot.getChildren()){
                     String category = (String) dsp.child("category").getValue();
                     if (category.compareTo(categoryName)==0){
@@ -80,6 +79,7 @@ public class DataFirebase {
                         String hirerUID = (String) dsp.child("hirerUID").getValue();
                         String description = (String) dsp.child("description").getValue();
                         listJob.add(new Job_Model(listDate,category,description,hirerUID,workName));
+                        listDate = new ArrayList<>();
                     }
                 }
                 JobCategotyAdapter jobCategotyAdapter = new JobCategotyAdapter(context, listJob);
