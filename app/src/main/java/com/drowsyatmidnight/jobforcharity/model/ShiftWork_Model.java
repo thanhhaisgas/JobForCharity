@@ -7,11 +7,13 @@ import java.io.Serializable;
  */
 
 public class ShiftWork_Model implements Serializable {
-    private String Date;
-    private String biginTime;
-    private String endTime;
-    private String status;
-    private String uidHirer;
+    public String getDateTimeID() {
+        return DateTimeID;
+    }
+
+    public void setDateTimeID(String dateTimeID) {
+        DateTimeID = dateTimeID;
+    }
 
     public String getDate() {
         return Date;
@@ -21,35 +23,44 @@ public class ShiftWork_Model implements Serializable {
         Date = date;
     }
 
-    public String getBiginTime() {
-        return biginTime;
+    public String getBeginTime() {
+        return BeginTime;
     }
 
-    public void setBiginTime(String biginTime) {
-        this.biginTime = biginTime;
+    public void setBeginTime(String beginTime) {
+        BeginTime = beginTime;
     }
 
     public String getEndTime() {
-        return endTime;
+        return EndTime;
     }
 
     public void setEndTime(String endTime) {
-        this.endTime = endTime;
+        EndTime = endTime;
     }
 
     public String getStatus() {
-        return status;
+        return Status;
     }
 
     public void setStatus(String status) {
-        this.status = status;
+        Status = status;
     }
 
-    public String getUidHirer() {
-        return uidHirer;
+    public String getHirerUID() {
+        return HirerUID;
     }
 
-    public void setUidHirer(String uidHirer) {
-        this.uidHirer = uidHirer;
+    public void setHirerUID(String hirerUID) {
+        HirerUID = hirerUID;
     }
+
+    private String DateTimeID;
+    private String Date;
+    private String BeginTime;
+    private String EndTime;
+    private String Status;
+    private String HirerUID;
+
+
 }
