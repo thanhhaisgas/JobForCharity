@@ -3,22 +3,25 @@ package com.drowsyatmidnight.jobforcharity.userhire.fragment_item;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.NestedScrollView;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
+import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
+import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.AdapterDateTimes;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 
@@ -38,16 +41,23 @@ public class FmJobDetail extends Fragment {
     TextView detailDescriptionJob;
     @BindView(R.id.lvJobDetailDateTime)
     ExpandableListView lvJobDetailDateTime;
+    @BindView(R.id.btnRentJob)
+    Button btnRentJob;
+    @BindView(R.id.scroll1)
+    NestedScrollView scroll1;
     private AdapterDateTimes adapterDateTimes;
     private List<ShiftWork_Model> shiftWork_models;
+    private String JobID;
 
-    public static FmJobDetail newInstance(String nameWork, String Description, Serializable shiftWork_models) {
+    public static FmJobDetail newInstance(String nameWork, String Description, Serializable shiftWork_models, String JobID, String CategoryName) {
         FmJobDetail fmJobDetail = new FmJobDetail();
 
         Bundle args = new Bundle();
         args.putString("nameWork", nameWork);
         args.putString("Description", Description);
         args.putSerializable("shiftWorks", shiftWork_models);
+        args.putString("JobID", JobID);
+        args.putString("category", CategoryName);
         fmJobDetail.setArguments(args);
 
         return fmJobDetail;
@@ -69,11 +79,10 @@ public class FmJobDetail extends Fragment {
     }
 
     private void addEvents() {
-        lvJobDetailDateTime.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+        btnRentJob.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-
-                return false;
+            public void onClick(View v) {
+                DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, getArguments().getString("category"));
             }
         });
     }
@@ -81,6 +90,7 @@ public class FmJobDetail extends Fragment {
     private void setUpView() {
         detailNameJob.setText(getArguments().getString("nameWork"));
         detailDescriptionJob.setText(getArguments().getString("Description"));
+        JobID = getArguments().getString("JobID");
         setUpTimes();
         setHeightLV();
     }
@@ -158,40 +168,17 @@ public class FmJobDetail extends Fragment {
         shiftWork_models = new ArrayList<>();
         shiftWork_models.addAll((Collection<? extends ShiftWork_Model>) getArguments().getSerializable("shiftWorks"));
         HashMap<String, List<ShiftWork_Model>> timeJobs = new HashMap<String, List<ShiftWork_Model>>();
-        List<ShiftWork_Model> timeBeginEnd = new ArrayList<>();
-        Collections.sort(shiftWork_models, new Comparator<ShiftWork_Model>() {
-            @Override
-            public int compare(ShiftWork_Model o1, ShiftWork_Model o2) {
-                return o1.getDate().compareTo(o2.getDate());
-            }
-        });
-        if (shiftWork_models.size()<=1){
-            timeBeginEnd.add(shiftWork_models.get(0));
-            timeJobs.put(shiftWork_models.get(0).getDate(),timeBeginEnd);
-        }else {
-            for(int i=0; i<shiftWork_models.size(); i++){
-                if((i+1)<shiftWork_models.size()){
-                    if(shiftWork_models.get(i).getDate().compareTo(shiftWork_models.get(i+1).getDate())==0){
-                        timeBeginEnd.add(shiftWork_models.get(i));
-                    }else {
-                        timeBeginEnd.add(shiftWork_models.get(i));
-                        timeJobs.put(shiftWork_models.get(i).getDate(),timeBeginEnd);
-                        timeBeginEnd = new ArrayList<>();
-                    }
-                }else {
-                    if(shiftWork_models.get(i).getDate().compareTo(shiftWork_models.get(i-1).getDate())==0){
-                        timeBeginEnd.add(shiftWork_models.get(i));
-                        timeJobs.put(shiftWork_models.get(i).getDate(),timeBeginEnd);
-                    }else {
-                        timeBeginEnd.add(shiftWork_models.get(i));
-                        timeJobs.put(shiftWork_models.get(i).getDate(),timeBeginEnd);
-                    }
-                }
-            }
-        }
+        timeJobs = DataFirebase.dateTimes(shiftWork_models);
 
         List<String> date = new ArrayList<>(timeJobs.keySet());
         adapterDateTimes = new AdapterDateTimes(rootView.getContext(), date, timeJobs);
         lvJobDetailDateTime.setAdapter(adapterDateTimes);
+        lvJobDetailDateTime.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                v.getParent().requestDisallowInterceptTouchEvent(true);
+                return false;
+            }
+        });
     }
 }

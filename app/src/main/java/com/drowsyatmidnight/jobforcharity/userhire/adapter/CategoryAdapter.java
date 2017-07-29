@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.drowsyatmidnight.jobforcharity.R;
+import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.JobsCategory;
 import com.drowsyatmidnight.jobforcharity.userhire.holder.CategoryHolder;
 
@@ -54,6 +55,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
         holder.imgCategory.setImageResource(mResourceImg[position]);
         holder.imgCategory.setBackgroundColor(Color.parseColor(categoryColor.get(position)));
         holder.txtNameCategory.setText(categoryName.get(position));
+        DataFirebase.getCountCategory(categoryName.get(position), holder.txtJobCountCategory);
         holder.cardViewCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

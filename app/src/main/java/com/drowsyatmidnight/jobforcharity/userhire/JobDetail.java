@@ -63,13 +63,14 @@ public class JobDetail extends AppCompatActivity {
         imgBackground.setColorFilter(filter);
         profile_image.setImageResource(R.drawable.test);
         imgBackground.setImageResource(R.drawable.test);
-        DataFirebase.getUserInfo(txtTenDetail,txtPhoneNumDetail,txtEmailDetail);
+        DataFirebase.getUserInfo(getIntent().getStringExtra("workerUID"),txtTenDetail,txtPhoneNumDetail,txtEmailDetail);
         rateBar.setRating(4.5f);
         txtCountRate.setText("(177 reviews)");
 
         setSupportActionBar(toolbarJobDetail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+        toolbarJobDetail.bringToFront();
     }
 
     private void setupTabIcons() {
@@ -77,9 +78,9 @@ public class JobDetail extends AppCompatActivity {
         tabs.getTabAt(1).setText(R.string.reviews);
     }
 
-    private void setupViewPager(ViewPager vpJobDetail) {
+    private void setupViewPager(final ViewPager vpJobDetail) {
         adapter = new TabsJobDetailPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new FmJobDetail().newInstance(getIntent().getStringExtra("workName"), getIntent().getStringExtra("description"), getIntent().getSerializableExtra("shiftWorks")));
+        adapter.addFragment(new FmJobDetail().newInstance(getIntent().getStringExtra("workName"), getIntent().getStringExtra("description"), getIntent().getSerializableExtra("shiftWorks"), getIntent().getStringExtra("JobID"),getIntent().getStringExtra("category")));
         adapter.addFragment(new FmUserReview());
         vpJobDetail.setAdapter(adapter);
     }

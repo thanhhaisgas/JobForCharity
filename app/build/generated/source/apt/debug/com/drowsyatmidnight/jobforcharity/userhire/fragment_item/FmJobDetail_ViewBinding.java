@@ -3,7 +3,9 @@ package com.drowsyatmidnight.jobforcharity.userhire.fragment_item;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.v4.widget.NestedScrollView;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 import butterknife.Unbinder;
@@ -22,6 +24,8 @@ public class FmJobDetail_ViewBinding implements Unbinder {
     target.detailNameJob = Utils.findRequiredViewAsType(source, R.id.detailNameJob, "field 'detailNameJob'", TextView.class);
     target.detailDescriptionJob = Utils.findRequiredViewAsType(source, R.id.detailDescriptionJob, "field 'detailDescriptionJob'", TextView.class);
     target.lvJobDetailDateTime = Utils.findRequiredViewAsType(source, R.id.lvJobDetailDateTime, "field 'lvJobDetailDateTime'", ExpandableListView.class);
+    target.btnRentJob = Utils.findRequiredViewAsType(source, R.id.btnRentJob, "field 'btnRentJob'", Button.class);
+    target.scroll1 = Utils.findRequiredViewAsType(source, R.id.scroll1, "field 'scroll1'", NestedScrollView.class);
   }
 
   @Override
@@ -34,5 +38,7 @@ public class FmJobDetail_ViewBinding implements Unbinder {
     target.detailNameJob = null;
     target.detailDescriptionJob = null;
     target.lvJobDetailDateTime = null;
+    target.btnRentJob = null;
+    target.scroll1 = null;
   }
 }

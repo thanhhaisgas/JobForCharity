@@ -7,11 +7,13 @@ import java.io.Serializable;
  */
 
 public class ShiftWork_Model implements Serializable {
-    private String Date;
-    private String beginTime;
-    private String endTime;
-    private String status;
-    private String uidHirer;
+    public String getDateTimeID() {
+        return DateTimeID;
+    }
+
+    public void setDateTimeID(String dateTimeID) {
+        DateTimeID = dateTimeID;
+    }
 
     public String getDate() {
         return Date;
@@ -22,45 +24,43 @@ public class ShiftWork_Model implements Serializable {
     }
 
     public String getBeginTime() {
-        return beginTime;
+        return BeginTime;
     }
 
     public void setBeginTime(String beginTime) {
-        this.beginTime = beginTime;
+        BeginTime = beginTime;
     }
 
     public String getEndTime() {
-        return endTime;
+        return EndTime;
     }
 
     public void setEndTime(String endTime) {
-        this.endTime = endTime;
+        this.EndTime = endTime;
     }
 
     public String getStatus() {
-        return status;
+        return Status;
     }
 
     public void setStatus(String status) {
-        this.status = status;
+        this.Status = status;
     }
 
-    public String getUidHirer() {
-        return uidHirer;
+    public String getHirerUID() {
+        return hirerUID;
     }
 
-    public void setUidHirer(String uidHirer) {
-        this.uidHirer = uidHirer;
+    public void setHirerUID(String hirerUID) {
+        this.hirerUID = hirerUID;
     }
 
-    @Override
-    public String toString() {
-        return "ShiftWork_Model{" +
-                "Date='" + Date + '\'' +
-                ", beginTime='" + beginTime + '\'' +
-                ", endTime='" + endTime + '\'' +
-                ", status='" + status + '\'' +
-                ", uidHirer='" + uidHirer + '\'' +
-                '}';
-    }
+    private String DateTimeID;
+    private String Date;
+    private String BeginTime;
+    private String EndTime;
+    private String Status;
+    private String hirerUID;
+
+
 }

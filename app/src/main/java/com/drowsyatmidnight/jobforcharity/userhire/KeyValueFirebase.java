@@ -6,4 +6,6 @@ package com.drowsyatmidnight.jobforcharity.userhire;
 
 public class KeyValueFirebase {
     public static String UID="";
+    public static final String AVAILABLE = "available";
+    public static final String UNAVAILABLE = "unavailable";
 }

@@ -1,4 +1,4 @@
-#Fri Jul 28 14:51:08 ICT 2017
+#Sat Jul 29 20:11:20 ICT 2017
 base.0=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_14e37ec6a984335584a1812f6449d8aabb1565d3
 renamed.1=classes2.dex
 renamed.0=classes.dex

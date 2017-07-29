@@ -17,6 +17,7 @@ import android.view.View;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmCategory;
+import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobInProgress;
 
 public class Home_UserHire extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -89,7 +90,11 @@ public class Home_UserHire extends AppCompatActivity
             transaction.replace(R.id.containerUserHire, new FmCategory());
             transaction.commit();
         } else if (id == R.id.nav_inprogress) {
-
+            setTitle(getResources().getString(R.string.work_in_progress));
+            FragmentManager manager = getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.replace(R.id.containerUserHire, new FmJobInProgress());
+            transaction.commit();
         } else if (id == R.id.nav_history) {
 
         } else if (id == R.id.nav_manage) {

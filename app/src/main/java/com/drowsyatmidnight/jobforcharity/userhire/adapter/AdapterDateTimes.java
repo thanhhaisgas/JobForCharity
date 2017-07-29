@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -27,7 +28,7 @@ public class AdapterDateTimes extends BaseExpandableListAdapter {
     private Context context;
     private List<String> expandableListTitle;
     private HashMap<String, List<ShiftWork_Model>> expandableListDetail;
-    private int previousClick=-1;
+    public List<ShiftWork_Model> listSelected = new ArrayList<>();
 
     public AdapterDateTimes(Context context, List<String> expandableListTitle,
                                        HashMap<String, List<ShiftWork_Model>> expandableListDetail) {
@@ -62,11 +63,11 @@ public class AdapterDateTimes extends BaseExpandableListAdapter {
         TextView expandedListTextView2 = (TextView) convertView
                 .findViewById(R.id.txtJobDetailTimeEnd);
         expandedListTextView2.setText(expandedListText.getEndTime());
-        selectTime(convertView);
+        selectTime(convertView, listPosition, expandedListPosition);
         return convertView;
     }
 
-    private void selectTime(final View convertView) {
+    private void selectTime(final View convertView, final int listPosition, final int expandedListPosition) {
         final CardView bg = (CardView) convertView.findViewById(R.id.cardViewJobDateTime);
         bg.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,8 +82,28 @@ public class AdapterDateTimes extends BaseExpandableListAdapter {
                 }else {
                     bg.setBackgroundColor(convertView.getResources().getColor(R.color.yellow));
                 }
+                ShiftWork_Model dataSelected = (ShiftWork_Model) getChild(listPosition, expandedListPosition);
+                storeData(dataSelected);
             }
         });
+    }
+
+    private void storeData(ShiftWork_Model dataSelected) {
+        String newTime = dataSelected.getBeginTime()+dataSelected.getEndTime();
+        int pos = 0;
+        boolean check = false;
+        for (int i=0; i<listSelected.size(); i++){
+            String oldTime = listSelected.get(i).getBeginTime()+listSelected.get(i).getEndTime();
+            if (newTime.compareTo(oldTime)==0){
+                check = true;
+                pos = i;
+            }
+        }
+        if (check == true){
+            listSelected.remove(pos);
+        }else {
+            listSelected.add(dataSelected);
+        }
     }
 
 

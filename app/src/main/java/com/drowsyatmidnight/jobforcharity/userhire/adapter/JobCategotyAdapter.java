@@ -47,8 +47,11 @@ public class JobCategotyAdapter extends RecyclerView.Adapter<JobHolder> {
             public void onClick(View v) {
                 Intent goDetail = new Intent(context, JobDetail.class);
                 goDetail.putExtra("workName", job_models.get(position).getWorkName());
-                goDetail.putExtra("description", job_models.get(position).getDiscription());
+                goDetail.putExtra("description", job_models.get(position).getDescription());
+                goDetail.putExtra("JobID", job_models.get(position).getJobID());
                 goDetail.putExtra("shiftWorks", (Serializable) job_models.get(position).getDateTimes());
+                goDetail.putExtra("workerUID", job_models.get(position).getWokerUID());
+                goDetail.putExtra("category", job_models.get(position).getCategory());
                 context.startActivity(goDetail);
             }
         });

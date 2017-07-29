@@ -7,20 +7,6 @@ import java.util.List;
  */
 
 public class Job_Model {
-    private List<ShiftWork_Model> DateTimes;
-    private String category;
-    private String discription;
-    private String hirerUID;
-    private String workName;
-
-    public Job_Model(List<ShiftWork_Model> dateTimes, String category, String discription, String hirerUID, String workName) {
-        DateTimes = dateTimes;
-        this.category = category;
-        this.discription = discription;
-        this.hirerUID = hirerUID;
-        this.workName = workName;
-    }
-
     public List<ShiftWork_Model> getDateTimes() {
         return DateTimes;
     }
@@ -30,34 +16,59 @@ public class Job_Model {
     }
 
     public String getCategory() {
-        return category;
+        return Category;
     }
 
     public void setCategory(String category) {
-        this.category = category;
+        Category = category;
     }
 
-    public String getDiscription() {
-        return discription;
+    public String getDescription() {
+        return Description;
     }
 
-    public void setDiscription(String discription) {
-        this.discription = discription;
+    public void setDescription(String description) {
+        Description = description;
     }
 
-    public String getHirerUID() {
-        return hirerUID;
+    public String getWokerUID() {
+        return WokerUID;
     }
 
-    public void setHirerUID(String hirerUID) {
-        this.hirerUID = hirerUID;
+    public void setWokerUID(String wokerUID) {
+        WokerUID = wokerUID;
     }
 
     public String getWorkName() {
-        return workName;
+        return WorkName;
     }
 
     public void setWorkName(String workName) {
-        this.workName = workName;
+        WorkName = workName;
     }
+
+    public String getJobID() {
+        return JobID;
+    }
+
+    public void setJobID(String jobID) {
+        JobID = jobID;
+    }
+
+    public Job_Model(List<ShiftWork_Model> dateTimes, String category, String description, String wokerUID, String workName, String jobID) {
+        DateTimes = dateTimes;
+        Category = category;
+        Description = description;
+        WokerUID = wokerUID;
+        WorkName = workName;
+        JobID = jobID;
+    }
+
+    private List<ShiftWork_Model> DateTimes;
+    private String Category;
+    private String Description;
+    private String WokerUID;
+    private String WorkName;
+    private String JobID;
+
 }
