@@ -1,5 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.userhire.fragment_item;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
@@ -35,6 +36,8 @@ public class FmCategory extends Fragment {
     @BindView(R.id.lvCategory)
     RecyclerView lvCategory;
 
+    private Activity activity;
+
     private View view;
     private WhatNewPagerAdapter whatNewPagerAdapter;
     private int [] mResource = {
@@ -46,6 +49,12 @@ public class FmCategory extends Fragment {
     private int CurrentNew = 0;
     private final int NumNews = 4;
     private CategoryAdapter categoryAdapter;
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        this.activity = activity;
+    }
 
     @Nullable
     @Override
@@ -63,7 +72,7 @@ public class FmCategory extends Fragment {
     }
 
     private void setUpCategoryList() {
-        categoryAdapter = new CategoryAdapter(view.getContext());
+        categoryAdapter = new CategoryAdapter(view.getContext(), activity);
         lvCategory.setAdapter(categoryAdapter);
         LinearLayoutManager layoutManager = new LinearLayoutManager(view.getContext(), LinearLayoutManager.VERTICAL, false);
         lvCategory.setLayoutManager(layoutManager);

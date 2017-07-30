@@ -45,6 +45,7 @@
     <string name="your_comment">Your comment...</string>
     <string name="ok">Ok</string>
     <string name="review">Review</string>
+    <string name="job_detail">Job details</string>
 
     <!--Spinner categories-->
     <string-array name="spinner_categories">

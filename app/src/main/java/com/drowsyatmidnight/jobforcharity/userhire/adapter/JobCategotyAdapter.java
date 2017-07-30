@@ -1,5 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.userhire.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
@@ -23,11 +24,13 @@ import java.util.List;
 
 public class JobCategotyAdapter extends RecyclerView.Adapter<JobHolder> {
     private Context context;
+    private Activity activity;
     private View rootView;
     private LayoutInflater layoutInflater;
     private List<Job_Model> job_models;
 
-    public JobCategotyAdapter(Context context, List<Job_Model> job_models) {
+    public JobCategotyAdapter(Context context, List<Job_Model> job_models, Activity activity) {
+        this.activity = activity;
         this.context = context;
         this.job_models = job_models;
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -56,6 +59,7 @@ public class JobCategotyAdapter extends RecyclerView.Adapter<JobHolder> {
                 goDetail.putExtra("view_type", KeyValueFirebase.VIEW_JOBDETAILS);
                 goDetail.putExtra("workerID", job_models.get(position).getWokerUID());
                 context.startActivity(goDetail);
+                activity.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
     }

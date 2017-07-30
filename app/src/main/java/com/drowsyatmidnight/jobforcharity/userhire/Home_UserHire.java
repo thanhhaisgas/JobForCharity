@@ -32,6 +32,7 @@ public class Home_UserHire extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_user_hire);
         ButterKnife.bind(this);
+        this.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         searchViewHome.bringToFront();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

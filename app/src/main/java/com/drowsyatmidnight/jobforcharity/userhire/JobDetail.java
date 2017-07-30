@@ -3,10 +3,15 @@ package com.drowsyatmidnight.jobforcharity.userhire;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -41,6 +46,10 @@ public class JobDetail extends AppCompatActivity {
     RatingBar rateBar;
     @BindView(R.id.txtCountRate)
     TextView txtCountRate;
+    @BindView(R.id.appBarJobDetail)
+    AppBarLayout appBarJobDetail;
+    @BindView(R.id.collapsingToolbarDetail)
+    CollapsingToolbarLayout collapsingToolbarDetail;
 
     private TabsJobDetailPagerAdapter adapter;
 
@@ -56,6 +65,7 @@ public class JobDetail extends AppCompatActivity {
         setupViewPager(vpJobDetail);
         tabs.setupWithViewPager(vpJobDetail);
         setupTabIcons();
+        setupAppBar();
 
         ColorMatrix matrix = new ColorMatrix();
         matrix.setSaturation(0);
@@ -71,9 +81,55 @@ public class JobDetail extends AppCompatActivity {
         toolbarJobDetail.bringToFront();
     }
 
+    private void setupAppBar() {
+        appBarJobDetail.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                if(verticalOffset<=-635){
+                    imgBackground.setVisibility(View.GONE);
+                    profile_image.setVisibility(View.GONE);
+                    txtTenDetail.setVisibility(View.GONE);
+                    txtPhoneNumDetail.setVisibility(View.GONE);
+                    txtEmailDetail.setVisibility(View.GONE);
+                    rateBar.setVisibility(View.GONE);
+                    txtCountRate.setVisibility(View.GONE);
+                    collapsingToolbarDetail.setTitle(getString(R.string.job_detail));
+                    collapsingToolbarDetail.setCollapsedTitleTextColor(getResources().getColor(android.R.color.white));
+                }else {
+                    Log.d("test", String.valueOf(verticalOffset));
+                    imgBackground.setVisibility(View.VISIBLE);
+                    profile_image.setVisibility(View.VISIBLE);
+                    txtTenDetail.setVisibility(View.VISIBLE);
+                    txtPhoneNumDetail.setVisibility(View.VISIBLE);
+                    txtEmailDetail.setVisibility(View.VISIBLE);
+                    rateBar.setVisibility(View.VISIBLE);
+                    txtCountRate.setVisibility(View.VISIBLE);
+                    collapsingToolbarDetail.setTitle("");
+                }
+            }
+        });
+    }
+
     private void setupTabIcons() {
         tabs.getTabAt(0).setText(R.string.details);
         tabs.getTabAt(1).setText(R.string.reviews);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int itemid = item.getItemId();
+        switch (itemid){
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 
     private void setupViewPager(final ViewPager vpJobDetail) {

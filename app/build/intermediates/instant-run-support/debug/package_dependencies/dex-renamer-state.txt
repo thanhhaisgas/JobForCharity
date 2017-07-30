@@ -1,4 +1,4 @@
-#Sun Jul 30 17:49:19 ICT 2017
+#Sun Jul 30 19:18:44 ICT 2017
 file.48=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_70723bb52f62c3aaeee74f2d4d0d2f4c41326f07\\classes.dex
 file.47=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_cb14e6dfd2d5e11842d8dd90a02802665db1ae60\\classes.dex
 file.46=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_c9d0e9a9cfe2b7c766b4bd7e6b7df0051f326198\\classes.dex

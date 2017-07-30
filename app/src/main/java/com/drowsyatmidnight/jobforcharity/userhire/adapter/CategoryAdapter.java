@@ -1,5 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.userhire.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -22,6 +23,7 @@ import java.util.List;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
     private Context context;
+    private Activity activity;
     private View rootView;
     private LayoutInflater layoutInflater;
     private List<String> categoryName;
@@ -36,8 +38,9 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
             R.drawable.icon_category_other
     };
 
-    public CategoryAdapter(Context context) {
+    public CategoryAdapter(Context context, Activity activity) {
         this.context = context;
+        this.activity = activity;
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         categoryName = Arrays.asList(context.getResources().getStringArray(R.array.listCategoryName));
         categoryColor = Arrays.asList(context.getResources().getStringArray(R.array.list_color_category));
@@ -65,6 +68,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
                 goJobCategory.putExtra("categoryColor", categoryColor.get(position));
                 goJobCategory.putExtra("position", position);
                 context.startActivity(goJobCategory);
+                activity.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
     }

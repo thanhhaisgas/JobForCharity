@@ -1,5 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.userhire;
 
+import android.app.Activity;
 import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -73,7 +74,7 @@ public class DataFirebase {
         });
     }
 
-    public static void getJobsCategory(final String categoryName, final RecyclerView lvJobsCategory, final Context context){
+    public static void getJobsCategory(final String categoryName, final RecyclerView lvJobsCategory, final Context context, final Activity activity){
         databaseReference.child("JOBS").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -98,7 +99,7 @@ public class DataFirebase {
                         listDate = new ArrayList<>();
                     }
                 }
-                JobCategotyAdapter jobCategotyAdapter = new JobCategotyAdapter(context, listJob);
+                JobCategotyAdapter jobCategotyAdapter = new JobCategotyAdapter(context, listJob, activity);
                 lvJobsCategory.setAdapter(jobCategotyAdapter);
                 LinearLayoutManager layoutManager = new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false);
                 lvJobsCategory.setLayoutManager(layoutManager);

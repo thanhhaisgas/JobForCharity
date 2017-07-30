@@ -58,7 +58,7 @@ public class JobsCategory extends AppCompatActivity {
     }
 
     private void setUpListJobs() {
-        DataFirebase.getJobsCategory(NameCategory,lvJobsCategory,this);
+        DataFirebase.getJobsCategory(NameCategory,lvJobsCategory,this,JobsCategory.this);
     }
 
     private void setUpToolBar() {
@@ -67,7 +67,7 @@ public class JobsCategory extends AppCompatActivity {
         toolbarJobsCategory.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                onBackPressed();
             }
         });
     }
@@ -107,5 +107,11 @@ public class JobsCategory extends AppCompatActivity {
             window.setStatusBarColor(Color.parseColor(categoryColorDark.get(position)));
         }
         bgActivityJobsCategory.setBackgroundColor(Color.parseColor(categoryColorLight.get(position)));
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

@@ -3,6 +3,8 @@ package com.drowsyatmidnight.jobforcharity.userhire;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
@@ -38,6 +40,8 @@ public class JobDetail_ViewBinding implements Unbinder {
     target.txtEmailDetail = Utils.findRequiredViewAsType(source, R.id.txtEmailDetail, "field 'txtEmailDetail'", TextView.class);
     target.rateBar = Utils.findRequiredViewAsType(source, R.id.rateBar, "field 'rateBar'", RatingBar.class);
     target.txtCountRate = Utils.findRequiredViewAsType(source, R.id.txtCountRate, "field 'txtCountRate'", TextView.class);
+    target.appBarJobDetail = Utils.findRequiredViewAsType(source, R.id.appBarJobDetail, "field 'appBarJobDetail'", AppBarLayout.class);
+    target.collapsingToolbarDetail = Utils.findRequiredViewAsType(source, R.id.collapsingToolbarDetail, "field 'collapsingToolbarDetail'", CollapsingToolbarLayout.class);
   }
 
   @Override
@@ -57,5 +61,7 @@ public class JobDetail_ViewBinding implements Unbinder {
     target.txtEmailDetail = null;
     target.rateBar = null;
     target.txtCountRate = null;
+    target.appBarJobDetail = null;
+    target.collapsingToolbarDetail = null;
   }
 }
