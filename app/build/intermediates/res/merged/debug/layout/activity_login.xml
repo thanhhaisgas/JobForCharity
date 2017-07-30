@@ -51,9 +51,11 @@
                     android:layout_marginLeft="@dimen/dp8"
                     android:ems="10"
                     android:hint="@string/hint_e_mail"
+                    android:text="tatbt2010@gmail.com"
                     android:inputType="textEmailAddress"
                     android:textColorHighlight="?attr/colorButtonNormal"
                     android:textColorHint="@android:color/darker_gray" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -79,6 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dp8"
                     android:layout_weight="1"
+                    android:text="123456789"
                     android:ems="10"
                     android:hint="@string/hint_password"
                     android:inputType="textPassword"

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zu\\values-zu.xml",
+        "outputFile": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 208
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 316
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 439
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 546
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 660
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 851
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 978
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1058
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1138
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1224
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1328
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1434
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1532
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1639
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1745
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1851
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1971
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2067
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2180
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -391,7 +391,7 @@
                     "endOffset": 2388
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -410,7 +410,7 @@
                     "endOffset": 2525
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -429,7 +429,7 @@
                     "endOffset": 2631
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -448,7 +448,7 @@
                     "endOffset": 2858
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -467,7 +467,7 @@
                     "endOffset": 2989
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -486,7 +486,7 @@
                     "endOffset": 3128
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -505,7 +505,7 @@
                     "endOffset": 3319
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\f3e97e962d3a070ec2afe5130e3d8207c8778f0d\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/fc62742215e1a884939c4fef349010aa2f7507e9/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -524,7 +524,7 @@
                     "endOffset": 3538
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -543,7 +543,7 @@
                     "endOffset": 3650
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -562,7 +562,7 @@
                     "endOffset": 3846
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -581,7 +581,7 @@
                     "endOffset": 3979
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -600,7 +600,7 @@
                     "endOffset": 4196
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -619,7 +619,7 @@
                     "endOffset": 4383
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -638,7 +638,7 @@
                     "endOffset": 4474
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -657,7 +657,7 @@
                     "endOffset": 4573
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -676,7 +676,7 @@
                     "endOffset": 4687
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-zu\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-zu/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -691,11 +691,125 @@
                     "startLine": 38,
                     "startColumn": 4,
                     "startOffset": 4692,
-                    "endColumn": 80,
-                    "endOffset": 4768
+                    "endColumn": 79,
+                    "endOffset": 4767
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-zu/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 75,
+                        "endOffset": 312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4772,
+                    "endColumn": 120,
+                    "endOffset": 4888
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-zu/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 313,
+                        "endColumn": 116,
+                        "endOffset": 429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4893,
+                    "endColumn": 69,
+                    "endOffset": 4958
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-zu/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 430,
+                        "endColumn": 65,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4963,
+                    "endColumn": 68,
+                    "endOffset": 5027
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-zu/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 496,
+                        "endColumn": 64,
+                        "endOffset": 560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5032,
+                    "endColumn": 84,
+                    "endOffset": 5112
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-zu/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 561,
+                        "endColumn": 80,
+                        "endOffset": 641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5117,
+                    "endColumn": 107,
+                    "endOffset": 5220
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-zu/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 642,
+                        "endColumn": 103,
+                        "endOffset": 745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5225,
+                    "endColumn": 80,
+                    "endOffset": 5301
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -707,14 +821,14 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 4773,
+                    "startOffset": 5306,
                     "endColumn": 100,
-                    "endOffset": 4869
+                    "endOffset": 5402
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-zu\\values-zu.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-zu/values-zu.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

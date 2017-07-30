@@ -50,4 +50,10 @@
         <item>Category 5</item>
     </string-array>
 
+    <!--Worker strings-->
+    <string name="all_work_label">ALL WORKS</string>
+    <string name="future_work_label">FUTURE WORKS</string>
+    <string name="history_work_label">HISTORY</string>
+    <string name="progressing_work_label">PROGRESSING WORKS</string>
+
 </resources>

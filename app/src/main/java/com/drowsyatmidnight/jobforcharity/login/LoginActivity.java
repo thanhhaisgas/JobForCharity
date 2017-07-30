@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,6 +20,10 @@ import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.Home_UserHire;
 import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 
+import com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.CreateWorkActivity;
+import com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MainActivity;
+import com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MyWorksMngmntActivity;
+import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.AllNeededWorksFragment;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -119,13 +124,14 @@ public class LoginActivity extends AppCompatActivity {
                     KeyValueFirebase.UID = user.getUid();
                     DataFirebase.createCategories(getResources().getStringArray(R.array.listCategoryName));
                     Intent goHomeUserHire = new Intent(LoginActivity.this, Home_UserHire.class);
-                    startActivity(goHomeUserHire);
-
+                    Intent goMngJob = new Intent(LoginActivity.this, MyWorksMngmntActivity.class);
+                    startActivity(goMngJob);
                 }
 
                 @Override
                 public void loginFailure(String message) {
                     progressDialog.dismiss();
+                    Log.d("an",""+message);
                     Toast.makeText(LoginActivity.this, "Login failure", Toast.LENGTH_SHORT).show();
                 }
             });

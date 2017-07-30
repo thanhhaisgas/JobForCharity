@@ -61,8 +61,8 @@ public class DatetimeAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.item_datetime, parent, false);
 
             viewHolder.tvDate = (TextView) convertView.findViewById(R.id.tvDateWork);
-            viewHolder.tvBeginTime= (TextView) convertView.findViewById(R.id.tvBeginTimeWork);
-            viewHolder.tvEndTime = (TextView) convertView.findViewById(R.id.tvEndTimeWork);
+            //viewHolder.tvBeginTime= (TextView) convertView.findViewById(R.id.tvBeginTimeWork);
+            //viewHolder.tvEndTime = (TextView) convertView.findViewById(R.id.tvEndTimeWork);
 
 
             result=convertView;
@@ -73,11 +73,12 @@ public class DatetimeAdapter extends BaseAdapter {
             result=convertView;
         }
 
-        viewHolder.tvDate.setText(mDatetimeList.get(position).getDate());
+        viewHolder.tvDate.setText(mDatetimeList.get(position).getDate()+"  " + mDatetimeList.get(position).getBeginTime()
+                +"  " + mDatetimeList.get(position).getBeginTime());
 
-        viewHolder.tvBeginTime.setText(mDatetimeList.get(position).getBeginTime());
+        //viewHolder.tvBeginTime.setText(mDatetimeList.get(position).getBeginTime());
 
-        viewHolder.tvEndTime.setText(mDatetimeList.get(position).getEndTime());
+        //viewHolder.tvEndTime.setText(mDatetimeList.get(position).getEndTime());
 
         // Return the completed view to render on screen
         return convertView;

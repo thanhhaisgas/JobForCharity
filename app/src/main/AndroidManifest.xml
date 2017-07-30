@@ -37,9 +37,12 @@
             android:theme="@style/joblistActivity"
             />
 
-        <activity android:name=".woker.View.Acitivities.NeededWorksMngmntActivity"
+        <activity android:name=".woker.View.Acitivities.MyWorksMngmntActivity"
             android:theme="@style/NeededWorksMngmntActivity"
             />
+        <activity android:name=".woker.View.Acitivities.MainActivity"
+            android:theme="@style/joblistActivity"
+      />
     </application>
 
 </manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+
+
+
+			 android:padding="3dp"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/linear_border_fullbackground"
+		android:padding="10dp"
+		>
+
+		<ImageView android:id="@+id/item_header_image"
+				   android:layout_width="0dp"
+				   android:layout_weight="1"
+				   android:paddingLeft="15dp"
+				   android:layout_gravity="center"
+				   android:layout_height="wrap_content"
+				   android:layout_centerVertical="true"
+
+				   android:src="@drawable/ic_work_white_24dp"/>
+
+		<TextView android:id="@+id/item_header_name"
+				  tools:text="Group Name"
+				  android:textStyle="bold"
+				  android:textColor="@android:color/white"
+				  android:layout_weight="5"
+				  android:textSize="20dp"
+
+					android:text="Math Teaching"
+				  android:layout_gravity="center_vertical"
+				  android:layout_width="0dp"
+
+				  android:layout_height="wrap_content" />
+		<Button
+			android:id="@+id/btnDetailMyWork"
+			android:layout_width="35dp"
+
+			android:layout_gravity="center_vertical"
+
+			android:background="@drawable/ic_info_white_24dp"
+			android:focusable="false"
+			android:focusableInTouchMode="false"
+			android:layout_height="33dp"/>
+
+	</LinearLayout>
+
+
+
+
+
+
+
+
+</FrameLayout>

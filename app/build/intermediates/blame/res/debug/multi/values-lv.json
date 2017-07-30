@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+        "outputFile": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 220
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 328
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 451
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 559
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 668
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 754
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 858
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 980
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1062
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1144
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1338
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1450
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1549
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1660
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1769
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1874
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1993
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2092
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2201
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -391,7 +391,7 @@
                     "endOffset": 2394
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -410,7 +410,7 @@
                     "endOffset": 2529
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -429,7 +429,7 @@
                     "endOffset": 2639
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -448,7 +448,7 @@
                     "endOffset": 2840
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -467,7 +467,7 @@
                     "endOffset": 2973
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -486,7 +486,7 @@
                     "endOffset": 3108
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -505,7 +505,7 @@
                     "endOffset": 3333
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\f3e97e962d3a070ec2afe5130e3d8207c8778f0d\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/fc62742215e1a884939c4fef349010aa2f7507e9/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -524,7 +524,7 @@
                     "endOffset": 3567
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -543,7 +543,7 @@
                     "endOffset": 3678
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -562,7 +562,7 @@
                     "endOffset": 3878
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -581,7 +581,7 @@
                     "endOffset": 4015
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -600,7 +600,7 @@
                     "endOffset": 4243
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -619,7 +619,7 @@
                     "endOffset": 4428
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -638,7 +638,7 @@
                     "endOffset": 4522
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -657,7 +657,7 @@
                     "endOffset": 4620
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -676,7 +676,7 @@
                     "endOffset": 4738
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\values-lv\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/res/values-lv/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -691,11 +691,125 @@
                     "startLine": 38,
                     "startColumn": 4,
                     "startOffset": 4743,
-                    "endColumn": 81,
-                    "endOffset": 4820
+                    "endColumn": 78,
+                    "endOffset": 4817
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-lv/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 74,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4822,
+                    "endColumn": 106,
+                    "endOffset": 4924
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-lv/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 312,
+                        "endColumn": 102,
+                        "endOffset": 414
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4929,
+                    "endColumn": 69,
+                    "endOffset": 4994
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-lv/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 415,
+                        "endColumn": 65,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4999,
+                    "endColumn": 69,
+                    "endOffset": 5064
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-lv/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 481,
+                        "endColumn": 65,
+                        "endOffset": 546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5069,
+                    "endColumn": 87,
+                    "endOffset": 5152
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-lv/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 547,
+                        "endColumn": 83,
+                        "endOffset": 630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5157,
+                    "endColumn": 109,
+                    "endOffset": 5262
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/res/values-lv/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 631,
+                        "endColumn": 105,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5267,
+                    "endColumn": 81,
+                    "endOffset": 5344
+                },
+                "from": {
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -707,14 +821,14 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 4825,
+                    "startOffset": 5349,
                     "endColumn": 100,
-                    "endOffset": 4921
+                    "endOffset": 5445
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

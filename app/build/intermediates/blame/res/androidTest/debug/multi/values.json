@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\haint\\.android\\build-cache\\59ee5d617c062edfea393c24a1e2eaac80c3ea5f\\output\\res\\values\\values.xml",
+                    "file": "/Users/davidtran/.android/build-cache/eabe9323ae84c5e135e12cea2774b217c0d9b82e/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="circleindicator-1.2.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/26aabe29fcf264fb7e189ab6f941d4773f463ab5/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/26aabe29fcf264fb7e189ab6f941d4773f463ab5/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/69fc4b2365f6d175ff80579d76ffc63fc3b4cf50/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/69fc4b2365f6d175ff80579d76ffc63fc3b4cf50/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

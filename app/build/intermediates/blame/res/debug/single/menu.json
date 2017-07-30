@@ -1,10 +1,22 @@
 [
     {
-        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_home__user_hire_drawer.xml",
-        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\menu\\activity_home__user_hire_drawer.xml"
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/menu/activity_main_drawer.xml"
     },
     {
-        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\menu\\home_user_hire.xml",
-        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\menu\\home_user_hire.xml"
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/menu/activity_main_drawerwork.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/menu/activity_main_drawerwork.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/menu/home_user_hire.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/menu/home_user_hire.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/menu/activity_home__user_hire_drawer.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/menu/activity_home__user_hire_drawer.xml"
     }
 ]

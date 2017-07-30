@@ -35,6 +35,9 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
@@ -87,7 +90,7 @@ public class CreateWorkActivity extends AppCompatActivity {
         setupAdapter();
         setupListener();
 
-        getUserFromFirebase();
+
     }
     private void initPresenter(){
         mCreateWorkPresenter = new CreateWorkPresenter();
@@ -97,10 +100,17 @@ public class CreateWorkActivity extends AppCompatActivity {
 
     private void createWork(){
         //String category = spCategories.getSelectedItem().toString();
-        String name = txtJobName.getText().toString();
-        String description = txtJobDetail.getText().toString();
-        mWork.setCategoryID("123");
-        mWork.setHirerUID("UID");
+        final String name = txtJobName.getText().toString();
+        final String description = txtJobDetail.getText().toString();
+        final String Category = spCategories.getSelectedItem().toString();
+        String UID = "";
+        try {
+            UID = Authority.sFirebaseAuth.getCurrentUser().getUid();
+        }catch (Exception e){
+            Log.d("An","Failed to get uid when create job");
+        }
+        mWork.setCategory(Category);
+        mWork.setWorkerUID(UID);
         mWork.setDescription(description);
         /*mWork.setDatetimes(mDatetimeList);*/
         mWork.setWorkName(name);
@@ -108,35 +118,74 @@ public class CreateWorkActivity extends AppCompatActivity {
 
         createWorkInFirebase(mWork,mDatetimeList);
     }
-    public void createWorkInFirebase(Work work, List<Work.Datetime> mDateTimeList) {
+    public void createWorkInFirebase(final Work work, List<Work.Datetime> mDateTimeList) {
         final List<Work.Datetime> DateTimeList = mDateTimeList;
         FirebaseAuth mAuth = Authority.sFirebaseAuth;
         FirebaseUser user = mAuth.getCurrentUser();
         final DatabaseReference mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
-        final String UID = user.getUid();
+
         DataSnapshot dataSnapshotChild;
 
-
-        // add list datetime to jobs
+        // add list work
         final String key = mFirebaseDatabaseReference.push().getKey();
         mFirebaseDatabaseReference.child("JOBS")
                 .child(key).setValue(work)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
-                        //TO DO SOMTHING WHEN COMPLETE
+                        //Update job count to category
+                        mFirebaseDatabaseReference.child("CATEGORIES")
+                                .child(work.getCategory()).addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                String strCount = String.valueOf(dataSnapshot.child("count").getValue());
+                                int count = Integer.parseInt(strCount);
+                                count++;
+                                dataSnapshot.getRef().child("count").setValue(count+++"");
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+
+
+
                         Log.d("an", "create work successfully");
+                        mFirebaseDatabaseReference.child("JOBS")
+                                .child(key).child("JobID").setValue(key);
 
+                        // add list datetime to work
                         for (Work.Datetime datetime:DateTimeList) {
-
-
-                            //mFirebaseDatabaseReference.child("Jobs").child("DateTimes").push();
                             mFirebaseDatabaseReference.child("JOBS").child(key)
                                     .child("DateTimes").push().setValue(datetime)
                                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
-                                            //TO DO SOMTHING WHEN COMPLETE
+
+                                            //put datetimeid into itself
+                                            mFirebaseDatabaseReference.child("JOBS").child(key)
+                                                    .child("DateTimes").addValueEventListener(new ValueEventListener() {
+                                                @Override
+                                                public void onDataChange(DataSnapshot dataSnapshot) {
+                                                    for (DataSnapshot dsp : dataSnapshot.getChildren()) {
+
+                                                        String DateTimeID = dsp.getKey();
+                                                        mFirebaseDatabaseReference.child("JOBS").child(key)
+                                                                .child("DateTimes").child(DateTimeID)
+                                                                .child("DateTimeID").setValue(DateTimeID);
+
+
+                                                    }
+                                                }
+
+                                                @Override
+                                                public void onCancelled(DatabaseError databaseError) {
+
+                                                }
+                                            });
+
                                             Log.d("an", "create datetime successfully");
                                         }
                                     })
@@ -162,37 +211,16 @@ public class CreateWorkActivity extends AppCompatActivity {
         //
         //
     }
-    public void getUserFromFirebase() {
-        DatabaseReference UserRef = FirebaseDatabase.getInstance().getReference().child("USERS");
-        UserRef.keepSynced(true);
-        UserRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                Iterator<DataSnapshot> dataSnapshots = dataSnapshot.getChildren().iterator();
-                while (dataSnapshots.hasNext()) {
-                    DataSnapshot dataSnapshotChild = dataSnapshots.next();
-                    Log.d("an:user uid",dataSnapshotChild.getKey());
 
-                }
-
-                // Check your arraylist size and pass to list view like
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-    }
 
 
     private void setupAdapter(){
         /*Setup categories adapter*/
-        ArrayAdapter<CharSequence> mAdapter = ArrayAdapter.createFromResource(this, R.array.spinner_categories,
+        ArrayAdapter<CharSequence> mAdapter = ArrayAdapter.createFromResource(this, R.array.listCategoryName,
                 android.R.layout.simple_spinner_item);
         mAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spCategories.setAdapter(mAdapter);
+
 
         //Setup datetime listview
       mDatetimeAdapter = new DatetimeAdapter(mDatetimeList,this);
@@ -228,10 +256,21 @@ public class CreateWorkActivity extends AppCompatActivity {
                 String EndTime = txtInputEndTime.getText().toString();
                 String BeginTime = txtInputBeginTime.getText().toString();
                 Work.Datetime mDatetime = new Work.Datetime();
+
+                mDatetime.setStatus("available");
                 mDatetime.setDate(Date);
                 mDatetime.setBeginTime(BeginTime);
                 mDatetime.setEndTime(EndTime);
+                mDatetime.setHirerUID("");
+
                 mDatetimeList.add(mDatetime);
+                // Sort datetimelist base on date
+                Collections.sort(mDatetimeList, new Comparator<Work.Datetime>() {
+                    @Override
+                    public int compare(Work.Datetime o1, Work.Datetime o2) {
+                        return o1.getDate().compareTo(o2.getDate());
+                    }
+                });
                 mDatetimeAdapter.notifyDataSetChanged();
 
 
@@ -267,19 +306,27 @@ public class CreateWorkActivity extends AppCompatActivity {
 
     public void onDateClicked(View v, final EditText editText) {
 
-        final int day = mCalendar.get(Calendar.DAY_OF_MONTH);
-        int month = mCalendar.get(Calendar.MONTH);
-        int year = mCalendar.get(Calendar.YEAR);
 
-        DatePickerDialog mDatePickerDialog;
+        DatePickerDialog.OnDateSetListener mDateSetListener = new DatePickerDialog.OnDateSetListener() {
 
-        mDatePickerDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
             @Override
-            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                editText.setText(year + "/" + month + "/" + day);
+            public void onDateSet(DatePicker view, int year, int monthOfYear,
+                                  int dayOfMonth) {
+                Calendar myCalendar = Calendar.getInstance();
+                // TODO Auto-generated method stub
+                myCalendar.set(Calendar.YEAR, year);
+                myCalendar.set(Calendar.MONTH, monthOfYear);
+                myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+                txtInputDate.setText(year+"/"+monthOfYear+"/"+dayOfMonth);
+
             }
-        }, year, month, day);
-        mDatePickerDialog.setTitle("Select Date");
-        mDatePickerDialog.show();
+
+        };
+        new DatePickerDialog(CreateWorkActivity.this, mDateSetListener, Calendar.getInstance()
+                .get(Calendar.YEAR), Calendar.getInstance().get(Calendar.MONTH),
+                Calendar.getInstance().get(Calendar.DAY_OF_MONTH)).show();
+
+  /*      mDatePickerDialog.setTitle("Select Date");
+        mDatePickerDialog.show();*/
     }
 }

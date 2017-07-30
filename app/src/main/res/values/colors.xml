@@ -8,5 +8,5 @@
     <color name="moredark_transparent">#30000000</color>
     <color name="user1">#60009688</color>
 
-    <color name="colorPrimaryHirer">#00695c</color>
+    <color name="colorPrimaryWorker">#00695c</color>
 </resources>

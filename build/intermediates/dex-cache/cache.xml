@@ -3,21 +3,390 @@
 
     <item
         is-multidex="true"
-        jar="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_14e37ec6a984335584a1812f6449d8aabb1565d3\classes.dex" />
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7617ff05e4939fbe58f296fa038c2bd31988ab39/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.6.0/d3defb48a63aa0591117d0cec09f47a13fffda19/butterknife-compiler-8.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d3defb48a63aa0591117d0cec09f47a13fffda19">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/butterknife-compiler-8.6.0_9e45b143d62e50654fd07f9e37dcf0b853d10cf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_1c1916f851fcb3c1a0a1ad604956d11e93ee8fec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/1c5bc2f18be6e63f9003e26fa17190c426bc2688/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="86e2c2399cfd7f8271b535b0e7d8ec092d0c6335">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_f36953af95c2b313e12c067e2b5ff45c577ca0b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/1e5155fa4b6abb8bb3d03c8abc7e4d15d97bf8d8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ba90907329e4ed429307d39490927b456838bf08">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_8152b43d647ad9984e7397db998454e208239488.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a5da59bfe8bee5a41daa7c26b970b12699ac8db">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_9f7491fc83594cacac1b71f9f4d8083712886b75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/76376b1abaa546527f976829c2f4efc5f7b5fb88/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_8f724c22add98d5fc19ae8a5cd859cea75dc3d22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/88d9863c26b159267ae3aaa9d0d2ee605e46e86f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4737d9835cf3ea9751f7d6647be60900062d1062">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_3bcce614d217a5399b1b752b7b8c0d2e22978712.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cf7212b0f8bfef12657b942df8f4f2cf032d3f41">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/auto-common-0.6_fb49d4aaad74bdb8f4b547bf44da9d333a643e07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f909161e9bac1dd36538a275f06cae462082316a">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_4abaaa06cdf0d59126287a267a0fd966f1666455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5493a7c08b74d424d08a23c68334893cfd2d5ee3">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_95ec18b98a8ad2c0ef547be2c8c943bb7a769f36.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/Users/davidtran/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.0.0-RC1/1b4bba8f8d3df8db064c875c043c01e9ca3cdee9/disklrucache-4.0.0-RC1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="60253578f117a7b3e6d91df3871ccceb72fb0812">
-        <dex dex="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_61a4a985d71f4b0ff3864544340b488ce311c3ac\classes.dex" />
+        sha1="1b4bba8f8d3df8db064c875c043c01e9ca3cdee9">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10/disklrucache-4.0.0-RC1_3959608ad4c2758cc64740eca77ca05f98c70303/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/290f67ad6d62cb134515f6fca8bf436c803b42f7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_43b34d754807d6b091f14b0ace4b670da858e158.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/d667eabc5de2db59d14a6d668245343d7fef4cb4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="acd4f9fad8500386084346a88ca47e2b66e84ffd">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_1413324137e0125adb915d993482d6ffc7e0ff77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/cc8059f80f39108e8de292f550f6c008cd89a34f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1fd6dc27f1ebe5bdbf26aa54773d11327f91532b">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_39a964e943dbff8d1cdc1061cc6df4fbfc60bbab.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidtran/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.0.0-RC1/c425e31eda1069f978a0e823ad50e567ab422656/gifdecoder-4.0.0-RC1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c425e31eda1069f978a0e823ad50e567ab422656">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10/gifdecoder-4.0.0-RC1_4af180ab9b67344308a6134cb4a4481dbd484f99/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/guava-18.0_e11ced1631feb7c9800790c98fd765d3bed1b86c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f260cdc1a267b17b911022919f19d568e6624229">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_504931873dccb63fc54c42702417022d707dfca2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidtran/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.0.0-RC1/84c524dcd1a3088edd5560a8ac176eae1317f770/annotations-4.0.0-RC1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="84c524dcd1a3088edd5560a8ac176eae1317f770">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10/annotations-4.0.0-RC1_7a0927fb0b93fc2d66600719617157a36f47606d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/9f8afc952c9612270891f666493ad470c5e9831e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_432f4f92e3dc87c7cd99a394c692b254da1c98b7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidtran/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.0.0-RC1/7baec7d5132e7343100a99630a56a6584a33addc/glide-4.0.0-RC1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7baec7d5132e7343100a99630a56a6584a33addc">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-4.0.0-RC1_936fac685f8d90801c9224903fb3f97a378b939d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/ac72ef2cb61a75531e663bb13b1879502997d683/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="88e6b32ca4503910adf36e1b0a93074dd854bfed">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_d1d3ade9728b022bd69dbead20fe4306be312737.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2737331564e0084fc0eb30ba500564a6dbe5e98f">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_15b710365e62369376c09e8e24a9729d67ed6014.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/f88ec210b55b029f8b08399355dddbfdc6227e9d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f5bcd9cbfeedc58f493339841a7c5d0347a39f0b">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_341ef3b47d522eafe9a858c253a6045bc32143fa.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b00dab41f032a85dc1737fec112f3d47c2a26f3c">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b961ceba77d90bc6beb638f220b9a9e692368361/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/69fc4b2365f6d175ff80579d76ffc63fc3b4cf50/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1db6784d006818fee2591f13b0bf09ac31a3d49a">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_9b6a7f039d450ee0e4ac14e06e21ddd65c46196c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/69ff5916a830bfe383c3546cdfc3d59999e801af/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_27ef2c6f1703afb2ed1df39b3fd5b27e339a4097.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_ef13f381561406f45706408dd8c913f7c9c2ff0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/81268fde18f7cfee4c372be1df5ada683c9a1541/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0cccf7679b2764a849f90e2b581e2ec8d411679f">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_4f60979724cc4ff5479f97ce1669c1dec7515724.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.8.0/e858dc62ef484048540d27d36f3ec2177a3fa9b1/javapoet-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e858dc62ef484048540d27d36f3ec2177a3fa9b1">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/javapoet-1.8.0_5e8339d19a56eab03376848b1a7fff59dfca26ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/1bce95612d60bcbb9e0907e52dd0830b7e5e72ee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_ace0e71c50b196e25b86bfa06138557b4e4704cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/49dc082923e932bd75f2f49aae781b6d65822e7a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_1a2f1fd765337ea3184106f754676bb6d45cc044.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/539b7cbf11da0b465a17f970f8182bd1498deedf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9e8c74e789b51b9da4070aeaed71bae36c3d244f">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_478db4587d966b5833c0b04d7faf442b421bc93e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/3a927fd45800d722f5c4c7d1fd87cb7e374b740e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4802b21cc23549f7eba5edb802241091ad998b35">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_bd953644ccf740e0abde32921a6306ec18acfb8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/24f474e9919dbe9574c3dafa0071cb3849aa6d0e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dbbba1fc0f6c51382c3fa1f9223d1f6f9144f359">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_2de729a4273b6037d67074bbc2ef9187aa24662c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/fc62742215e1a884939c4fef349010aa2f7507e9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_bc53e91d517ef8b7903d6f35979df186a76e931e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/3eb613bac3d6df1ec721bcc496b4cf7d7b67a551/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4262bcd49b19d558c241bf8c68470fcc6fa1ac84">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_4aa2135cec259ba237fc2fa81416490217278b91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.6.0/48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8/butterknife-annotations-8.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.6.0_1388411ea833cb42a19c45e8849a75596e731419.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/91c97e143bfa49646b88059fb54b87a335c9c32e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="587840a157b50a6380d814a7a5a87b76118405e2">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_3364c88763b312d624bc387a99c83e13f4f56a03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_ba862ddfd9dd7610b7af184cae9bd4009522082c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/936f166ea93e06e2a4890255cad136edadad6a0d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_b4735fbeb30cd474e52ebac4c03a18d400ba7bcf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/194340f0c35a537880ff51dd91fbba711c3295bc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="314299924c4866a8fea850a6ab10a7751fbce79d">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_d24c493cfc02460be04b960bf619a798cfc35941.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/davidtran/.android/build-cache/de00c155a6121f9069662b68d39759fa05cd7083/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="be587097e648eabfb7f9eca23ab03369894e2d5d">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/pre-dexed/debug/classes_4d1c1d02230e646051406fac5f7b3e0bfb89aad8.jar" />
     </item>
 
 </items>
