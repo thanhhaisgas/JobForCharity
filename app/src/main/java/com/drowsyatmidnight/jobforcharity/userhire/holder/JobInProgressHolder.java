@@ -1,5 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.userhire.holder;
 
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -21,6 +22,8 @@ public class JobInProgressHolder extends RecyclerView.ViewHolder {
     public TextView txtJobNameInProgress;
     @BindView(R.id.txtJobDateInProgress)
     public TextView txtJobDateInProgress;
+    @BindView(R.id.cardViewJobInProgress)
+    public CardView cardViewJobInProgress;
     public JobInProgressHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);

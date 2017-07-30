@@ -11,6 +11,16 @@ public class User_Model {
     private String Email;
     private String Uid;
     private String passWord;
+    private String rate;
+    private String countRate;
+
+    public String getCountRate() {
+        return countRate;
+    }
+
+    public void setCountRate(String countRate) {
+        this.countRate = countRate;
+    }
 
     public String getPassWord() {
         return passWord;
@@ -58,5 +68,13 @@ public class User_Model {
 
     public void setUid(String uid) {
         Uid = uid;
+    }
+
+    public String getRate() {
+        return rate;
+    }
+
+    public void setRate(String rate) {
+        this.rate = rate;
     }
 }

@@ -3,6 +3,7 @@ package com.drowsyatmidnight.jobforcharity.userhire.holder;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -22,6 +23,7 @@ public class JobInProgressHolder_ViewBinding implements Unbinder {
     target.imgProfileJobInProgress = Utils.findRequiredViewAsType(source, R.id.imgProfileJobInProgress, "field 'imgProfileJobInProgress'", ImageView.class);
     target.txtJobNameInProgress = Utils.findRequiredViewAsType(source, R.id.txtJobNameInProgress, "field 'txtJobNameInProgress'", TextView.class);
     target.txtJobDateInProgress = Utils.findRequiredViewAsType(source, R.id.txtJobDateInProgress, "field 'txtJobDateInProgress'", TextView.class);
+    target.cardViewJobInProgress = Utils.findRequiredViewAsType(source, R.id.cardViewJobInProgress, "field 'cardViewJobInProgress'", CardView.class);
   }
 
   @Override
@@ -34,5 +36,6 @@ public class JobInProgressHolder_ViewBinding implements Unbinder {
     target.imgProfileJobInProgress = null;
     target.txtJobNameInProgress = null;
     target.txtJobDateInProgress = null;
+    target.cardViewJobInProgress = null;
   }
 }

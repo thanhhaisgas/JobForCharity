@@ -1,9 +1,7 @@
 package com.drowsyatmidnight.jobforcharity.userhire;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
@@ -13,30 +11,30 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmCategory;
+import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobInHistory;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobInProgress;
+import com.lapism.searchview.SearchView;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class Home_UserHire extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    @BindView(R.id.searchViewHome)
+    SearchView searchViewHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_user_hire);
+        ButterKnife.bind(this);
+        searchViewHome.bringToFront();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -48,6 +46,7 @@ public class Home_UserHire extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setCheckedItem(R.id.nav_category);
         onNavigationItemSelected(navigationView.getMenu().getItem(0));
+        navigationView.bringToFront();
     }
 
     @Override
@@ -96,6 +95,11 @@ public class Home_UserHire extends AppCompatActivity
             transaction.replace(R.id.containerUserHire, new FmJobInProgress());
             transaction.commit();
         } else if (id == R.id.nav_history) {
+            setTitle(getResources().getString(R.string.history));
+            FragmentManager manager = getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.replace(R.id.containerUserHire, new FmJobInHistory());
+            transaction.commit();
 
         } else if (id == R.id.nav_manage) {
 

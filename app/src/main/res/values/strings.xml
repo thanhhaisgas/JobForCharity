@@ -40,6 +40,11 @@
     <string name="begin_time_label">Begin time</string>
     <string name="job_list_label">End time</string>
     <string name="create_label">Post</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="your_comment">Your comment...</string>
+    <string name="ok">Ok</string>
+    <string name="review">Review</string>
 
     <!--Spinner categories-->
     <string-array name="spinner_categories">

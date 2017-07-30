@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.TabsJobDetailPagerAdapter;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobDetail;
-import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmUserReview;
+import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmReviews;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -63,10 +63,8 @@ public class JobDetail extends AppCompatActivity {
         imgBackground.setColorFilter(filter);
         profile_image.setImageResource(R.drawable.test);
         imgBackground.setImageResource(R.drawable.test);
-        DataFirebase.getUserInfo(getIntent().getStringExtra("workerUID"),txtTenDetail,txtPhoneNumDetail,txtEmailDetail);
-        rateBar.setRating(4.5f);
-        txtCountRate.setText("(177 reviews)");
-
+        DataFirebase.getUserInfo(getIntent().getStringExtra("workerUID"),txtTenDetail,txtPhoneNumDetail,txtEmailDetail,rateBar,txtCountRate);
+        txtCountRate.setText(txtCountRate.getText()+" "+getResources().getString(R.string.reviews));
         setSupportActionBar(toolbarJobDetail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -80,8 +78,9 @@ public class JobDetail extends AppCompatActivity {
 
     private void setupViewPager(final ViewPager vpJobDetail) {
         adapter = new TabsJobDetailPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new FmJobDetail().newInstance(getIntent().getStringExtra("workName"), getIntent().getStringExtra("description"), getIntent().getSerializableExtra("shiftWorks"), getIntent().getStringExtra("JobID"),getIntent().getStringExtra("category")));
-        adapter.addFragment(new FmUserReview());
+        adapter.addFragment(new FmJobDetail().newInstance(getIntent().getStringExtra("workName"), getIntent().getStringExtra("description"),
+                getIntent().getSerializableExtra("shiftWorks"), getIntent().getStringExtra("JobID"),getIntent().getStringExtra("category"), getIntent().getStringExtra("view_type"), getIntent().getStringExtra("workerID")));
+        adapter.addFragment(new FmReviews().newInstance(getIntent().getStringExtra("workerUID")));
         vpJobDetail.setAdapter(adapter);
     }
 }

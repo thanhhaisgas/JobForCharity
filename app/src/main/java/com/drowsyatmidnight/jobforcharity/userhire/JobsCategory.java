@@ -17,6 +17,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
+import com.lapism.searchview.SearchView;
 
 import java.util.Arrays;
 import java.util.List;
@@ -40,6 +41,8 @@ public class JobsCategory extends AppCompatActivity {
     Toolbar toolbarJobsCategory;
     @BindView(R.id.bgActivityJobsCategory)
     CoordinatorLayout bgActivityJobsCategory;
+    @BindView(R.id.searchViewCategory)
+    SearchView searchViewCategory;
     private String NameCategory;
 
     @Override
@@ -47,6 +50,8 @@ public class JobsCategory extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jobs_category);
         ButterKnife.bind(this);
+        searchViewCategory.bringToFront();
+        searchViewCategory.setVersion(1001);
         setUpView();
         setUpToolBar();
         setUpListJobs();
@@ -78,6 +83,7 @@ public class JobsCategory extends AppCompatActivity {
         int id = item.getItemId();
         switch (id){
             case R.id.action_find:
+                searchViewCategory.open(true);
                 return true;
         }
         return super.onOptionsItemSelected(item);

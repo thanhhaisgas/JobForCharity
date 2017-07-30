@@ -29,12 +29,14 @@ public class AdapterDateTimes extends BaseExpandableListAdapter {
     private List<String> expandableListTitle;
     private HashMap<String, List<ShiftWork_Model>> expandableListDetail;
     public List<ShiftWork_Model> listSelected = new ArrayList<>();
+    private String view_type;
 
     public AdapterDateTimes(Context context, List<String> expandableListTitle,
-                                       HashMap<String, List<ShiftWork_Model>> expandableListDetail) {
+                                       HashMap<String, List<ShiftWork_Model>> expandableListDetail, String view_type) {
         this.context = context;
         this.expandableListTitle = expandableListTitle;
         this.expandableListDetail = expandableListDetail;
+        this.view_type = view_type;
     }
 
     @Override

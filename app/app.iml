@@ -113,6 +113,7 @@
     <orderEntry type="library" exported="" name="play-services-appinvite-11.0.2" level="project" />
     <orderEntry type="library" exported="" name="firebase-config-11.0.2" level="project" />
     <orderEntry type="library" exported="" name="play-services-ads-11.0.2" level="project" />
+    <orderEntry type="library" exported="" name="searchview-4.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-gass-11.0.2" level="project" />
     <orderEntry type="library" exported="" name="firebase-core-11.0.2" level="project" />
     <orderEntry type="library" exported="" name="firebase-messaging-11.0.2" level="project" />

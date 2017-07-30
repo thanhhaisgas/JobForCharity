@@ -8,5 +8,11 @@
     <color name="moredark_transparent">#30000000</color>
     <color name="user1">#60009688</color>
 
+    <!--userHirer-->
+    <color name="colorPrimaryUserHirer">#5dba60</color>
+    <color name="colorPrimaryDarkUserHirer">#278933</color>
+    <color name="colorAccentUserHirer">#90ed8f</color>
+    <color name="colorBackground">#E6E6E6</color>
+
     <color name="colorPrimaryHirer">#00695c</color>
 </resources>

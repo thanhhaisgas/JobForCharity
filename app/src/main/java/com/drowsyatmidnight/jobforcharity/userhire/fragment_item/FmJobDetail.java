@@ -1,5 +1,7 @@
 package com.drowsyatmidnight.jobforcharity.userhire.fragment_item;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,9 +11,13 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
+import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
@@ -45,11 +51,13 @@ public class FmJobDetail extends Fragment {
     Button btnRentJob;
     @BindView(R.id.scroll1)
     NestedScrollView scroll1;
+    @BindView(R.id.btnCancelJob)
+    Button btnCancelJob;
     private AdapterDateTimes adapterDateTimes;
     private List<ShiftWork_Model> shiftWork_models;
     private String JobID;
 
-    public static FmJobDetail newInstance(String nameWork, String Description, Serializable shiftWork_models, String JobID, String CategoryName) {
+    public static FmJobDetail newInstance(String nameWork, String Description, Serializable shiftWork_models, String JobID, String CategoryName, String ViewType, String workerID) {
         FmJobDetail fmJobDetail = new FmJobDetail();
 
         Bundle args = new Bundle();
@@ -58,6 +66,8 @@ public class FmJobDetail extends Fragment {
         args.putSerializable("shiftWorks", shiftWork_models);
         args.putString("JobID", JobID);
         args.putString("category", CategoryName);
+        args.putString("view_type", ViewType);
+        args.putString("workerID", workerID);
         fmJobDetail.setArguments(args);
 
         return fmJobDetail;
@@ -82,12 +92,62 @@ public class FmJobDetail extends Fragment {
         btnRentJob.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, getArguments().getString("category"));
+                if(adapterDateTimes.listSelected.size()==0){
+                    Toast.makeText(rootView.getContext(),"Please, select at least one schedule", Toast.LENGTH_SHORT).show();
+                }else {
+                    if (btnRentJob.getText().toString().toUpperCase().compareTo(KeyValueFirebase.RENT.toUpperCase())==0){
+                        DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.RENT);
+                    }
+                    if (btnRentJob.getText().toString().toUpperCase().compareTo(KeyValueFirebase.DONE.toUpperCase())==0){
+                        DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.DONE);
+                        showDialogReview();
+                    }
+                }
+            }
+        });
+        btnCancelJob.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(adapterDateTimes.listSelected.size()==0){
+                    Toast.makeText(rootView.getContext(),"Please, select at least one schedule", Toast.LENGTH_SHORT).show();
+                }else {
+                    DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.CANCEL);
+                }
             }
         });
     }
 
+    private void showDialogReview() {
+        final AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(rootView.getContext());
+        LayoutInflater inflater = LayoutInflater.from(rootView.getContext());
+        View dialogView = inflater.inflate(R.layout.review_dialog, null);
+        dialogBuilder.setView(dialogView);
+        ImageView imgProfileReview = (ImageView) dialogView.findViewById(R.id.imgProfileReview);
+        imgProfileReview.setImageResource(R.drawable.test);
+        final RatingBar rateBarReview = (RatingBar) dialogView.findViewById(R.id.rateBarReview);
+        final EditText edCommentReviews = (EditText) dialogView.findViewById(R.id.edCommentReviews);
+        dialogBuilder.setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        dialogBuilder.setPositiveButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                DataFirebase.pushReviews(rateBarReview.getNumStars(), edCommentReviews.getText().toString(), JobID, KeyValueFirebase.UID, getArguments().getString("workerID"));
+            }
+        });
+        dialogBuilder.setTitle(R.string.review);
+        AlertDialog alertDialog = dialogBuilder.create();
+        alertDialog.show();
+    }
+
     private void setUpView() {
+        if (getArguments().getString("view_type").compareTo(KeyValueFirebase.VIEW_JOBDETAILS)!=0){
+            btnCancelJob.setVisibility(View.VISIBLE);
+            btnRentJob.setText(getResources().getString(R.string.done));
+        }
         detailNameJob.setText(getArguments().getString("nameWork"));
         detailDescriptionJob.setText(getArguments().getString("Description"));
         JobID = getArguments().getString("JobID");
@@ -171,7 +231,7 @@ public class FmJobDetail extends Fragment {
         timeJobs = DataFirebase.dateTimes(shiftWork_models);
 
         List<String> date = new ArrayList<>(timeJobs.keySet());
-        adapterDateTimes = new AdapterDateTimes(rootView.getContext(), date, timeJobs);
+        adapterDateTimes = new AdapterDateTimes(rootView.getContext(), date, timeJobs, getArguments().getString("view_type"));
         lvJobDetailDateTime.setAdapter(adapterDateTimes);
         lvJobDetailDateTime.setOnTouchListener(new View.OnTouchListener() {
             @Override

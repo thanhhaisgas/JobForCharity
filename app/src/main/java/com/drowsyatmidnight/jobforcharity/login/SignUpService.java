@@ -55,6 +55,8 @@ public class SignUpService {
                                     userModel.setMobilePhone(mobilePhone);
                                     userModel.setEmail(user.getEmail());
                                     userModel.setPassWord(passWord);
+                                    userModel.setRate("0");
+                                    userModel.setCountRate("0");
                                     createAccountInDatabase(userModel, new RegisterListener() {
                                         @Override
                                         public void registerSuccess() {

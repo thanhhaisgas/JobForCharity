@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp10">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgProfileReview"
+            android:layout_width="@dimen/dp76"
+            android:layout_height="@dimen/dp76"
+            android:layout_gravity="center"/>
+        <RatingBar
+            android:id="@+id/rateBarReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:numStars="5"
+            tool:rating="4.5"
+            android:theme="@style/RatingBar"/>
+        <EditText
+            android:id="@+id/edCommentReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_gravity="center"
+            android:scrollbars="vertical"
+            android:hint="@string/your_comment"
+            android:lines="4"/>
+    </LinearLayout>
+
+</LinearLayout>

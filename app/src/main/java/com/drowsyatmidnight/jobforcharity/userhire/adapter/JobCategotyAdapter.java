@@ -11,6 +11,7 @@ import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.model.Job_Model;
 import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.JobDetail;
+import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.holder.JobHolder;
 
 import java.io.Serializable;
@@ -52,6 +53,8 @@ public class JobCategotyAdapter extends RecyclerView.Adapter<JobHolder> {
                 goDetail.putExtra("shiftWorks", (Serializable) job_models.get(position).getDateTimes());
                 goDetail.putExtra("workerUID", job_models.get(position).getWokerUID());
                 goDetail.putExtra("category", job_models.get(position).getCategory());
+                goDetail.putExtra("view_type", KeyValueFirebase.VIEW_JOBDETAILS);
+                goDetail.putExtra("workerID", job_models.get(position).getWokerUID());
                 context.startActivity(goDetail);
             }
         });

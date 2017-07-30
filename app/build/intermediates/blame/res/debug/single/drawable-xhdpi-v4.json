@@ -4,6 +4,14 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_mic_black_24dp.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\drawable-xhdpi-v4\\ic_mic_black_24dp.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_logo.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\drawable-xhdpi-v4\\ic_logo.png"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -76,6 +84,10 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_arrow_back_black_24dp.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\drawable-xhdpi-v4\\ic_arrow_back_black_24dp.png"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
@@ -112,12 +124,20 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_mic.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\drawable-xhdpi-v4\\ic_mic.png"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_clear_black_24dp.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\drawable-xhdpi-v4\\ic_clear_black_24dp.png"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
@@ -144,12 +164,20 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_history_black_24dp.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\drawable-xhdpi-v4\\ic_history_black_24dp.png"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_search_black_24dp.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\drawable-xhdpi-v4\\ic_search_black_24dp.png"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",

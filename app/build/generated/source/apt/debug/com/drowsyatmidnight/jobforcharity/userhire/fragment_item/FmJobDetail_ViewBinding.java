@@ -26,6 +26,7 @@ public class FmJobDetail_ViewBinding implements Unbinder {
     target.lvJobDetailDateTime = Utils.findRequiredViewAsType(source, R.id.lvJobDetailDateTime, "field 'lvJobDetailDateTime'", ExpandableListView.class);
     target.btnRentJob = Utils.findRequiredViewAsType(source, R.id.btnRentJob, "field 'btnRentJob'", Button.class);
     target.scroll1 = Utils.findRequiredViewAsType(source, R.id.scroll1, "field 'scroll1'", NestedScrollView.class);
+    target.btnCancelJob = Utils.findRequiredViewAsType(source, R.id.btnCancelJob, "field 'btnCancelJob'", Button.class);
   }
 
   @Override
@@ -40,5 +41,6 @@ public class FmJobDetail_ViewBinding implements Unbinder {
     target.lvJobDetailDateTime = null;
     target.btnRentJob = null;
     target.scroll1 = null;
+    target.btnCancelJob = null;
   }
 }

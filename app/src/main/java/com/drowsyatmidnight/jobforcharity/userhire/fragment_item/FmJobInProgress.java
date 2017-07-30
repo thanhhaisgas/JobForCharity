@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.model.Job_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
-import com.drowsyatmidnight.jobforcharity.userhire.adapter.JobInProGressAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,10 +27,15 @@ public class FmJobInProgress extends Fragment {
     @BindView(R.id.lvJobInProgress)
     RecyclerView lvJobInProgress;
 
-    private JobInProGressAdapter jobInProGressAdapter;
-    List<Job_Model> job_models;
+    private List<Job_Model> job_models;
 
     private View rootView;
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        setUpView();
+    }
 
     @Nullable
     @Override
@@ -44,7 +48,6 @@ public class FmJobInProgress extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         ButterKnife.bind(this, view);
-        setUpView();
     }
 
     private void setUpView() {

@@ -16,10 +16,11 @@ ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManife
 application
 ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:5:5-43:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\haint\.android\build-cache\dd8d201fb583c37fb5c345301fee4409676a72b4\output\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\haint\.android\build-cache\43f3f9be291c835601acf809f4021970f9819e9d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.lapism:searchview:4.0] C:\Users\haint\.android\build-cache\2634e3cf01a253589c309b3b9c904549ebec8153\output\AndroidManifest.xml:11:5-47
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:26:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\haint\.android\build-cache\43f3f9be291c835601acf809f4021970f9819e9d\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\haint\.android\build-cache\9ee98fdfdcb2d541995dc22ee073b21dbd81c33e\output\AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.firebase:firebase-config:11.0.2] C:\Users\haint\.android\build-cache\e3d20ae732a7c25312e7bb02ddd7b1a861949819\output\AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\d1360b21d3c358649cc1569d09a5c6916afc5886\output\AndroidManifest.xml:19:5-26:19
@@ -120,11 +121,12 @@ ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManife
 uses-sdk
 INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\haint\.android\build-cache\dd8d201fb583c37fb5c345301fee4409676a72b4\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:20:5-43
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\haint\.android\build-cache\43f3f9be291c835601acf809f4021970f9819e9d\output\AndroidManifest.xml:5:5-7:41
 MERGED from [me.relex:circleindicator:1.2.2] C:\Users\haint\.android\build-cache\26aabe29fcf264fb7e189ab6f941d4773f463ab5\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.lapism:searchview:4.0] C:\Users\haint\.android\build-cache\2634e3cf01a253589c309b3b9c904549ebec8153\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:20:5-44
 MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\haint\.android\build-cache\2d746c97d6ed189206efd1557248adae2f20c168\output\AndroidManifest.xml:5:5-43
 MERGED from [com.google.firebase:firebase-storage:11.0.2] C:\Users\haint\.android\build-cache\60a0b9a0d77cfff2a71180b01961da2ef2f61bba\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-storage-common:11.0.2] C:\Users\haint\.android\build-cache\43c22f3135174d4b8e782ba17a0a55e5369db137\output\AndroidManifest.xml:3:5-43
@@ -170,9 +172,9 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\haint\.android\
 		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\haint\.android\build-cache\6caa42be79a79888f62d308cc7d8673c5b3b41d8\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\2e9b71a0bc03360d6c0d2540a11ddcdbb6af0ed3\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\16d78c14b145014fff95fa609cc1605131ec5c25\output\AndroidManifest.xml:22:5-24:34
@@ -184,9 +186,9 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\haint\.android
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\haint\.android\build-cache\8744fc5e97736f512e799a4a880ab02d48d4cf94\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\haint\.android\build-cache\12fccd9c957f73017591c5064030259affd83c64\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:24:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:23:9-47
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\d1360b21d3c358649cc1569d09a5c6916afc5886\output\AndroidManifest.xml:18:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\f49fc7d9aa68d40c393cc169ea92a5be3ac3f780\output\AndroidManifest.xml:19:5-66

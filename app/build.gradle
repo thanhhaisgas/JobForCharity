@@ -35,6 +35,7 @@ dependencies {
 
 
     compile 'me.relex:circleindicator:1.2.2@aar'
+    compile 'com.lapism:searchview:4.0'
 
     //ButerKnife
     compile 'com.jakewharton:butterknife:8.6.0'
