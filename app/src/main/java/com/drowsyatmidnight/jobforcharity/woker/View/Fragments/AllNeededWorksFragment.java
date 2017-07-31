@@ -51,8 +51,6 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
     final int PROGRESSING_WORK_VIEW_MODE = 0;
     final int HISTORY_VIEW_MODE = -1;
 
-
-
     @BindView(R.id.exListJob)
     ExpandableListView mExpandableListView;
 
@@ -90,6 +88,12 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
             public boolean onTouch(View v, MotionEvent event) {
                 v.getParent().requestDisallowInterceptTouchEvent(true);
                 return false;
+            }
+        });
+        mExpandableListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
+            @Override
+            public void onGroupExpand(int groupPosition) {
+
             }
         });
 
@@ -140,43 +144,7 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
 
                     String mWorkerUID = (String) dsp.child("workerUID").getValue();
                     String mWorkName = (String) dsp.child("workName").getValue();
-                    /*if(countRun>=1) {
-                        for (Job_Model job : listJob) {
-                            if (job.getWorkName().equals(mWorkName)) {
-                                for (DataSnapshot dateSp : dsp.child("DateTimes").getChildren()) {
-                                    String hirerUID = (String) dateSp.child("hirerUID").getValue();
-                                    for (ShiftWork_Model shiftwork : job.getDateTimes()) {
-                                        if (dateSp.child("DateTimeID").getValue().equals(shiftwork.getDateTimeID())) {
-                                            if (!dateSp.child("hirerUID").getValue().equals(shiftwork.getHirerUID())) {
 
-                                                String DateTimeID = dateSp.child("DateTimeID").getValue().toString();
-                                                String category = (String) dsp.child("category").getValue();
-                                                String workName = (String) dsp.child("workName").getValue();
-                                                String description = (String) dsp.child("description").getValue();
-
-                                                String Date = (String) dateSp.child("date").getValue();
-                                                String mEndTime = (String) dateSp.child("endTime").getValue();
-                                                String mBeginTime = (String) dateSp.child("beginTime").getValue();
-                                                String mHirerUID = (String) dateSp.child("hirerUID").getValue();
-                                                String mStatus = (String) dateSp.child("status").getValue();
-
-                                                ShiftWork_Model shiftWork_model = new ShiftWork_Model();
-                                                shiftWork_model.setDateTimeID(DateTimeID);
-                                                shiftWork_model.setDate(Date);
-                                                shiftWork_model.setHirerUID(mHirerUID);
-                                                shiftWork_model.setBeginTime(mBeginTime);
-                                                shiftWork_model.setEndTime(mEndTime);
-                                                shiftWork_model.setStatus(mStatus);
-
-                                                comm = (Communicator) getActivity();
-                                                comm.onDateTimeChanged(new Work(category, workName, description), shiftWork_model);
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }*/
                     if (mWorkerUID.equals(Authority.sFirebaseAuth.getCurrentUser().getUid())) {
                         List<ShiftWork_Model> listDate = new ArrayList<>();
                         // List<Job_Model> listJob = new ArrayList<>();
@@ -184,27 +152,6 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
                         for (DataSnapshot date : dsp.child("DateTimes").getChildren()) {
                             ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
                             listDate.add(shiftWork_model);
-
-
-
-                                    /*if(countRun==0) {
-                                        comm = (Communicator) getActivity();
-                                        comm.onDateTimeChanged(null,null);
-
-                                    }
-                                    else {
-
-                                        String category = (String) dsp.child("category").getValue();
-                                        String workName = (String) dsp.child("workName").getValue();
-
-                                        String description = (String) dsp.child("description").getValue();
-
-
-                                        comm = (Communicator) getActivity();
-                                        comm.onDateTimeChanged(new Work(category,workName,description),shiftWork_model);
-
-                                }*/
-
 
                         }
                         String category = (String) dsp.child("category").getValue();

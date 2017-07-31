@@ -8,6 +8,9 @@ import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -17,6 +20,7 @@ import android.support.design.widget.CoordinatorLayout;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -61,7 +65,9 @@ public class CreateWorkBottomSheetDialogFragment extends BottomSheetDialogFragme
     EditText txtInputDate;
     EditText txtInputBeginTime;
     EditText txtInputEndTime;
+    EditText txtInputSalary;
 
+    ImageButton btnDeleteDateTime;
     Button btnPostJob;
     Spinner spCategories;
 
@@ -95,6 +101,8 @@ public class CreateWorkBottomSheetDialogFragment extends BottomSheetDialogFragme
         View inflatedView = View.inflate(getContext(), R.layout.activity_create_job, null);
         dialog.setContentView(inflatedView);
 
+        btnDeleteDateTime = (ImageButton) inflatedView.findViewById(R.id.btnDeleteDateTime);
+        txtInputSalary = (EditText) inflatedView.findViewById(R.id.txtInputSalary);
         btnPostJob = (Button) inflatedView.findViewById(R.id.btnPostJob);
         txtJobDetail = (EditText) inflatedView.findViewById(R.id.txtJobDetail);
         txtJobName = (EditText) inflatedView.findViewById(R.id.txtInputJobName);
@@ -216,10 +224,8 @@ public class CreateWorkBottomSheetDialogFragment extends BottomSheetDialogFragme
                                                 public void onDataChange(DataSnapshot dataSnapshot) {
                                                     for (DataSnapshot dsp : dataSnapshot.getChildren()) {
                                                         String DateTimeID = dsp.getKey();
-                                                        mFirebaseDatabaseReference.child("JOBS").child(key)
-                                                                .child("DateTimes").child(DateTimeID)
-                                                                .child("DateTimeID").setValue(DateTimeID);
-
+                                                        dsp.getRef().child("DateTimeID").setValue(DateTimeID);
+                                                        dsp.getRef().child("deletedStatus").setValue("false");
 
                                                         /*String category = (String) dsp.child("category").getValue();
                                                         String workName = (String) dsp.child("workName").getValue();
@@ -240,6 +246,27 @@ public class CreateWorkBottomSheetDialogFragment extends BottomSheetDialogFragme
                                                         shiftWork_model.setStatus(mStatus);
                                                         comm = (Communicator) getActivity();
                                                         comm.onDateTimeChanged(new Work(category,workName,description),shiftWork_model);*/
+                                                    }
+                                                }
+
+                                                @Override
+                                                public void onCancelled(DatabaseError databaseError) {
+
+                                                }
+                                            });
+
+                                            //put delected status to datetimeid
+
+                                            mFirebaseDatabaseReference.child("JOBS").child(key)
+                                                    .child("DateTimes").addListenerForSingleValueEvent(new ValueEventListener() {
+                                                @Override
+                                                public void onDataChange(DataSnapshot dataSnapshot) {
+                                                    for (DataSnapshot dsp : dataSnapshot.getChildren()) {
+                                                        String DateTimeID = dsp.getKey();
+
+                                                        dsp.getRef().child("deletedStatus").setValue("false");
+
+
                                                     }
                                                 }
 
@@ -311,13 +338,22 @@ public class CreateWorkBottomSheetDialogFragment extends BottomSheetDialogFragme
                 onTimeClicked(v, txtInputEndTime);
             }
         });
-
+        btnDeleteDateTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("an: delete clicked","true");
+                for (int i:mDatetimeAdapter.indexSelected)
+                    mDatetimeList.remove(i);
+                mDatetimeAdapter.notifyDataSetChanged();
+            }
+        });
         btnAddDateTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String Date = txtInputDate.getText().toString();
                 String EndTime = txtInputEndTime.getText().toString();
                 String BeginTime = txtInputBeginTime.getText().toString();
+                String Salary = txtInputSalary.getText().toString();
                 Work.Datetime mDatetime = new Work.Datetime();
 
                 mDatetime.setStatus("available");
@@ -325,6 +361,7 @@ public class CreateWorkBottomSheetDialogFragment extends BottomSheetDialogFragme
                 mDatetime.setBeginTime(BeginTime);
                 mDatetime.setEndTime(EndTime);
                 mDatetime.setHirerUID("");
+                mDatetime.setSalary(Salary);
 
                 mDatetimeList.add(mDatetime);
                 // Sort datetimelist base on date

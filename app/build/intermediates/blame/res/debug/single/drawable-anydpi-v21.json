@@ -4,12 +4,44 @@
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_search.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_view_list_24dp.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_view_list_24dp.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_account_circle_24dp.xml",
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_account_circle_24dp.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_delete_24dp.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_delete_24dp.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_history_white_24dp.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_history_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_work_in_progress.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_work_in_progress.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_work_white_24dp.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_work_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_email.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_email.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_attach_money_24dp.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_attach_money_24dp.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_failed_white_24dp.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_failed_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_view_list_24dp.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_view_list_24dp.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_playlist_finished_white_24dp.xml",
@@ -28,16 +60,8 @@
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_logout_24dp.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_history_white_24dp.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_history_white_24dp.xml"
-    },
-    {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_work_in_progress.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_work_in_progress.xml"
-    },
-    {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_work_white_24dp.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_work_white_24dp.xml"
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_access_time_24dp.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_access_time_24dp.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_category.xml",
@@ -52,16 +76,8 @@
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_phone.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_list_white_24dp.xml",
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_list_white_24dp.xml"
-    },
-    {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/icon_email.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_email.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_playlist_play_white_24dp.xml",
@@ -70,10 +86,6 @@
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_info_white_24dp.xml",
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_info_white_24dp.xml"
-    },
-    {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_failed_white_24dp.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_failed_white_24dp.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_info_outline_black_24dp.xml",

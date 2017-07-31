@@ -92,6 +92,16 @@ public class Work {
         private String BeginTime;
         private String EndTime;
 
+        public String getSalary() {
+            return Salary;
+        }
+
+        public void setSalary(String salary) {
+            Salary = "$"+salary;
+        }
+
+        private String Salary;
+
         public String getStatus() {
             return Status;
         }

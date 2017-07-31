@@ -3,6 +3,8 @@ package com.drowsyatmidnight.jobforcharity.woker.View.Adapters;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
+import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -24,11 +26,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WorkAdapter extends BaseExpandableListAdapter {
-
+    final static String WORKLIST_KEY = "worklist";
 
     List<Job_Model> mJobModelList;
     Context mContext;
     Activity mActivity;
+    public String jobID="";
+
 
     public WorkAdapter(List<Job_Model> jobModelList, Context context) {
         mJobModelList = jobModelList;
@@ -73,7 +77,7 @@ public class WorkAdapter extends BaseExpandableListAdapter {
     }
 
     @Override
-    public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
+    public View getGroupView(final int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
         String headerTitle = mJobModelList.get(groupPosition).getWorkName();
         if (convertView == null) {
             LayoutInflater infalInflater = (LayoutInflater) mContext
@@ -92,7 +96,9 @@ public class WorkAdapter extends BaseExpandableListAdapter {
             @Override
             public void onClick(View v) {
 
-                DetailMyWorkFragment fragment = new DetailMyWorkFragment();
+                DetailMyWorkFragment fragment = DetailMyWorkFragment.newInstance((Job_Model) getGroup(groupPosition));
+                Bundle mBundle = new Bundle();
+
                 FragmentManager manager = ((FragmentActivity)mContext).getSupportFragmentManager();
                 FragmentTransaction transaction = manager.beginTransaction();
                 transaction.replace(R.id.mywork_container, fragment);
@@ -112,6 +118,7 @@ public class WorkAdapter extends BaseExpandableListAdapter {
         final String beginTime = mJobModelList.get(groupPosition).getDateTimes().get(childPosition).getBeginTime();
         final String endTime = mJobModelList.get(groupPosition).getDateTimes().get(childPosition).getEndTime();
         final String status = mJobModelList.get(groupPosition).getDateTimes().get(childPosition).getStatus();
+        final String salary = mJobModelList.get(groupPosition).getDateTimes().get(childPosition).getSalary();
 
         if (convertView == null) {
             LayoutInflater infalInflater = (LayoutInflater) mContext
@@ -126,13 +133,14 @@ public class WorkAdapter extends BaseExpandableListAdapter {
                 .findViewById(R.id.item_endtime);
         TextView txtStatus = (TextView) convertView
                 .findViewById(R.id.item_datetime_status);
+        TextView txtSalary = (TextView) convertView.findViewById(R.id.item_salary);
 
 
         txtDate.setText(mDate);
         txtBeginTime.setText(beginTime);
         txtEndTime.setText(endTime);
         txtStatus.setText(status);
-
+        txtSalary.setText(salary);
 
 
         return convertView;

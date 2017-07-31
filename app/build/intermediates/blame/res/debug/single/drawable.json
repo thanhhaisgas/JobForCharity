@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable/icon_category_other.png",
-        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/drawable/icon_category_other.png"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable/icon_category_other.png",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/drawable/icon_category_other.png"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
@@ -16,12 +16,12 @@
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/drawable/linear_border.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable/white_radius.xml",
-        "source": "/Users/davidtran/.android/build-cache/69fc4b2365f6d175ff80579d76ffc63fc3b4cf50/output/res/drawable/white_radius.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable/white_radius.xml",
+        "source": "/Users/davidtran/.android/build-cache/69fc4b2365f6d175ff80579d76ffc63fc3b4cf50/output/res/drawable/white_radius.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",

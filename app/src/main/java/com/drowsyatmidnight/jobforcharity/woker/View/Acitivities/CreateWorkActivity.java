@@ -22,6 +22,7 @@ import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
 import com.drowsyatmidnight.jobforcharity.woker.Presenter.CreateWorkPresenter;
 import com.drowsyatmidnight.jobforcharity.woker.View.Adapters.DatetimeAdapter;
 import com.drowsyatmidnight.jobforcharity.login.Authority;
+import com.drowsyatmidnight.jobforcharity.woker.View.Utils.CommDateTimeAdapter;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
@@ -45,11 +46,12 @@ import java.util.List;
  * Created by davidtran on 7/16/17.
  */
 
-public class CreateWorkActivity extends AppCompatActivity {
+public class CreateWorkActivity extends AppCompatActivity  {
 
     CreateWorkPresenter mCreateWorkPresenter;
     List<Work.Datetime> mDatetimeList;
     ListView lvDatetime;
+
 
     EditText txtInputDate;
     EditText txtInputBeginTime;
@@ -62,6 +64,7 @@ public class CreateWorkActivity extends AppCompatActivity {
     EditText txtJobDetail;
 
     ImageButton btnAddDateTime;
+    ImageButton btnDeleteDateTime;
     Calendar mCalendar = Calendar.getInstance();
     DatetimeAdapter mDatetimeAdapter;
     Work mWork = new Work();
@@ -70,6 +73,8 @@ public class CreateWorkActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_job);
+
+        btnDeleteDateTime = (ImageButton) findViewById(R.id.btnDeleteDateTime);
 
         btnPostJob = (Button) findViewById(R.id.btnPostJob);
         txtJobDetail = (EditText) findViewById(R.id.txtJobDetail);
@@ -224,6 +229,7 @@ public class CreateWorkActivity extends AppCompatActivity {
 
         //Setup datetime listview
       mDatetimeAdapter = new DatetimeAdapter(mDatetimeList,this);
+
         lvDatetime.setAdapter(mDatetimeAdapter);
 
     }
@@ -249,32 +255,14 @@ public class CreateWorkActivity extends AppCompatActivity {
             }
         });
 
-        btnAddDateTime.setOnClickListener(new View.OnClickListener() {
+
+        btnDeleteDateTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String Date = txtInputDate.getText().toString();
-                String EndTime = txtInputEndTime.getText().toString();
-                String BeginTime = txtInputBeginTime.getText().toString();
-                Work.Datetime mDatetime = new Work.Datetime();
-
-                mDatetime.setStatus("available");
-                mDatetime.setDate(Date);
-                mDatetime.setBeginTime(BeginTime);
-                mDatetime.setEndTime(EndTime);
-                mDatetime.setHirerUID("");
-
-                mDatetimeList.add(mDatetime);
-                // Sort datetimelist base on date
-                Collections.sort(mDatetimeList, new Comparator<Work.Datetime>() {
-                    @Override
-                    public int compare(Work.Datetime o1, Work.Datetime o2) {
-                        return o1.getDate().compareTo(o2.getDate());
-                    }
-                });
+                Log.d("an: delete clicked","true");
+                for (int i:mDatetimeAdapter.indexSelected)
+                mDatetimeList.remove(i);
                 mDatetimeAdapter.notifyDataSetChanged();
-
-
-
             }
         });
         btnPostJob.setOnClickListener(new View.OnClickListener() {
@@ -329,4 +317,16 @@ public class CreateWorkActivity extends AppCompatActivity {
   /*      mDatePickerDialog.setTitle("Select Date");
         mDatePickerDialog.show();*/
     }
+
+
+    /*@Override
+    public void onSelectDateTime(final List<Integer> selectedIndex) {
+        btnDeleteDateTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDatetimeList.remove(selectedIndex);
+                mDatetimeAdapter.notifyDataSetChanged();
+            }
+        });
+    }*/
 }

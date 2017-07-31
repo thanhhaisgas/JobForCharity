@@ -1,14 +1,20 @@
 package com.drowsyatmidnight.jobforcharity.woker.View.Adapters;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
+import com.drowsyatmidnight.jobforcharity.woker.View.Utils.CommDateTimeAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,9 +24,12 @@ import java.util.List;
  */
 
 public class DatetimeAdapter extends BaseAdapter {
+    ArrayList<Integer> selectedIndexs = new ArrayList<>();
     List<Work.Datetime> mDatetimeList = new ArrayList<>();
+    public List<Integer> indexSelected = new ArrayList<>();
     Context mContext;
-    public DatetimeAdapter(List<Work.Datetime> datetimeList,Context context) {
+    CommDateTimeAdapter mCommDateTimeAdapter = null;
+    public DatetimeAdapter(List<Work.Datetime> datetimeList, Context context) {
     this.mDatetimeList = datetimeList;
         mContext = context;
     }
@@ -45,6 +54,7 @@ public class DatetimeAdapter extends BaseAdapter {
         TextView tvDate;
         TextView tvBeginTime;
         TextView tvEndTime;
+        TextView tvSalary;
     }
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
@@ -73,14 +83,53 @@ public class DatetimeAdapter extends BaseAdapter {
             result=convertView;
         }
 
-        viewHolder.tvDate.setText(mDatetimeList.get(position).getDate()+"  " + mDatetimeList.get(position).getBeginTime()
-                +"  " + mDatetimeList.get(position).getBeginTime());
+        viewHolder.tvDate.setText(mDatetimeList.get(position).getDate()+"    " + mDatetimeList.get(position).getBeginTime()
+                +"   " + mDatetimeList.get(position).getEndTime()+"    "+mDatetimeList.get(position).getSalary());
 
         //viewHolder.tvBeginTime.setText(mDatetimeList.get(position).getBeginTime());
 
         //viewHolder.tvEndTime.setText(mDatetimeList.get(position).getEndTime());
 
         // Return the completed view to render on screen
+
+
+        onItemSelectedListener(convertView,position);
         return convertView;
+    }
+
+    private void onItemSelectedListener(View view, final int pos){
+        final View convertView = view;
+        final LinearLayout mLinearLayout = (LinearLayout) convertView.findViewById(R.id.linearDateTime);
+        mLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                int color=0;
+                int check = -5317;
+                Drawable d = mLinearLayout.getBackground();
+                if (d instanceof ColorDrawable)
+                    color = ((ColorDrawable) d).getColor();
+                if(color==check){
+
+                    mLinearLayout.setBackgroundColor(Color.TRANSPARENT);
+                }else {
+                    mLinearLayout.setBackgroundColor(convertView.getResources().getColor(R.color.yellow));
+
+                }
+            }
+        });
+        storeSelectedData(pos);
+    }
+    private void storeSelectedData(int pos){
+
+        for (int i: indexSelected) {
+            if(i==pos) {
+                indexSelected.remove(i);
+                return;
+            }
+        }
+        indexSelected.add(pos);
+
     }
 }

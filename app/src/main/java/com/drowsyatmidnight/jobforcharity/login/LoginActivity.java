@@ -20,7 +20,6 @@ import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.Home_UserHire;
 import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 
-import com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.CreateWorkActivity;
 import com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MainActivity;
 import com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MyWorksMngmntActivity;
 import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.AllNeededWorksFragment;
