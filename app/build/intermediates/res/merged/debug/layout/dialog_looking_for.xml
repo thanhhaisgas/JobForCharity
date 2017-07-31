@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_dialog">
+    android:background="@drawable/background_login">
 
     <ImageView
         android:layout_width="match_parent"
@@ -11,6 +11,7 @@
         android:background="@color/moredark_transparent"/>
 
     <LinearLayout
+        android:id="@+id/viewSelectRole"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -24,9 +25,9 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@color/user1"
+                android:layout_width="match_parent"
+                android:background="@color/white_transparent"
                 android:gravity="center_horizontal|center_vertical"
                 android:text="I want to hire a freelancer"
                 android:textSize="@dimen/dp30"/>
@@ -43,7 +44,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:background="@color/user1"
+                android:background="@color/white_transparent"
                 android:gravity="center_horizontal|center_vertical"
                 android:text="I'm looking for online work"
                 android:textSize="@dimen/dp30"/>

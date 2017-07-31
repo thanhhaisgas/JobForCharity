@@ -52,17 +52,17 @@ public final class R {
         public static final int userInputValue = 0x7f010140;
     }
     public static final class color {
-        public static final int common_google_signin_btn_text_dark = 0x7f0c0098;
+        public static final int common_google_signin_btn_text_dark = 0x7f0c0099;
         public static final int common_google_signin_btn_text_dark_default = 0x7f0c0023;
         public static final int common_google_signin_btn_text_dark_disabled = 0x7f0c0024;
         public static final int common_google_signin_btn_text_dark_focused = 0x7f0c0025;
         public static final int common_google_signin_btn_text_dark_pressed = 0x7f0c0026;
-        public static final int common_google_signin_btn_text_light = 0x7f0c0099;
+        public static final int common_google_signin_btn_text_light = 0x7f0c009a;
         public static final int common_google_signin_btn_text_light_default = 0x7f0c0027;
         public static final int common_google_signin_btn_text_light_disabled = 0x7f0c0028;
         public static final int common_google_signin_btn_text_light_focused = 0x7f0c0029;
         public static final int common_google_signin_btn_text_light_pressed = 0x7f0c002a;
-        public static final int common_google_signin_btn_tint = 0x7f0c009a;
+        public static final int common_google_signin_btn_tint = 0x7f0c009b;
     }
     public static final class drawable {
         public static final int common_full_open_on_phone = 0x7f020059;
@@ -117,15 +117,15 @@ public final class R {
         public static final int omnibox_title_section = 0x7f0e0071;
         public static final int omnibox_url_section = 0x7f0e0072;
         public static final int plain = 0x7f0e006a;
-        public static final int progressBar = 0x7f0e0153;
+        public static final int progressBar = 0x7f0e0157;
         public static final int radio = 0x7f0e0094;
         public static final int rfc822 = 0x7f0e006b;
         public static final int standard = 0x7f0e0074;
-        public static final int text = 0x7f0e0146;
+        public static final int text = 0x7f0e014a;
         public static final int text1 = 0x7f0e004d;
         public static final int text2 = 0x7f0e004e;
         public static final int thing_proto = 0x7f0e004f;
-        public static final int title_view = 0x7f0e0107;
+        public static final int title_view = 0x7f0e010b;
         public static final int toolbar = 0x7f0e0060;
         public static final int url = 0x7f0e006c;
         public static final int wide = 0x7f0e0075;

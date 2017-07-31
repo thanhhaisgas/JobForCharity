@@ -52,7 +52,7 @@ public class JobInProGressAdapter extends RecyclerView.Adapter<JobInProgressHold
             List<ShiftWork_Model> tempTime = (List<ShiftWork_Model>) m.getValue();
             tempDate += m.getKey()+"\n";
             for (ShiftWork_Model s : tempTime){
-                tempDate += "\t"+s.getBeginTime()+" - "+s.getEndTime()+"\n";
+                tempDate += "\t\t\t"+s.getBeginTime()+" - "+s.getEndTime()+"\t\t\t\t"+s.getSalary()+"\n";
             }
         }
         holder.txtJobDateInProgress.setText(tempDate);

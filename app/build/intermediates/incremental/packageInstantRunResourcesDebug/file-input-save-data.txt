@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jul 31 16:16:27 ICT 2017
+#Mon Jul 31 20:30:56 ICT 2017
 20.base=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\resources-debug.ap_
 439.set=ANDROID_RESOURCE

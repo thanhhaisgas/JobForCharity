@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,6 +34,12 @@ public class LoginActivity extends AppCompatActivity {
     Button btnSignIn;
     @BindView(R.id.txtSignUp)
     TextView txtSignUp;
+    @BindView(R.id.viewLogin)
+    LinearLayout viewLogin;
+    @BindView(R.id.employer)
+    LinearLayout viewEmployer;
+    @BindView(R.id.employee)
+    LinearLayout viewEmployee;
 
     private String EMail, Pass;
 
@@ -109,6 +116,7 @@ public class LoginActivity extends AppCompatActivity {
             progressDialog.setMessage("Please wait...");
             progressDialog.setCanceledOnTouchOutside(false);
             progressDialog.show();
+            viewLogin.setVisibility(View.GONE);
             loginService.loginAcountEmail(EMail, Pass, new LoginService.LoginListener() {
                 @Override
                 public void loginSuccess() {
@@ -116,14 +124,24 @@ public class LoginActivity extends AppCompatActivity {
 
                     KeyValueFirebase.UID = user.getUid();
                     DataFirebase.createCategories(getResources().getStringArray(R.array.listCategoryName));
-                    Intent goHomeUserHire = new Intent(LoginActivity.this, Home_UserHire.class);
-                    startActivity(goHomeUserHire);
+                    viewEmployer.setVisibility(View.VISIBLE);
+                    viewEmployee.setVisibility(View.VISIBLE);
+                    viewEmployer.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent goHomeUserHire = new Intent(LoginActivity.this, Home_UserHire.class);
+                            startActivity(goHomeUserHire);
+                        }
+                    });
 
                 }
 
                 @Override
                 public void loginFailure(String message) {
                     progressDialog.dismiss();
+                    viewLogin.setVisibility(View.VISIBLE);
+                    viewEmployer.setVisibility(View.GONE);
+                    viewEmployee.setVisibility(View.GONE);
                     Toast.makeText(LoginActivity.this, "Login failure", Toast.LENGTH_SHORT).show();
                 }
             });

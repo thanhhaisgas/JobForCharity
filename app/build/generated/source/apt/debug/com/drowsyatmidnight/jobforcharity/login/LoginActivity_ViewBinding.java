@@ -6,6 +6,7 @@ import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -29,6 +30,9 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.txtPass = Utils.findRequiredViewAsType(source, R.id.txtPass, "field 'txtPass'", EditText.class);
     target.btnSignIn = Utils.findRequiredViewAsType(source, R.id.btnSignIn, "field 'btnSignIn'", Button.class);
     target.txtSignUp = Utils.findRequiredViewAsType(source, R.id.txtSignUp, "field 'txtSignUp'", TextView.class);
+    target.viewLogin = Utils.findRequiredViewAsType(source, R.id.viewLogin, "field 'viewLogin'", LinearLayout.class);
+    target.viewEmployer = Utils.findRequiredViewAsType(source, R.id.employer, "field 'viewEmployer'", LinearLayout.class);
+    target.viewEmployee = Utils.findRequiredViewAsType(source, R.id.employee, "field 'viewEmployee'", LinearLayout.class);
   }
 
   @Override
@@ -42,5 +46,8 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.txtPass = null;
     target.btnSignIn = null;
     target.txtSignUp = null;
+    target.viewLogin = null;
+    target.viewEmployer = null;
+    target.viewEmployee = null;
   }
 }
