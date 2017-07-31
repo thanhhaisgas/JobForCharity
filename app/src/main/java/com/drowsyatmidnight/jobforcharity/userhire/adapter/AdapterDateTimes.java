@@ -65,6 +65,9 @@ public class AdapterDateTimes extends BaseExpandableListAdapter {
         TextView expandedListTextView2 = (TextView) convertView
                 .findViewById(R.id.txtJobDetailTimeEnd);
         expandedListTextView2.setText(expandedListText.getEndTime());
+        TextView txtJobDetailSalary = (TextView) convertView
+                .findViewById(R.id.txtJobDetailSalary);
+        txtJobDetailSalary.setText(expandedListText.getSalary());
         selectTime(convertView, listPosition, expandedListPosition);
         return convertView;
     }

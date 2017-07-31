@@ -55,12 +55,20 @@ public class ShiftWork_Model implements Serializable {
         this.hirerUID = hirerUID;
     }
 
+    public String getSalary() {
+        return Salary;
+    }
+
+    public void setSalary(String salary) {
+        Salary = salary;
+    }
+
     private String DateTimeID;
     private String Date;
     private String BeginTime;
     private String EndTime;
     private String Status;
     private String hirerUID;
-
+    private String Salary;
 
 }

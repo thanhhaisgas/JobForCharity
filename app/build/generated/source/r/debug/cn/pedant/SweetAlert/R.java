@@ -371,11 +371,11 @@ public final class R {
         public static final int error_circle = 0x7f020074;
         public static final int gray_button_background = 0x7f02007c;
         public static final int ic_launcher = 0x7f020091;
-        public static final int red_button_background = 0x7f0200b9;
-        public static final int success_bow = 0x7f0200bd;
-        public static final int success_circle = 0x7f0200be;
-        public static final int warning_circle = 0x7f0200c6;
-        public static final int warning_sigh = 0x7f0200c7;
+        public static final int red_button_background = 0x7f0200bd;
+        public static final int success_bow = 0x7f0200c1;
+        public static final int success_circle = 0x7f0200c2;
+        public static final int warning_circle = 0x7f0200ca;
+        public static final int warning_sigh = 0x7f0200cb;
     }
     public static final class id {
         public static final int action_bar = 0x7f0e009b;

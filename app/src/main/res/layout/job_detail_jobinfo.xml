@@ -8,6 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
         android:orientation="vertical">
 
         <LinearLayout
@@ -21,20 +22,19 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <TextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/job"
-                    android:textSize="@dimen/dp30"
-                    android:textColor="@android:color/black"/>
+                    android:src="@drawable/job_detail_job"/>
 
                 <TextView
                     android:id="@+id/detailNameJob"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="@dimen/dp8"
                     tool:text="Chay xe om"
-                    android:textSize="@dimen/dp30"
+                    android:textSize="@dimen/dp20"
                     android:textColor="@android:color/black"/>
 
             </LinearLayout>
@@ -43,13 +43,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="@dimen/dp18">
+                android:layout_marginTop="@dimen/dp15">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/description"
-                    android:textSize="@dimen/dp30"
+                    android:textSize="@dimen/dp20"
                     android:textColor="@android:color/black"/>
 
                 <TextView
@@ -57,10 +57,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tool:text="Chay xe om khu akj dfsdf sf df asf asf saf ff as fsf"
-                    android:textSize="@dimen/dp25"
+                    android:textSize="@dimen/dp18"
                     android:textColor="@android:color/black"/>
 
             </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="@dimen/dp15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/job_detail_schedule"/>
 
             <ExpandableListView
                 android:id="@+id/lvJobDetailDateTime"

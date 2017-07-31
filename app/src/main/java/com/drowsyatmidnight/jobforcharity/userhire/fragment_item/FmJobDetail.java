@@ -218,6 +218,7 @@ public class FmJobDetail extends Fragment{
         JobID = getArguments().getString("JobID");
         setUpTimes();
         setHeightLV();
+        lvJobDetailDateTime.bringToFront();
     }
 
     private void setHeightLV() {

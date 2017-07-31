@@ -117,11 +117,11 @@ public final class R {
         public static final int omnibox_title_section = 0x7f0e0071;
         public static final int omnibox_url_section = 0x7f0e0072;
         public static final int plain = 0x7f0e006a;
-        public static final int progressBar = 0x7f0e0152;
+        public static final int progressBar = 0x7f0e0153;
         public static final int radio = 0x7f0e0094;
         public static final int rfc822 = 0x7f0e006b;
         public static final int standard = 0x7f0e0074;
-        public static final int text = 0x7f0e0145;
+        public static final int text = 0x7f0e0146;
         public static final int text1 = 0x7f0e004d;
         public static final int text2 = 0x7f0e004e;
         public static final int thing_proto = 0x7f0e004f;
