@@ -3,6 +3,9 @@ package com.drowsyatmidnight.jobforcharity.userhire;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -24,6 +27,9 @@ public class Home_UserHire_ViewBinding implements Unbinder {
     this.target = target;
 
     target.searchViewHome = Utils.findRequiredViewAsType(source, R.id.searchViewHome, "field 'searchViewHome'", SearchView.class);
+    target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
+    target.drawer = Utils.findRequiredViewAsType(source, R.id.drawer_layout, "field 'drawer'", DrawerLayout.class);
+    target.navigationView = Utils.findRequiredViewAsType(source, R.id.nav_view, "field 'navigationView'", NavigationView.class);
   }
 
   @Override
@@ -34,5 +40,8 @@ public class Home_UserHire_ViewBinding implements Unbinder {
     this.target = null;
 
     target.searchViewHome = null;
+    target.toolbar = null;
+    target.drawer = null;
+    target.navigationView = null;
   }
 }

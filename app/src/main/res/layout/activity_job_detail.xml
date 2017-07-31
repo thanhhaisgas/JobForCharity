@@ -2,6 +2,7 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
@@ -17,7 +18,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:tabMode="fixed"
-            app:tabGravity="fill" />
+            app:tabGravity="fill"
+            app:tabTextColor="@android:color/darker_gray"
+            app:tabSelectedTextColor="@color/colorAccentUserHirer"
+            android:background="@android:color/black"/>
 
         <android.support.v4.view.ViewPager
             android:id="@+id/vpJobDetail"
@@ -40,6 +44,7 @@
                 android:id="@+id/toolbarJobDetail"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
+                app:theme="@style/colorArrow"
                 app:layout_collapseMode="pin"/>
 
             <FrameLayout
@@ -57,7 +62,7 @@
                     android:id="@+id/imgBlackTrans"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
-                    tool:background="@android:drawable/screen_background_dark_transparent"/>
+                    android:background="@color/verydark_transparent"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -88,6 +93,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
+                        android:visibility="gone"
                         android:layout_marginTop="@dimen/dp8">
                         <ImageView
                             android:layout_width="wrap_content"
@@ -108,6 +114,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
+                        android:visibility="gone"
                         android:layout_marginTop="@dimen/dp5">
                         <ImageView
                             android:layout_width="wrap_content"
@@ -124,26 +131,31 @@
                             android:layout_gravity="bottom"/>
                     </LinearLayout>
 
-                    <RatingBar
-                        android:id="@+id/rateBar"
+                    <FrameLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:scaleX="0.8"
-                        android:scaleY="0.8"
-                        android:numStars="5"
-                        tool:rating="4.5"
-                        android:theme="@style/RatingBar"
-                        android:isIndicator="true"
-                        android:layout_marginTop="@dimen/dp8"/>
+                        android:layout_height="wrap_content">
+                        <RatingBar
+                            android:id="@+id/rateBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleX="0.5"
+                            android:scaleY="0.5"
+                            android:numStars="5"
+                            tool:rating="4.5"
+                            android:theme="@style/RatingBar"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:isIndicator="true"/>
 
-                    <TextView
-                        android:id="@+id/txtCountRate"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/dp8"
-                        android:textSize="@dimen/dp15"
-                        android:textColor="@android:color/white"
-                        tool:text="(177 reviews)"/>
+                        <TextView
+                            android:id="@+id/txtCountRate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/dp15"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:textColor="@android:color/white"
+                            android:layout_gravity="center_horizontal"
+                            tool:text="(177 reviews)"/>
+                    </FrameLayout>
 
                 </LinearLayout>
 
@@ -152,5 +164,19 @@
         </android.support.design.widget.CollapsingToolbarLayout>
 
     </android.support.design.widget.AppBarLayout>
+
+    <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:id="@+id/fabButtonDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:fabDrawable="@drawable/fab_icon"
+        app:touchGuardDrawable="@color/verydark_transparent"
+        app:fabBackgroundTint="@color/colorPrimaryDarkUserHirer"
+        app:fabGravity="bottom_end"
+        app:fabMenu="@menu/action_menu"
+        app:miniFabTitleTextColorList="@array/fab_menu_item_colors"
+        app:miniFabBackgroundTintList="@array/fab_menu_item_colors"
+        app:miniFabDrawableTint="@android:color/white"/>
 
 </android.support.design.widget.CoordinatorLayout>

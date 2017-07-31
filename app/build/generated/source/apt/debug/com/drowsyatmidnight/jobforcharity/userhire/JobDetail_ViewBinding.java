@@ -5,6 +5,7 @@ import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
@@ -15,6 +16,7 @@ import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.drowsyatmidnight.jobforcharity.R;
+import io.github.yavski.fabspeeddial.FabSpeedDial;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -42,6 +44,9 @@ public class JobDetail_ViewBinding implements Unbinder {
     target.txtCountRate = Utils.findRequiredViewAsType(source, R.id.txtCountRate, "field 'txtCountRate'", TextView.class);
     target.appBarJobDetail = Utils.findRequiredViewAsType(source, R.id.appBarJobDetail, "field 'appBarJobDetail'", AppBarLayout.class);
     target.collapsingToolbarDetail = Utils.findRequiredViewAsType(source, R.id.collapsingToolbarDetail, "field 'collapsingToolbarDetail'", CollapsingToolbarLayout.class);
+    target.fabButtonDetail = Utils.findRequiredViewAsType(source, R.id.fabButtonDetail, "field 'fabButtonDetail'", FabSpeedDial.class);
+    target.coordinatorLayout = Utils.findRequiredViewAsType(source, R.id.coordinatorLayout, "field 'coordinatorLayout'", CoordinatorLayout.class);
+    target.imgBlackTrans = Utils.findRequiredViewAsType(source, R.id.imgBlackTrans, "field 'imgBlackTrans'", ImageView.class);
   }
 
   @Override
@@ -63,5 +68,8 @@ public class JobDetail_ViewBinding implements Unbinder {
     target.txtCountRate = null;
     target.appBarJobDetail = null;
     target.collapsingToolbarDetail = null;
+    target.fabButtonDetail = null;
+    target.coordinatorLayout = null;
+    target.imgBlackTrans = null;
   }
 }

@@ -164,6 +164,10 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\a2549344e06dfa7ddca722dee7ca9cc3e7da57b4\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\239f84f98418a190098f5f2c6f6d00b50e6b5446\\output\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_history_black_24dp.png",
         "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\drawable-xhdpi-v4\\ic_history_black_24dp.png"
     },

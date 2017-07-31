@@ -12,11 +12,29 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\haint\.android\build-cache\239f84f98418a190098f5f2c6f6d00b50e6b5446\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_523a9cc4135da694d43f7872ce68ad1cd17d31fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\haint\.android\build-cache\7f915fe4ffed73513e3c945c2422a86c87431733\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_78fa06dc42c31c5d450e444fc438d0f03fceb28a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="c8bfa2d5f36d95011fcb3c405a9925cbb161c9f2">
+        sha1="ddf36a8b8b837875c8df95f9b5bdcd70e404dd89">
         <dex dex="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_61a4a985d71f4b0ff3864544340b488ce311c3ac\classes.dex" />
     </item>
 

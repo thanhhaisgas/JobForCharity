@@ -45,7 +45,7 @@ public class DataFirebase {
                 txtPhoneNumDetail.setText(user_model.getMobilePhone());
                 txtEmailDetail.setText(user_model.getEmail());
                 ratingBar.setRating(Float.parseFloat(user_model.getRate()));
-                txtCountRate.setText(user_model.getCountRate());
+                txtCountRate.setText(user_model.getCountRate()+" reviews");
             }
 
             @Override
@@ -300,13 +300,15 @@ public class DataFirebase {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 List<Review_Model> review_models = new ArrayList<>();
                 for (DataSnapshot reviewModel : dataSnapshot.getChildren()){
-                    String hirerUID = (String) reviewModel.child("hirerUID").getValue();
                     String comment = (String) reviewModel.child("comment").getValue();
-                    String jobID = (String) reviewModel.child("jobID").getValue();
-                    String lName = (String) reviewModel.child("lName").getValue();
-                    String fName = (String) reviewModel.child("fName").getValue();
-                    Review_Model review_model = new Review_Model(hirerUID,comment,jobID,lName,fName);
-                    review_models.add(review_model);
+                    if(comment.trim().length()!=0){
+                        String hirerUID = (String) reviewModel.child("hirerUID").getValue();
+                        String jobID = (String) reviewModel.child("jobID").getValue();
+                        String lName = (String) reviewModel.child("lName").getValue();
+                        String fName = (String) reviewModel.child("fName").getValue();
+                        Review_Model review_model = new Review_Model(hirerUID,comment,jobID,lName,fName);
+                        review_models.add(review_model);
+                    }
                 }
                 if (review_models.size()>0){
                     Log.d("test", String.valueOf(review_models.size()));

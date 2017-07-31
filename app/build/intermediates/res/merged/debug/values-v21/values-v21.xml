@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
+    <dimen name="coordinator_layout_offset">@dimen/keyline_1</dimen>
+    <dimen name="fab_margin">@dimen/keyline_1</dimen>
+    <dimen name="fab_menu_item_margin_top">0dp</dimen>
+    <dimen name="mini_fab_margin_bottom">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="mini_fab_margin_left">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="mini_fab_margin_right">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="mini_fab_margin_top">@dimen/keyline_1_minus_8dp</dimen>
     <dimen name="notification_content_margin_start">0dp</dimen>
     <dimen name="notification_main_column_padding_top">0dp</dimen>
     <dimen name="notification_media_narrow_margin">12dp</dimen>

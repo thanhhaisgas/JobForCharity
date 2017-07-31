@@ -22,6 +22,7 @@ import android.widget.Toast;
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
+import com.drowsyatmidnight.jobforcharity.userhire.JobDetail;
 import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.AdapterDateTimes;
 
@@ -33,12 +34,19 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 /**
  * Created by haint on 26/07/2017.
  */
 
-public class FmJobDetail extends Fragment {
+public class FmJobDetail extends Fragment{
+
+    public interface SomeEvent{
+        void isDateTimeScrolled(boolean isScroled);
+    }
+
+    private SomeEvent someEvent;
 
     private View rootView;
     @BindView(R.id.detailNameJob)
@@ -96,7 +104,8 @@ public class FmJobDetail extends Fragment {
                     Toast.makeText(rootView.getContext(),"Please, select at least one schedule", Toast.LENGTH_SHORT).show();
                 }else {
                     if (btnRentJob.getText().toString().toUpperCase().compareTo(KeyValueFirebase.RENT.toUpperCase())==0){
-                        DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.RENT);
+                        showWarningDialogRent(getString(R.string.Dialog_title_warning), getString(R.string.Dialog_content_rent_warning),
+                                getString(R.string.Dialog_title_rent_success), getString(R.string.Dialog_content_rent_success), KeyValueFirebase.RENT);
                     }
                     if (btnRentJob.getText().toString().toUpperCase().compareTo(KeyValueFirebase.DONE.toUpperCase())==0){
                         DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.DONE);
@@ -111,10 +120,52 @@ public class FmJobDetail extends Fragment {
                 if(adapterDateTimes.listSelected.size()==0){
                     Toast.makeText(rootView.getContext(),"Please, select at least one schedule", Toast.LENGTH_SHORT).show();
                 }else {
-                    DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.CANCEL);
+                    showWarningDialogRent(getString(R.string.Dialog_title_warning), getString(R.string.Dialog_content_cancel_warning),
+                            getString(R.string.Dialog_title_cancel_success), "", KeyValueFirebase.CANCEL);
                 }
             }
         });
+        ((JobDetail)getActivity()).setOnMenuFabSelected(new JobDetail.OnMenuFabSelected() {
+            @Override
+            public void onSelected(int i) {
+                if (i==1 || i==2){
+                    btnRentJob.performClick();
+                }
+                if (i == 3){
+                    btnCancelJob.performClick();
+                }
+            }
+        });
+    }
+
+    private void showWarningDialogRent(String title_warning, String content_warning, final String title_success, final String content_success, final String buttonClick){
+        new SweetAlertDialog(rootView.getContext(), SweetAlertDialog.WARNING_TYPE)
+                .setTitleText(title_warning)
+                .setContentText(content_warning)
+                .setConfirmText(getString(R.string.ok))
+                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+                        if (buttonClick.compareTo(KeyValueFirebase.RENT)==0){
+                            DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.RENT);
+                        }
+                        if (buttonClick.compareTo(KeyValueFirebase.CANCEL)==0){
+                            DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.CANCEL);
+                        }
+                        sweetAlertDialog
+                                .setTitleText(title_success)
+                                .setContentText(content_success)
+                                .setConfirmText(getString(R.string.ok))
+                                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                                    @Override
+                                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+                                        sweetAlertDialog.dismiss();
+                                        getActivity().onBackPressed();
+                                    }
+                                })
+                                .changeAlertType(SweetAlertDialog.SUCCESS_TYPE);
+                    }
+                }).show();
     }
 
     private void showDialogReview() {
@@ -130,12 +181,14 @@ public class FmJobDetail extends Fragment {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
+                showThankYou();
             }
         });
         dialogBuilder.setPositiveButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 DataFirebase.pushReviews(rateBarReview.getNumStars(), edCommentReviews.getText().toString(), JobID, KeyValueFirebase.UID, getArguments().getString("workerID"));
+                showThankYou();
             }
         });
         dialogBuilder.setTitle(R.string.review);
@@ -143,9 +196,21 @@ public class FmJobDetail extends Fragment {
         alertDialog.show();
     }
 
+    private void showThankYou(){
+        new SweetAlertDialog(rootView.getContext(), SweetAlertDialog.SUCCESS_TYPE)
+                .setTitleText(getString(R.string.thank_you))
+                .setContentText(getString(R.string.Dialog_content_done_warning))
+                .setConfirmText(getString(R.string.ok))
+                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sweetAlertDialog) {
+                        getActivity().onBackPressed();
+                    }
+                }).show();
+    }
+
     private void setUpView() {
         if (getArguments().getString("view_type").compareTo(KeyValueFirebase.VIEW_JOBDETAILS)!=0){
-            btnCancelJob.setVisibility(View.VISIBLE);
             btnRentJob.setText(getResources().getString(R.string.done));
         }
         detailNameJob.setText(getArguments().getString("nameWork"));
