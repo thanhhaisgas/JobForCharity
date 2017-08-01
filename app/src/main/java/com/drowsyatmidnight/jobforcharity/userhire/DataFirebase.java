@@ -85,7 +85,7 @@ public class DataFirebase {
                     if (category.compareTo(categoryName)==0){
                         for (DataSnapshot date : dsp.child("DateTimes").getChildren()){
                             ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
-                            if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0) {
+                            if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0&&shiftWork_model.getDeletedStatus().compareTo("true")!=0) {
                                 listDate.add(shiftWork_model);
                             }
                         }

@@ -14,120 +14,34 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="dy" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f4aa5c2-fb4c-4351-a78b-70331bd21314" name="Default" comment="&quot;updated&quot;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/drawable.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0589cfd8fec0f507c0905b0a054fd86b5d622896/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_10e5fff05f8d2d9af28a6449c051cd3f9c90215c/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_127db67ebd408d628dc4cf616e9eaaaf33c7dbdb/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3a6bbcfe934d3389fa162fd4485735da0d305b6a/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4f872bee459dcad67f9bc4847a8f44fad2015837/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5796d44b2b02ee01ce25316886a15142ce3c7644/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5c7f3a9a8ad65127d09ba3cc615c83781c1779fc/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5fb75f0245aba4141e9d7c0074be33643e5888ea/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6747edec07ef09dfea41f6f099598536f5f30c05/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6c79b5536407a21fe4cc8441f02c21c9bfa41632/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73b3560c2b39364b81df178dd3ae156d8a43144e/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_79830c450d6315554eaa54c4a182e387384bd0a8/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a0288e56cd3c4736ac95abeb40a059928c41979/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a65b337ed9db342adce0fce2611b25ba49a702c/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_834ba45336f5926fa64e7e14bd2d9942c93d29ad/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a69b008c8fd86f3a4d62f5b6a345dbd5109b21b7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aac29bd69d53b6ba1e5ad216cb8bdff0274a234c/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b88b02e4fdb83ce40bc05d8f41e563c7096a8a07/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c9d0e9a9cfe2b7c766b4bd7e6b7df0051f326198/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb14e6dfd2d5e11842d8dd90a02802665db1ae60/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da33003a68f0f7be5286f9bbffea92e3d99eda8f/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e3adbce990a658b9f11788f53f043c3914c9a183/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec1bb584d8073950873fcfc2b5fa7d64c25dc68c/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/OptAnimationLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/ProgressHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/Rotate3dAnimation$Description.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/Rotate3dAnimation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/SuccessTickView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/SuccessTickView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/SweetAlertDialog$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/SweetAlertDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/SweetAlertDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/SweetAlertDialog$OnSweetClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_1oj5lj9benwh3nvwxa3o0d43t/cn/pedant/SweetAlert/SweetAlertDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6uq2wsssys8s6o387ei35qfmc/com/pnikosis/materialishprogress/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6uq2wsssys8s6o387ei35qfmc/com/pnikosis/materialishprogress/ProgressWheel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6uq2wsssys8s6o387ei35qfmc/com/pnikosis/materialishprogress/ProgressWheel$WheelSavedState$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6uq2wsssys8s6o387ei35qfmc/com/pnikosis/materialishprogress/ProgressWheel$WheelSavedState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6uq2wsssys8s6o387ei35qfmc/com/pnikosis/materialishprogress/ProgressWheel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-12-53-50-035.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-13-12-28-336.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-13-14-13-288.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-13-14-35-672.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-13-17-22-074.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-13-22-04-465.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-13-24-15-090.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-13-53-37-748.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-14-05-51-912.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-14-11-45-424.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-14-38-04-901.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-14-38-12-641.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-15-15-28-117.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-15-24-34-093.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-15-49-25-871.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-16-10-30-909.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-16-13-01-390.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-16-16-16-624.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-16-23-18-865.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-16-48-08-032.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-17-46-28-628.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-17-51-41-986.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-17-58-11-761.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-17-58-48-535.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-19-17-36-939.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-19-17-41-214.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-19-53-51-024.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-19-54-31-526.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-19-56-48-705.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-02-31-534.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-03-25-969.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-04-13-961.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-12-07-383.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-12-38-607.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-18-06-106.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-19-46-865.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-23-14-454.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-28-55-303.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-07-31-20-30-51-078.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$SomeEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$SomeEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$SomeEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$SomeEvent.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$3.class" />
@@ -139,17 +53,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/login/LoginActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$3.class" />
@@ -161,32 +68,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/jA7QDV_58LH3VjkMDoS3Lz3jjr8=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/jA7QDV_58LH3VjkMDoS3Lz3jjr8=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/jA7QDV_58LH3VjkMDoS3Lz3jjr8=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/jA7QDV_58LH3VjkMDoS3Lz3jjr8=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/dep/dependencies.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/login/LoginActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$3.class" />
@@ -198,15 +89,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/login/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$3.class" />
@@ -218,156 +104,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_appindexing_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_appindexing_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_auth_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_auth_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_common_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_common_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_config_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_config_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_core_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_core_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_crash_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_crash_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_database_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_database_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_database_connection_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_database_connection_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_dynamic_links_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_dynamic_links_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_iid_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_iid_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_storage_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_storage_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_storage_common_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_storage_common_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_clearcut_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_clearcut_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gass_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gass_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_11_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_11_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_11_0_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-be.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-be.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_job_detail.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_job_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/job_detail_jobinfo.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/job_detail_jobinfo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/login/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/login/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_job_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_job_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/job_detail_jobinfo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/job_detail_jobinfo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="JobForCharity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -404,98 +151,124 @@
       <file leaf-file-name="JobsCategory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            <state relative-caret-position="279">
+              <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
               <folding>
-                <element signature="e#2392#2393#0" expanded="true" />
-                <element signature="e#2436#2437#0" expanded="true" />
+                <element signature="e#2881#3030#0" expanded="true" />
+                <element signature="e#3029#3030#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home_UserHire.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java">
+      <file leaf-file-name="CategoryAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/CategoryAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            <state relative-caret-position="945">
+              <caret line="60" column="37" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="37" />
               <folding>
-                <element signature="e#2656#2657#0" expanded="true" />
-                <element signature="e#2700#2701#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3178#3179#0" expanded="false" />
+                <element signature="e#3220#3221#0" expanded="false" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_jobs_category.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_jobs_category.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1701">
+              <caret line="81" column="72" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="job_detail_jobinfo.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/job_detail_jobinfo.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
               <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-              <folding>
-                <element signature="e#3053#3093#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FmJobDetail.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="154" column="118" selection-start-line="154" selection-start-column="118" selection-end-line="154" selection-end-column="118" />
+            <state relative-caret-position="-327">
+              <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
               <folding>
-                <element signature="e#5934#6426#0" expanded="true" />
-                <element signature="e#6200#6354#0" expanded="true" />
-                <element signature="e#6353#6354#0" expanded="true" />
-                <element signature="e#6425#6426#0" expanded="true" />
+                <element signature="e#13596#13627#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdapterDateTimes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-435">
+              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobCategotyAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_job_detail.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_job_detail.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="170" column="44" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
+            <state relative-caret-position="145">
+              <caret line="172" column="43" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NestScrollViewBehavior.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/Utils/NestScrollViewBehavior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataFirebase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataFirebase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2583">
-              <caret line="350" column="115" selection-start-line="350" selection-start-column="115" selection-end-line="350" selection-end-column="115" />
+            <state relative-caret-position="219">
+              <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
               <folding>
                 <element signature="method#updateRentJob#0;class#DataFirebase#0" expanded="false" />
-                <element signature="method#dateTimes#0;class#DataFirebase#0" expanded="false" />
                 <element signature="method#getJobInProgress#0;class#DataFirebase#0" expanded="false" />
                 <element signature="method#getCountCategory#0;class#DataFirebase#0" expanded="false" />
                 <element signature="method#getJobInHistory#0;class#DataFirebase#0" expanded="false" />
                 <element signature="method#pushReviews#0;class#DataFirebase#0" expanded="false" />
                 <element signature="method#getReviews#0;class#DataFirebase#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FmCategory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-99">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2747,7 +2520,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/anim/right_to_left.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/left_to_right.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmCategory.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/CategoryAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/slide_in_left.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" />
@@ -2764,7 +2536,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobDetail.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_detailjob_times.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_detailjob_date.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobInProGressAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_job_in_progress.xml" />
@@ -2775,13 +2546,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_home_user_hire.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/model/ShiftWork_Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/login/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/job_detail_jobinfo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_job_detail.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/Utils/NestScrollViewBehavior.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java" />
       </list>
     </option>
   </component>
@@ -2832,7 +2605,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ToDoCustom" />
-    <property name="SearchEverywhereHistoryKey" value="jobde&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_job_detail.xml&#10;Fm&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;f&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_detail_jobinfo.xml&#10;h&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java&#10;Home&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java&#10;JobCa&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java&#10;Logi&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/login/LoginActivity.java&#10;fmDe&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;hom&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/app_bar_home_user_hire.xml&#10;conte&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/content_home_user_hire.xml&#10;home&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_home_user_hire.xml&#10;cate&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_category.xml&#10;Hom&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_home_user_hire.xml&#10;Log&#9;PSI&#9;JAVA://com.drowsyatmidnight.jobforcharity.login.LoginActivity&#10;colo&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/values/colors.xml&#10;login&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_login.xml&#10;JobM&#9;PSI&#9;JAVA://com.drowsyatmidnight.jobforcharity.model.Job_Model&#10;grad&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/build.gradle&#10;dial&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/dialog_looking_for.xml&#10;Date&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java&#10;sign&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_sign_up.xml&#10;Adap&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java&#10;JobIn&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobInProGressAdapter.java&#10;FmJob&#9;PSI&#9;JAVA://com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobInProgress&#10;jobin&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_in_progress.xml&#10;job_in&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/item_job_in_progress.xml&#10;Da&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java&#10;Shif&#9;PSI&#9;JAVA://com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model&#10;adapter&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java&#10;job&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_detail_jobinfo.xml&#10;fes&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/AndroidManifest.xml&#10;fm&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;fest&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/AndroidManifest.xml&#10;sty&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/values/styles.xml&#10;FmJ&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;gra&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/build.gradle&#10;deta&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_detail_jobinfo.xml&#10;Dat&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java&#10;item_detai&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/item_detailjob_date.xml&#10;JobDeta&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobDetail.java&#10;ADap&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java&#10;Cate&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_category.xml&#10;D&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;color.x&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/values/colors.xml&#10;JobC&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java&#10;fmD&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;Model&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/model/User_Model.java&#10;Review_M&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/model/Review_Model.java&#10;JobD&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobDetail.java&#10;FM&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java" />
+    <property name="SearchEverywhereHistoryKey" value="JobCa&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java&#10;FmJo&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;Date&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java&#10;Joc&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java&#10;FmCa&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmCategory.java&#10;Data&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java&#10;Cate&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/CategoryAdapter.java&#10;jobde&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_job_detail.xml&#10;Fm&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;f&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_detail_jobinfo.xml&#10;h&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java&#10;Home&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java&#10;Logi&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/login/LoginActivity.java&#10;fmDe&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;hom&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/app_bar_home_user_hire.xml&#10;conte&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/content_home_user_hire.xml&#10;home&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_home_user_hire.xml&#10;cate&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_category.xml&#10;Hom&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_home_user_hire.xml&#10;Log&#9;PSI&#9;JAVA://com.drowsyatmidnight.jobforcharity.login.LoginActivity&#10;colo&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/values/colors.xml&#10;login&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_login.xml&#10;JobM&#9;PSI&#9;JAVA://com.drowsyatmidnight.jobforcharity.model.Job_Model&#10;grad&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/build.gradle&#10;dial&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/dialog_looking_for.xml&#10;sign&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/activity_sign_up.xml&#10;Adap&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java&#10;JobIn&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobInProGressAdapter.java&#10;FmJob&#9;PSI&#9;JAVA://com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobInProgress&#10;jobin&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_in_progress.xml&#10;job_in&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/item_job_in_progress.xml&#10;Da&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java&#10;Shif&#9;PSI&#9;JAVA://com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model&#10;adapter&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java&#10;job&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_detail_jobinfo.xml&#10;fes&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/AndroidManifest.xml&#10;fm&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;fest&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/AndroidManifest.xml&#10;sty&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/values/styles.xml&#10;FmJ&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;gra&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/build.gradle&#10;deta&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/job_detail_jobinfo.xml&#10;Dat&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java&#10;item_detai&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/layout/item_detailjob_date.xml&#10;JobDeta&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobDetail.java&#10;ADap&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java&#10;D&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java&#10;color.x&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/res/values/colors.xml&#10;JobC&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java&#10;fmD&#9;FILE&#9;file://E:/Android/CoderSchool/final/JobForCharity/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java" />
     <property name="device.picker.selection" value="Nexus_5X_API_25_x86" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -3253,11 +3026,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="771" y="104" width="565" height="355" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="-8" y="-8" width="1382" height="744" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3315,24 +3088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/CategoryAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="70" column="95" selection-start-line="70" selection-start-column="95" selection-end-line="70" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_jobs_category.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -3450,13 +3209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobInProgress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -3511,13 +3263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_looking_for.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -3547,55 +3292,44 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/job_category.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home_user_hire.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home_user_hire.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_home_user_hire.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_home_user_hire.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_home_user_hire.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/login/LoginActivity.java">
@@ -3612,87 +3346,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/Utils/NestScrollViewBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2583">
-          <caret line="350" column="115" selection-start-line="350" selection-start-column="115" selection-end-line="350" selection-end-column="115" />
-          <folding>
-            <element signature="method#updateRentJob#0;class#DataFirebase#0" expanded="false" />
-            <element signature="method#dateTimes#0;class#DataFirebase#0" expanded="false" />
-            <element signature="method#getJobInProgress#0;class#DataFirebase#0" expanded="false" />
-            <element signature="method#getCountCategory#0;class#DataFirebase#0" expanded="false" />
-            <element signature="method#getJobInHistory#0;class#DataFirebase#0" expanded="false" />
-            <element signature="method#pushReviews#0;class#DataFirebase#0" expanded="false" />
-            <element signature="method#getReviews#0;class#DataFirebase#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-          <folding>
-            <element signature="e#2392#2393#0" expanded="true" />
-            <element signature="e#2436#2437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-          <folding>
-            <element signature="e#2656#2657#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/job_detail_jobinfo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_jobs_category.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="81" column="72" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/Home_UserHire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/CategoryAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="37" />
           <folding>
-            <element signature="e#3053#3093#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3178#3179#0" expanded="false" />
+            <element signature="e#3220#3221#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_job_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="172" column="43" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/JobCategotyAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="170" column="44" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/adapter/AdapterDateTimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/fragment_item/FmJobDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="154" column="118" selection-start-line="154" selection-start-column="118" selection-end-line="154" selection-end-column="118" />
+        <state relative-caret-position="-327">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
           <folding>
-            <element signature="e#5934#6426#0" expanded="true" />
-            <element signature="e#6200#6354#0" expanded="true" />
-            <element signature="e#6353#6354#0" expanded="true" />
-            <element signature="e#6425#6426#0" expanded="true" />
+            <element signature="e#13596#13627#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/Utils/NestScrollViewBehavior.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/JobsCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        <state relative-caret-position="279">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2881#3030#0" expanded="true" />
+            <element signature="e#3029#3030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/drowsyatmidnight/jobforcharity/userhire/DataFirebase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+          <folding>
+            <element signature="method#updateRentJob#0;class#DataFirebase#0" expanded="false" />
+            <element signature="method#getJobInProgress#0;class#DataFirebase#0" expanded="false" />
+            <element signature="method#getCountCategory#0;class#DataFirebase#0" expanded="false" />
+            <element signature="method#getJobInHistory#0;class#DataFirebase#0" expanded="false" />
+            <element signature="method#pushReviews#0;class#DataFirebase#0" expanded="false" />
+            <element signature="method#getReviews#0;class#DataFirebase#0" expanded="false" />
           </folding>
         </state>
       </provider>

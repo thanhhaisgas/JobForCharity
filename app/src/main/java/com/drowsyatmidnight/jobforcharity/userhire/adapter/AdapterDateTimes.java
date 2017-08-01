@@ -95,13 +95,17 @@ public class AdapterDateTimes extends BaseExpandableListAdapter {
 
     private void storeData(ShiftWork_Model dataSelected) {
         String newTime = dataSelected.getBeginTime()+dataSelected.getEndTime();
+        String newDate = dataSelected.getDate();
         int pos = 0;
         boolean check = false;
         for (int i=0; i<listSelected.size(); i++){
+            String oldDate = listSelected.get(i).getDate();
             String oldTime = listSelected.get(i).getBeginTime()+listSelected.get(i).getEndTime();
-            if (newTime.compareTo(oldTime)==0){
-                check = true;
-                pos = i;
+            if (newDate.compareTo(oldDate)==0){
+                if (newTime.compareTo(oldTime)==0){
+                    check = true;
+                    pos = i;
+                }
             }
         }
         if (check == true){

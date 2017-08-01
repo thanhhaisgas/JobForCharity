@@ -76,6 +76,7 @@ public class JobsCategory extends AppCompatActivity {
     }
 
     private void setUpListJobs() {
+        DataFirebase.getCountCategory(NameCategory,txtJobCountCategory);
         DataFirebase.getJobsCategory(NameCategory,lvJobsCategory,this,JobsCategory.this);
     }
 
