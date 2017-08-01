@@ -325,4 +325,45 @@ public class DataFirebase {
             }
         });
     }
+
+
+    public static void searchJobOrderCategory(final String categoryName, final RecyclerView lvJobsCategory, final Context context, final Activity activity, final String query) {
+        databaseReference.child("JOBS").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                List<ShiftWork_Model> listDate = new ArrayList<>();
+                List<Job_Model> listJob = new ArrayList<>();
+                for (DataSnapshot dsp : dataSnapshot.getChildren()){
+                    String category = (String) dsp.child("category").getValue();
+                    if (category.compareTo(categoryName)==0){
+                        for (DataSnapshot date : dsp.child("DateTimes").getChildren()){
+                            ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
+                            if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0) {
+                                listDate.add(shiftWork_model);
+                            }
+                        }
+                        if (listDate.size()>0){
+                            String workName = (String) dsp.child("workName").getValue();
+                            String workerUID = (String) dsp.child("workerUID").getValue();
+                            String description = (String) dsp.child("description").getValue();
+                            String JobID = (String) dsp.child("JobID").getValue();
+                            if (workName.contains(query)){
+                                listJob.add(new Job_Model(listDate,category,description,workerUID,workName,JobID));
+                            }
+                        }
+                        listDate = new ArrayList<>();
+                    }
+                }
+                JobCategotyAdapter jobCategotyAdapter = new JobCategotyAdapter(context, listJob, activity);
+                lvJobsCategory.setAdapter(jobCategotyAdapter);
+                LinearLayoutManager layoutManager = new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false);
+                lvJobsCategory.setLayoutManager(layoutManager);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
 }

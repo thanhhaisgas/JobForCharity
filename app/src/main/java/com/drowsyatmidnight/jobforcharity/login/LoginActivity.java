@@ -1,7 +1,7 @@
 package com.drowsyatmidnight.jobforcharity.login;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
@@ -23,6 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -111,17 +112,23 @@ public class LoginActivity extends AppCompatActivity {
 
     private void doSignIn() {
         if(checkInputData()){
-            final ProgressDialog progressDialog = new ProgressDialog(this);
-            progressDialog.setTitle("");
-            progressDialog.setMessage("Please wait...");
-            progressDialog.setCanceledOnTouchOutside(false);
-            progressDialog.show();
+            final SweetAlertDialog sweetAlertDialog = new SweetAlertDialog(this, SweetAlertDialog.PROGRESS_TYPE);
+            sweetAlertDialog.getProgressHelper().setBarColor(Color.parseColor("#A5DC86"));
+            sweetAlertDialog.setTitleText("Please wait...");
+            sweetAlertDialog.setCancelText(getString(R.string.cancel));
+            sweetAlertDialog.setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                @Override
+                public void onClick(SweetAlertDialog sweetAlertDialog) {
+                    sweetAlertDialog.dismiss();
+                }
+            });
+            sweetAlertDialog.show();
+
             viewLogin.setVisibility(View.GONE);
             loginService.loginAcountEmail(EMail, Pass, new LoginService.LoginListener() {
                 @Override
                 public void loginSuccess() {
-                    progressDialog.dismiss();
-
+                    sweetAlertDialog.dismiss();
                     KeyValueFirebase.UID = user.getUid();
                     DataFirebase.createCategories(getResources().getStringArray(R.array.listCategoryName));
                     viewEmployer.setVisibility(View.VISIBLE);
@@ -138,7 +145,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 @Override
                 public void loginFailure(String message) {
-                    progressDialog.dismiss();
+                    sweetAlertDialog.dismiss();
                     viewLogin.setVisibility(View.VISIBLE);
                     viewEmployer.setVisibility(View.GONE);
                     viewEmployee.setVisibility(View.GONE);

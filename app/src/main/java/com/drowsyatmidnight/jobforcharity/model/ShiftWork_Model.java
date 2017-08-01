@@ -63,6 +63,14 @@ public class ShiftWork_Model implements Serializable {
         Salary = salary;
     }
 
+    public String getDeletedStatus() {
+        return deletedStatus;
+    }
+
+    public void setDeletedStatus(String deletedStatus) {
+        this.deletedStatus = deletedStatus;
+    }
+
     private String DateTimeID;
     private String Date;
     private String BeginTime;
@@ -70,5 +78,6 @@ public class ShiftWork_Model implements Serializable {
     private String Status;
     private String hirerUID;
     private String Salary;
+    private String deletedStatus;
 
 }

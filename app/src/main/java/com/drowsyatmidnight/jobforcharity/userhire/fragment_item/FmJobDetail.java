@@ -3,9 +3,11 @@ package com.drowsyatmidnight.jobforcharity.userhire.fragment_item;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.NestedScrollView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -48,6 +50,17 @@ public class FmJobDetail extends Fragment{
 
     private SomeEvent someEvent;
 
+    /*@Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        try {
+            someEvent = (SomeEvent) activity;
+        } catch (ClassCastException e) {
+            throw new ClassCastException(activity.toString()
+                    + " must implement OnHeadlineSelectedListener");
+        }
+    }*/
+
     private View rootView;
     @BindView(R.id.detailNameJob)
     TextView detailNameJob;
@@ -64,6 +77,7 @@ public class FmJobDetail extends Fragment{
     private AdapterDateTimes adapterDateTimes;
     private List<ShiftWork_Model> shiftWork_models;
     private String JobID;
+    private Handler handler;
 
     public static FmJobDetail newInstance(String nameWork, String Description, Serializable shiftWork_models, String JobID, String CategoryName, String ViewType, String workerID) {
         FmJobDetail fmJobDetail = new FmJobDetail();
@@ -136,6 +150,21 @@ public class FmJobDetail extends Fragment{
                 }
             }
         });
+        scroll1.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener() {
+            @Override
+            public void onScrollChange(NestedScrollView v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
+                handler = new Handler();
+
+                final Runnable r = new Runnable() {
+                    public void run() {
+
+                        handler.postDelayed(this, 1000);
+                    }
+                };
+
+                handler.postDelayed(r, 1000);
+            }
+        });
     }
 
     private void showWarningDialogRent(String title_warning, String content_warning, final String title_success, final String content_success, final String buttonClick){
@@ -143,6 +172,8 @@ public class FmJobDetail extends Fragment{
                 .setTitleText(title_warning)
                 .setContentText(content_warning)
                 .setConfirmText(getString(R.string.ok))
+                .setCancelText(getString(R.string.cancel))
+                .setCancelClickListener(null)
                 .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
                     @Override
                     public void onClick(SweetAlertDialog sweetAlertDialog) {
@@ -155,6 +186,7 @@ public class FmJobDetail extends Fragment{
                         sweetAlertDialog
                                 .setTitleText(title_success)
                                 .setContentText(content_success)
+                                .showCancelButton(false)
                                 .setConfirmText(getString(R.string.ok))
                                 .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
                                     @Override

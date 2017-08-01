@@ -62,6 +62,17 @@ public class Home_UserHire extends AppCompatActivity
                 drawer.openDrawer(Gravity.START);
             }
         });
+        searchViewHome.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                return false;
+            }
+        });
     }
 
     @Override

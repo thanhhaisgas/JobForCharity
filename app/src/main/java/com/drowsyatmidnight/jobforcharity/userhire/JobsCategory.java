@@ -55,6 +55,24 @@ public class JobsCategory extends AppCompatActivity {
         setUpView();
         setUpToolBar();
         setUpListJobs();
+        addEvents();
+    }
+
+    private void addEvents() {
+        searchViewCategory.setHint("Search job...");
+        searchViewCategory.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                DataFirebase.searchJobOrderCategory(NameCategory,lvJobsCategory,JobsCategory.this,JobsCategory.this, query);
+                searchViewCategory.close(true);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                return false;
+            }
+        });
     }
 
     private void setUpListJobs() {
