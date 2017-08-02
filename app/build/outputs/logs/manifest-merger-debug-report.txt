@@ -1,393 +1,393 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.CALL_PHONE
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:5:5-69
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:5:5-69
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:5:22-66
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:5:22-66
 uses-permission#android.permission.INTERNET
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:6:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:19:5-66
-MERGED from [com.google.firebase:firebase-crash:11.0.2] C:\Users\haint\.android\build-cache\9d88ea66a76b68b6e3e0f6c424ed2866f9cf17f5\output\AndroidManifest.xml:18:5-66
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\haint\.android\build-cache\10c82c347669861f192558e2f76c5acbe0631d2a\output\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\88cc27cb1367476a9ea23940766c9532716bf26f\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:20:5-66
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.2] /Users/davidtran/.android/build-cache/1e5155fa4b6abb8bb3d03c8abc7e4d15d97bf8d8/output/AndroidManifest.xml:18:5-66
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] /Users/davidtran/.android/build-cache/f88ec210b55b029f8b08399355dddbfdc6227e9d/output/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/davidtran/.android/build-cache/290f67ad6d62cb134515f6fca8bf436c803b42f7/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:8:5-44:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\haint\.android\build-cache\dd8d201fb583c37fb5c345301fee4409676a72b4\output\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\haint\.android\build-cache\43f3f9be291c835601acf809f4021970f9819e9d\output\AndroidManifest.xml:9:5-20
-MERGED from [com.github.ozodrukh:CircularReveal:1.3.1] C:\Users\haint\.android\build-cache\a0d7d051c812de0e538de6bb252762dfe84ff736\output\AndroidManifest.xml:10:5-20
-MERGED from [com.lapism:searchview:4.0] C:\Users\haint\.android\build-cache\2634e3cf01a253589c309b3b9c904549ebec8153\output\AndroidManifest.xml:11:5-47
-MERGED from [io.github.yavski:fab-speed-dial:1.0.6] C:\Users\haint\.android\build-cache\3ca13f6740313e266ea81ca00726a521f05325df\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:26:5-20
-MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\haint\.android\build-cache\7f915fe4ffed73513e3c945c2422a86c87431733\output\AndroidManifest.xml:11:5-20
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\haint\.android\build-cache\239f84f98418a190098f5f2c6f6d00b50e6b5446\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\haint\.android\build-cache\2aed12df616fbdb8e4a5285fa5069d50324bce38\output\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-config:11.0.2] C:\Users\haint\.android\build-cache\ac3a4663d8b7ee75bd00377e532db6ac35675331\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:19:5-26:19
-MERGED from [com.google.firebase:firebase-dynamic-links:11.0.2] C:\Users\haint\.android\build-cache\f099755394c1bc48ea7b08547039d1ca56dc2c2f\output\AndroidManifest.xml:5:3-17
-MERGED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] C:\Users\haint\.android\build-cache\f6d50f77477278a9665dc4ea1129ccba25e07240\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-gass:11.0.2] C:\Users\haint\.android\build-cache\99b15a03df1d1373b22ebb6f49094db4c0862da3\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.2] C:\Users\haint\.android\build-cache\05ed221372aa2ff215d7ce84c45056a9efa29548\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-crash:11.0.2] C:\Users\haint\.android\build-cache\9d88ea66a76b68b6e3e0f6c424ed2866f9cf17f5\output\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-appindexing:11.0.2] C:\Users\haint\.android\build-cache\f3f510b7ddaefc43d625e522b4a16be9b8a4c36f\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\f322f4761e17467a7489d530c2b86c152eede0e2\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\haint\.android\build-cache\10c82c347669861f192558e2f76c5acbe0631d2a\output\AndroidManifest.xml:13:5-17:19
-MERGED from [com.github.grennis:ExpandableRecyclerView:0.9.3] C:\Users\haint\.android\build-cache\cd8d2b8d7a1f4431bd9f32931d5f9e5a8fc413a7\output\AndroidManifest.xml:12:5-20
-MERGED from [com.github.arcadefire:nice-spinner:1.2] C:\Users\haint\.android\build-cache\23905a2aef4ce07d8e35cc3a0f2ec6310a6a6bea\output\AndroidManifest.xml:11:5-47
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\haint\.android\build-cache\6caa42be79a79888f62d308cc7d8673c5b3b41d8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\2e9b71a0bc03360d6c0d2540a11ddcdbb6af0ed3\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\16d78c14b145014fff95fa609cc1605131ec5c25\output\AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\haint\.android\build-cache\80e7168c5b62a10179c89353d97b1c3a331454fa\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\88cc27cb1367476a9ea23940766c9532716bf26f\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\7e736e676cf033c7fb544b1433ed039b9bcc467e\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\haint\.android\build-cache\4bc2577455fd69312342e01379ec992227217678\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\haint\.android\build-cache\c3fce7d434680cc95f65ea94abeb99786ca87183\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\haint\.android\build-cache\c5641696496e1f52fa937ab81756dde11212d159\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\haint\.android\build-cache\f8188275d8b362355679222e5dbb8f207117cff8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\haint\.android\build-cache\a3cf08b5b8618c42c4dba9e47515eeeba019a9d6\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\haint\.android\build-cache\b44aeeb209ac21bb69f69954581da94c48bebc4c\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\haint\.android\build-cache\8744fc5e97736f512e799a4a880ab02d48d4cf94\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\haint\.android\build-cache\12fccd9c957f73017591c5064030259affd83c64\output\AndroidManifest.xml:29:5-20
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:8:5-44:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/davidtran/.android/build-cache/76736235cd1586155881290d800decd6c83f5d3c/output/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/davidtran/.android/build-cache/69ff5916a830bfe383c3546cdfc3d59999e801af/output/AndroidManifest.xml:9:5-20
+MERGED from [com.github.ozodrukh:CircularReveal:1.3.1] /Users/davidtran/.android/build-cache/eb54a03d04a77f4765ed301ed4354f083efb88bd/output/AndroidManifest.xml:10:5-20
+MERGED from [com.lapism:searchview:4.0] /Users/davidtran/.android/build-cache/fe6200744080c6e0a22cfd4392414753f5462a3e/output/AndroidManifest.xml:11:5-47
+MERGED from [io.github.yavski:fab-speed-dial:1.0.6] /Users/davidtran/.android/build-cache/08a06d3d665d68ebe56c47e750cc2808e8483549/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/davidtran/.android/build-cache/49dc082923e932bd75f2f49aae781b6d65822e7a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/davidtran/.android/build-cache/76376b1abaa546527f976829c2f4efc5f7b5fb88/output/AndroidManifest.xml:26:5-20
+MERGED from [cn.pedant.sweetalert:library:1.3] /Users/davidtran/.android/build-cache/6d013b52111caee3eb91a1d914fca4b5185c944c/output/AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] /Users/davidtran/.android/build-cache/9313c350f932c31cada5762c45185f5fb3c08f50/output/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.firebase:firebase-auth:11.0.2] /Users/davidtran/.android/build-cache/539b7cbf11da0b465a17f970f8182bd1498deedf/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-config:11.0.2] /Users/davidtran/.android/build-cache/81268fde18f7cfee4c372be1df5ada683c9a1541/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.2] /Users/davidtran/.android/build-cache/cc8059f80f39108e8de292f550f6c008cd89a34f/output/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] /Users/davidtran/.android/build-cache/d667eabc5de2db59d14a6d668245343d7fef4cb4/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.2] /Users/davidtran/.android/build-cache/88d9863c26b159267ae3aaa9d0d2ee605e46e86f/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.2] /Users/davidtran/.android/build-cache/91c97e143bfa49646b88059fb54b87a335c9c32e/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:11.0.2] /Users/davidtran/.android/build-cache/1e5155fa4b6abb8bb3d03c8abc7e4d15d97bf8d8/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.2] /Users/davidtran/.android/build-cache/194340f0c35a537880ff51dd91fbba711c3295bc/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] /Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] /Users/davidtran/.android/build-cache/f88ec210b55b029f8b08399355dddbfdc6227e9d/output/AndroidManifest.xml:13:5-17:19
+MERGED from [com.github.grennis:ExpandableRecyclerView:0.9.3] /Users/davidtran/.android/build-cache/ac72ef2cb61a75531e663bb13b1879502997d683/output/AndroidManifest.xml:12:5-20
+MERGED from [com.github.arcadefire:nice-spinner:1.2] /Users/davidtran/.android/build-cache/51b437a642c453ecf06e05d648b9bec7a4e07679/output/AndroidManifest.xml:11:5-47
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/davidtran/.android/build-cache/c4b4973127ffe3897be25453e787ef72a2aef548/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/davidtran/.android/build-cache/6fa6c5c6664257d522b72bcb9ae049386e661e44/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.2] /Users/davidtran/.android/build-cache/f3b353bd9fb9030505136b60c4fec893bee4f7c9/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/davidtran/.android/build-cache/290f67ad6d62cb134515f6fca8bf436c803b42f7/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.2] /Users/davidtran/.android/build-cache/9f8afc952c9612270891f666493ad470c5e9831e/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /Users/davidtran/.android/build-cache/936f166ea93e06e2a4890255cad136edadad6a0d/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/davidtran/.android/build-cache/fc62742215e1a884939c4fef349010aa2f7507e9/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /Users/davidtran/.android/build-cache/334e387df8ed0777e1f01293b3c60f2b86556c70/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/davidtran/.android/build-cache/75a80b0666ece97b0ab817168a383816ae784b86/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/davidtran/.android/build-cache/adf9cbc0f7f7ea7481e021c0f840b198d9fceb44/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/davidtran/.android/build-cache/dc5504c2836f199620639ecebdc401dea0703181/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/davidtran/.android/build-cache/24f8a00fbf143a235d54d9c9e32df0ba21be0b34/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/davidtran/.android/build-cache/f642c90396c0b7c55bac5273d921ce6fc18cb183/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:12:9-35
 	android:roundIcon
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from [com.pnikosis:materialish-progress:1.0] C:\Users\haint\.android\build-cache\239f84f98418a190098f5f2c6f6d00b50e6b5446\output\AndroidManifest.xml:13:9-45
+		ADDED from [com.pnikosis:materialish-progress:1.0] /Users/davidtran/.android/build-cache/9313c350f932c31cada5762c45185f5fb3c08f50/output/AndroidManifest.xml:13:9-45
 	android:theme
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.drowsyatmidnight.jobforcharity.login.LoginActivity
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:14:9-22:20
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:14:9-22:20
 	android:theme
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:16:13-49
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:16:13-49
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:15:13-48
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:15:13-48
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.drowsyatmidnight.jobforcharity.Home
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:23:9-25:20
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:23:9-25:20
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:23:19-39
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:23:19-39
 activity#com.drowsyatmidnight.jobforcharity.login.SignUpActivity
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:26:9-28:53
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:26:9-28:53
 	android:theme
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:28:13-50
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:28:13-50
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:27:13-49
 activity#com.drowsyatmidnight.jobforcharity.userhire.Home_UserHire
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:29:9-31:47
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:29:9-31:47
 	android:theme
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:31:13-44
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:31:13-44
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:30:13-51
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:30:13-51
 activity#com.drowsyatmidnight.jobforcharity.userhire.JobsCategory
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:32:9-34:47
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:32:9-34:47
 	android:theme
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:34:13-44
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:34:13-44
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:33:13-50
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:33:13-50
 activity#com.drowsyatmidnight.jobforcharity.userhire.JobDetail
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:35:9-36:56
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:35:9-36:56
 	android:theme
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:36:13-44
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:35:19-53
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:35:19-53
 activity#com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MyWorksMngmntActivity
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:38:9-40:15
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:38:9-40:15
 	android:theme
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:39:13-61
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:39:13-61
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:38:19-79
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:38:19-79
 activity#com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MainActivity
-ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:41:9-43:9
+ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:41:9-43:9
 	android:theme
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:42:13-51
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:42:13-51
 	android:name
-		ADDED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml:41:19-70
+		ADDED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml:41:19-70
 uses-sdk
-INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\haint\.android\build-cache\dd8d201fb583c37fb5c345301fee4409676a72b4\output\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\haint\.android\build-cache\43f3f9be291c835601acf809f4021970f9819e9d\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.coyarzun89:fabtransitionactivity:0.2.0] C:\Users\haint\.android\build-cache\c569ac404ea66466bee02599a7e6645ce2c3e431\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ozodrukh:CircularReveal:1.3.1] C:\Users\haint\.android\build-cache\a0d7d051c812de0e538de6bb252762dfe84ff736\output\AndroidManifest.xml:6:5-8:41
-MERGED from [me.relex:circleindicator:1.2.2] C:\Users\haint\.android\build-cache\26aabe29fcf264fb7e189ab6f941d4773f463ab5\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.lapism:searchview:4.0] C:\Users\haint\.android\build-cache\2634e3cf01a253589c309b3b9c904549ebec8153\output\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.yavski:fab-speed-dial:1.0.6] C:\Users\haint\.android\build-cache\3ca13f6740313e266ea81ca00726a521f05325df\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:20:5-43
-MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\haint\.android\build-cache\7f915fe4ffed73513e3c945c2422a86c87431733\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\haint\.android\build-cache\239f84f98418a190098f5f2c6f6d00b50e6b5446\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\haint\.android\build-cache\2d746c97d6ed189206efd1557248adae2f20c168\output\AndroidManifest.xml:5:5-43
-MERGED from [com.google.firebase:firebase-storage:11.0.2] C:\Users\haint\.android\build-cache\eb115e3044867a04d6214eda54b13e55d0836181\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:11.0.2] C:\Users\haint\.android\build-cache\a06828259ab690e47a069102c1ba39eb78dfb5fc\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\haint\.android\build-cache\2aed12df616fbdb8e4a5285fa5069d50324bce38\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-config:11.0.2] C:\Users\haint\.android\build-cache\ac3a4663d8b7ee75bd00377e532db6ac35675331\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-dynamic-links:11.0.2] C:\Users\haint\.android\build-cache\f099755394c1bc48ea7b08547039d1ca56dc2c2f\output\AndroidManifest.xml:3:3-41
-MERGED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-ads:11.0.2] C:\Users\haint\.android\build-cache\cd26cc339189ab6f11425345834fca41b560421c\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] C:\Users\haint\.android\build-cache\f6d50f77477278a9665dc4ea1129ccba25e07240\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.0.2] C:\Users\haint\.android\build-cache\99b15a03df1d1373b22ebb6f49094db4c0862da3\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.2] C:\Users\haint\.android\build-cache\05ed221372aa2ff215d7ce84c45056a9efa29548\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-crash:11.0.2] C:\Users\haint\.android\build-cache\9d88ea66a76b68b6e3e0f6c424ed2866f9cf17f5\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-appindexing:11.0.2] C:\Users\haint\.android\build-cache\f3f510b7ddaefc43d625e522b4a16be9b8a4c36f\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\f322f4761e17467a7489d530c2b86c152eede0e2\output\AndroidManifest.xml:17:5-43
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\haint\.android\build-cache\10c82c347669861f192558e2f76c5acbe0631d2a\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-database:11.0.2] C:\Users\haint\.android\build-cache\814ecbc6b81033e0fcb7305d94879cac83e11e9c\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:11.0.2] C:\Users\haint\.android\build-cache\6de3c81fabf52cf11e42eaa51464b07dc02ddef4\output\AndroidManifest.xml:3:5-43
-MERGED from [com.github.grennis:ExpandableRecyclerView:0.9.3] C:\Users\haint\.android\build-cache\cd8d2b8d7a1f4431bd9f32931d5f9e5a8fc413a7\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\haint\.android\build-cache\ef703137a9b5be9996e8351229f78273149a4981\output\AndroidManifest.xml:20:5-43
-MERGED from [com.github.arcadefire:nice-spinner:1.2] C:\Users\haint\.android\build-cache\23905a2aef4ce07d8e35cc3a0f2ec6310a6a6bea\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\haint\.android\build-cache\6caa42be79a79888f62d308cc7d8673c5b3b41d8\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\2e9b71a0bc03360d6c0d2540a11ddcdbb6af0ed3\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\16d78c14b145014fff95fa609cc1605131ec5c25\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\haint\.android\build-cache\80e7168c5b62a10179c89353d97b1c3a331454fa\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\88cc27cb1367476a9ea23940766c9532716bf26f\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\7e736e676cf033c7fb544b1433ed039b9bcc467e\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\haint\.android\build-cache\4bc2577455fd69312342e01379ec992227217678\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\haint\.android\build-cache\c3fce7d434680cc95f65ea94abeb99786ca87183\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\haint\.android\build-cache\c5641696496e1f52fa937ab81756dde11212d159\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\haint\.android\build-cache\f8188275d8b362355679222e5dbb8f207117cff8\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\haint\.android\build-cache\a3cf08b5b8618c42c4dba9e47515eeeba019a9d6\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\haint\.android\build-cache\b44aeeb209ac21bb69f69954581da94c48bebc4c\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\haint\.android\build-cache\8744fc5e97736f512e799a4a880ab02d48d4cf94\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\haint\.android\build-cache\12fccd9c957f73017591c5064030259affd83c64\output\AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/davidtran/.android/build-cache/76736235cd1586155881290d800decd6c83f5d3c/output/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/davidtran/.android/build-cache/69ff5916a830bfe383c3546cdfc3d59999e801af/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.coyarzun89:fabtransitionactivity:0.2.0] /Users/davidtran/.android/build-cache/4e755f0b29f576cedbd390e68a4aa45e8904dbf7/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ozodrukh:CircularReveal:1.3.1] /Users/davidtran/.android/build-cache/eb54a03d04a77f4765ed301ed4354f083efb88bd/output/AndroidManifest.xml:6:5-8:41
+MERGED from [me.relex:circleindicator:1.2.2] /Users/davidtran/.android/build-cache/69fc4b2365f6d175ff80579d76ffc63fc3b4cf50/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.lapism:searchview:4.0] /Users/davidtran/.android/build-cache/fe6200744080c6e0a22cfd4392414753f5462a3e/output/AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.yavski:fab-speed-dial:1.0.6] /Users/davidtran/.android/build-cache/08a06d3d665d68ebe56c47e750cc2808e8483549/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:25.3.1] /Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] /Users/davidtran/.android/build-cache/49dc082923e932bd75f2f49aae781b6d65822e7a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/davidtran/.android/build-cache/76376b1abaa546527f976829c2f4efc5f7b5fb88/output/AndroidManifest.xml:20:5-43
+MERGED from [cn.pedant.sweetalert:library:1.3] /Users/davidtran/.android/build-cache/6d013b52111caee3eb91a1d914fca4b5185c944c/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] /Users/davidtran/.android/build-cache/9313c350f932c31cada5762c45185f5fb3c08f50/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.6.0] /Users/davidtran/.android/build-cache/de00c155a6121f9069662b68d39759fa05cd7083/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.2] /Users/davidtran/.android/build-cache/24f474e9919dbe9574c3dafa0071cb3849aa6d0e/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.2] /Users/davidtran/.android/build-cache/1c5bc2f18be6e63f9003e26fa17190c426bc2688/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.2] /Users/davidtran/.android/build-cache/539b7cbf11da0b465a17f970f8182bd1498deedf/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.2] /Users/davidtran/.android/build-cache/81268fde18f7cfee4c372be1df5ada683c9a1541/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.2] /Users/davidtran/.android/build-cache/cc8059f80f39108e8de292f550f6c008cd89a34f/output/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.2] /Users/davidtran/.android/build-cache/9f4533dce2bb97779591ba216e54e72c632d2164/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] /Users/davidtran/.android/build-cache/d667eabc5de2db59d14a6d668245343d7fef4cb4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.2] /Users/davidtran/.android/build-cache/88d9863c26b159267ae3aaa9d0d2ee605e46e86f/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.2] /Users/davidtran/.android/build-cache/91c97e143bfa49646b88059fb54b87a335c9c32e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.2] /Users/davidtran/.android/build-cache/1e5155fa4b6abb8bb3d03c8abc7e4d15d97bf8d8/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.2] /Users/davidtran/.android/build-cache/194340f0c35a537880ff51dd91fbba711c3295bc/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] /Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/AndroidManifest.xml:17:5-43
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] /Users/davidtran/.android/build-cache/f88ec210b55b029f8b08399355dddbfdc6227e9d/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:11.0.2] /Users/davidtran/.android/build-cache/3a927fd45800d722f5c4c7d1fd87cb7e374b740e/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.2] /Users/davidtran/.android/build-cache/3eb613bac3d6df1ec721bcc496b4cf7d7b67a551/output/AndroidManifest.xml:3:5-43
+MERGED from [com.github.grennis:ExpandableRecyclerView:0.9.3] /Users/davidtran/.android/build-cache/ac72ef2cb61a75531e663bb13b1879502997d683/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/davidtran/.android/build-cache/1bce95612d60bcbb9e0907e52dd0830b7e5e72ee/output/AndroidManifest.xml:20:5-43
+MERGED from [com.github.arcadefire:nice-spinner:1.2] /Users/davidtran/.android/build-cache/51b437a642c453ecf06e05d648b9bec7a4e07679/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/davidtran/.android/build-cache/c4b4973127ffe3897be25453e787ef72a2aef548/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/davidtran/.android/build-cache/6fa6c5c6664257d522b72bcb9ae049386e661e44/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.2] /Users/davidtran/.android/build-cache/f3b353bd9fb9030505136b60c4fec893bee4f7c9/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/davidtran/.android/build-cache/290f67ad6d62cb134515f6fca8bf436c803b42f7/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.2] /Users/davidtran/.android/build-cache/9f8afc952c9612270891f666493ad470c5e9831e/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /Users/davidtran/.android/build-cache/936f166ea93e06e2a4890255cad136edadad6a0d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/davidtran/.android/build-cache/fc62742215e1a884939c4fef349010aa2f7507e9/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /Users/davidtran/.android/build-cache/334e387df8ed0777e1f01293b3c60f2b86556c70/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/davidtran/.android/build-cache/75a80b0666ece97b0ab817168a383816ae784b86/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/davidtran/.android/build-cache/adf9cbc0f7f7ea7481e021c0f840b198d9fceb44/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/davidtran/.android/build-cache/dc5504c2836f199620639ecebdc401dea0703181/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/davidtran/.android/build-cache/24f8a00fbf143a235d54d9c9e32df0ba21be0b34/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/davidtran/.android/build-cache/f642c90396c0b7c55bac5273d921ce6fc18cb183/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] /Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Android\CoderSchool\final\JobForCharity\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\haint\.android\build-cache\c35038ea79d3c663a4a4b74b6ab5485521d7fa5a\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\haint\.android\build-cache\729ea555bb137c23aef189fd6c088b6065fbabe0\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\haint\.android\build-cache\ef703137a9b5be9996e8351229f78273149a4981\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\haint\.android\build-cache\6caa42be79a79888f62d308cc7d8673c5b3b41d8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\2e9b71a0bc03360d6c0d2540a11ddcdbb6af0ed3\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\haint\.android\build-cache\16d78c14b145014fff95fa609cc1605131ec5c25\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\haint\.android\build-cache\c5641696496e1f52fa937ab81756dde11212d159\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\haint\.android\build-cache\f8188275d8b362355679222e5dbb8f207117cff8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\haint\.android\build-cache\a3cf08b5b8618c42c4dba9e47515eeeba019a9d6\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\haint\.android\build-cache\b44aeeb209ac21bb69f69954581da94c48bebc4c\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\haint\.android\build-cache\8744fc5e97736f512e799a4a880ab02d48d4cf94\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\haint\.android\build-cache\12fccd9c957f73017591c5064030259affd83c64\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] /Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /Users/davidtran/.android/build-cache/49dc082923e932bd75f2f49aae781b6d65822e7a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/davidtran/.android/build-cache/76376b1abaa546527f976829c2f4efc5f7b5fb88/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/davidtran/.android/build-cache/1bce95612d60bcbb9e0907e52dd0830b7e5e72ee/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/davidtran/.android/build-cache/c4b4973127ffe3897be25453e787ef72a2aef548/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/davidtran/.android/build-cache/6fa6c5c6664257d522b72bcb9ae049386e661e44/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/davidtran/.android/build-cache/334e387df8ed0777e1f01293b3c60f2b86556c70/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/davidtran/.android/build-cache/75a80b0666ece97b0ab817168a383816ae784b86/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/davidtran/.android/build-cache/adf9cbc0f7f7ea7481e021c0f840b198d9fceb44/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/davidtran/.android/build-cache/dc5504c2836f199620639ecebdc401dea0703181/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/davidtran/.android/build-cache/24f8a00fbf143a235d54d9c9e32df0ba21be0b34/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/davidtran/.android/build-cache/f642c90396c0b7c55bac5273d921ce6fc18cb183/output/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] /Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\haint\.android\build-cache\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] /Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/AndroidManifest.xml:26:9-47
 activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:20:9-25:20
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:20:9-25:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:20:51-74
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:20:51-74
 	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:20:75-121
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:20:75-121
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:20:19-50
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:20:19-50
 intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:21:13-24:29
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:21:13-24:29
 action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:22:17-89
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:22:17-89
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:22:25-87
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:22:25-87
 category#android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:23:17-75
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:23:17-75
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\haint\.android\build-cache\abb6e7eb99dab05f54ea5b1bc409370f77288a9c\output\AndroidManifest.xml:23:27-73
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] /Users/davidtran/.android/build-cache/9ecb246b67a9d6f1c23bf3fe0cba6557b53f367d/output/AndroidManifest.xml:23:27-73
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:23:18-87
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:24:13-26:29
+ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:24:13-26:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:24:28-51
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:24:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:25:17-77
+ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\haint\.android\build-cache\e9f7f436c321a5291ceda04c948b087316616767\output\AndroidManifest.xml:25:25-75
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/davidtran/.android/build-cache/d10f73a9de00a4941cff5172f13743b2f365c8ec/output/AndroidManifest.xml:25:25-75
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:20:5-78
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\88cc27cb1367476a9ea23940766c9532716bf26f\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/davidtran/.android/build-cache/290f67ad6d62cb134515f6fca8bf436c803b42f7/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:20:22-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:20:22-76
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:25:9-232
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:25:9-232
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:25:72-181
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:25:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:25:182-230
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\haint\.android\build-cache\8f7f8e1ea236d379b22dbd134c539de5d4df9c77\output\AndroidManifest.xml:25:19-71
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] /Users/davidtran/.android/build-cache/bd4c559a1579fea06c41c2959f3403501e7dc74d/output/AndroidManifest.xml:25:19-71
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\f322f4761e17467a7489d530c2b86c152eede0e2\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\f322f4761e17467a7489d530c2b86c152eede0e2\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\f322f4761e17467a7489d530c2b86c152eede0e2\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\haint\.android\build-cache\f322f4761e17467a7489d530c2b86c152eede0e2\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/davidtran/.android/build-cache/3eafd23fe84e6e81b98540072dd8a047b8840178/output/AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\haint\.android\build-cache\10c82c347669861f192558e2f76c5acbe0631d2a\output\AndroidManifest.xml:14:9-16:69
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\haint\.android\build-cache\c3fce7d434680cc95f65ea94abeb99786ca87183\output\AndroidManifest.xml:20:9-121
+ADDED from [com.firebaseui:firebase-ui-database:1.2.0] /Users/davidtran/.android/build-cache/f88ec210b55b029f8b08399355dddbfdc6227e9d/output/AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/davidtran/.android/build-cache/fc62742215e1a884939c4fef349010aa2f7507e9/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\haint\.android\build-cache\10c82c347669861f192558e2f76c5acbe0631d2a\output\AndroidManifest.xml:16:13-66
+		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] /Users/davidtran/.android/build-cache/f88ec210b55b029f8b08399355dddbfdc6227e9d/output/AndroidManifest.xml:16:13-66
 	android:name
-		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\haint\.android\build-cache\10c82c347669861f192558e2f76c5acbe0631d2a\output\AndroidManifest.xml:15:13-58
+		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] /Users/davidtran/.android/build-cache/f88ec210b55b029f8b08399355dddbfdc6227e9d/output/AndroidManifest.xml:15:13-58
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\88cc27cb1367476a9ea23940766c9532716bf26f\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/davidtran/.android/build-cache/290f67ad6d62cb134515f6fca8bf436c803b42f7/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\88cc27cb1367476a9ea23940766c9532716bf26f\output\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/davidtran/.android/build-cache/290f67ad6d62cb134515f6fca8bf436c803b42f7/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:27:162-184
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:27:185-208
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\haint\.android\build-cache\88cc27cb1367476a9ea23940766c9532716bf26f\output\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/davidtran/.android/build-cache/290f67ad6d62cb134515f6fca8bf436c803b42f7/output/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:32:16-87
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:33:7-197
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:33:7-197
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:33:148-170
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:33:171-195
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:33:91-147
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\haint\.android\build-cache\bff71e8c8208a9d80439d670dc9b6f48b9478895\output\AndroidManifest.xml:33:16-90
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/davidtran/.android/build-cache/1010228e2bfe1c74abb8899aec475fb5cf92e2d3/output/AndroidManifest.xml:33:16-90
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:44:13-46:29
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:44:28-51
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:45:17-79
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\haint\.android\build-cache\5b661e4a928229b825ab87ae7304d10b34166f03\output\AndroidManifest.xml:45:25-77
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/davidtran/.android/build-cache/2707ad29656cc72ad2647b2b9570b25f403b745e/output/AndroidManifest.xml:45:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\7e736e676cf033c7fb544b1433ed039b9bcc467e\output\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/davidtran/.android/build-cache/9f8afc952c9612270891f666493ad470c5e9831e/output/AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\7e736e676cf033c7fb544b1433ed039b9bcc467e\output\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/davidtran/.android/build-cache/9f8afc952c9612270891f666493ad470c5e9831e/output/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\7e736e676cf033c7fb544b1433ed039b9bcc467e\output\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/davidtran/.android/build-cache/9f8afc952c9612270891f666493ad470c5e9831e/output/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\7e736e676cf033c7fb544b1433ed039b9bcc467e\output\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/davidtran/.android/build-cache/9f8afc952c9612270891f666493ad470c5e9831e/output/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\haint\.android\build-cache\7e736e676cf033c7fb544b1433ed039b9bcc467e\output\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/davidtran/.android/build-cache/9f8afc952c9612270891f666493ad470c5e9831e/output/AndroidManifest.xml:6:79-143

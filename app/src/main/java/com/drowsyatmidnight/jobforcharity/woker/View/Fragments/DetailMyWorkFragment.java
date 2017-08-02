@@ -39,6 +39,8 @@ public class DetailMyWorkFragment extends Fragment{
     }
 
     private SomeEvent someEvent;
+@BindView(R.id.tvUserHireInfo)
+TextView tvUserHireInfo;
 
     @BindView(R.id.scrollViewDetail)
     NestedScrollView mScrollView;
@@ -115,6 +117,7 @@ public class DetailMyWorkFragment extends Fragment{
 
 
     }
+
     private List<GroupedDateTimeWork> getGroupedDateTimeList(){
         List<GroupedDateTimeWork> mGroupedDateTimeWorks = new ArrayList<>();
         //Map<String,List<ShiftWork_Model>> map = new HashMap<>();

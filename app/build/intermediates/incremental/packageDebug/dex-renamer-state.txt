@@ -1,7 +1,7 @@
-#Wed Aug 02 21:06:53 ICT 2017
-base.0=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_14e37ec6a984335584a1812f6449d8aabb1565d3
+#Thu Aug 03 01:00:22 ICT 2017
+base.0=/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cfeb30d52ba3118dc3ca0fd272d2e29191946397
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_61a4a985d71f4b0ff3864544340b488ce311c3ac\\classes.dex
-base.1=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_61a4a985d71f4b0ff3864544340b488ce311c3ac
-file.0=E\:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_14e37ec6a984335584a1812f6449d8aabb1565d3\\classes.dex
+file.1=/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_47ce7d2229620e8e830acd9b7781e0b9c5488876/classes.dex
+base.1=/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_47ce7d2229620e8e830acd9b7781e0b9c5488876
+file.0=/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cfeb30d52ba3118dc3ca0fd272d2e29191946397/classes.dex

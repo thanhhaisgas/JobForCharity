@@ -137,11 +137,11 @@ public class MyWorksMngmntActivity extends AppCompatActivity
         fab_addJob.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mSheetLayout.expandFab();
+                //mSheetLayout.expandFab();
                 //show it
-/*
+
                 bottomSheetDialogFragment.show(getSupportFragmentManager(), bottomSheetDialogFragment.getTag());
-*/
+
             }
         });
     }

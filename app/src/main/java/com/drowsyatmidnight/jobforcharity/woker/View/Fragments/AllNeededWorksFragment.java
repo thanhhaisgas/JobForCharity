@@ -107,6 +107,23 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
     }
 
     private void setupAdapter(List<Job_Model> listJob){
+        int i=0;
+        while(i<listJob.size()){
+            int j=0;
+            while (j<listJob.get(i).getDateTimes().size()){
+                if(listJob.get(i).getDateTimes().get(j).getDeletedStatus().equals("true")){
+                    listJob.get(i).getDateTimes().remove(j);
+                    j=-1;
+                }
+                j++;
+            }
+            if(listJob.get(i).getDateTimes().isEmpty()){
+                listJob.remove(i);
+                i=-1;
+            }
+            i++;
+        }
+
         adapter = new WorkAdapter(listJob,getContext());
         //adapter.setMode(ExpandableRecyclerAdapter.MODE_ACCORDION);
         //recycler.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -187,7 +204,7 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
 
                     bindListWorkOnHistoryWorkMode(listJob);
                 }
-                WorkListGetting(listJob,countRun);
+                //WorkListGetting(listJob,countRun);
             }
 
             @Override
@@ -198,20 +215,18 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
 
 
     }
-    private List<Job_Model> WorkListGetting(List<Job_Model>worklist,int count){
+  /*  private List<Job_Model> WorkListGetting(List<Job_Model>worklist,int count){
         Toast.makeText(getContext(),"count:"+count,Toast.LENGTH_SHORT).show();
         return worklist;
-    }
+    }*/
     private void bindListWorkOnAllWorkMode(List<Job_Model> workList){
         setupAdapter(workList);
     }
     private void bindListWorkOnFeatureWorkMode(List<Job_Model> workList){
 
-        List<Job_Model> featureWorkList = new ArrayList<>();
-
         final Calendar c = Calendar.getInstance();
         int yyyy = c.get(Calendar.YEAR);
-        int mm = c.get(Calendar.MONTH);
+        int mm = c.get(Calendar.MONTH)+1;
         int dd = c.get(Calendar.DAY_OF_MONTH);
         String sCurrentDate = yyyy+"/"+mm+"/"+dd;
         boolean compare = false;
@@ -223,35 +238,43 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        for (int i = 0;i<workList.size();i++){
-      //  for (Job_Model work: workList) {
-            for (int j = 0;j<workList.get(i).getDateTimes().size();j++){
-          //  for(ShiftWork_Model shiftwork:work.getDateTimes()){
+        int i=0;
+        while (i<workList.size()){
+            //  for (Job_Model work: workList) {
+            int j=0;
+            while( j<workList.get(i).getDateTimes().size()){
+                //  for(ShiftWork_Model shiftwork:work.getDateTimes()){
                 try {
                     gotDate = (Date) formatter.parse(workList.get(i).getDateTimes().get(j).getDate());
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
-                if(gotDate.compareTo(currentDate)==-1) {
+                if(gotDate.compareTo(currentDate)<=0) {
                     Log.d("An:Sgotdate",workList.get(i).getDateTimes().get(j).getDate());
                     Log.d("An:gotdate",gotDate.toString());
                     Log.d("An:Scurrdate",sCurrentDate);
                     Log.d("An:currdate",currentDate.toString());
                     workList.get(i).getDateTimes().remove(j);
+                    j=-1;
 
                 }
-                if(workList.get(i).getDateTimes().isEmpty()) workList.remove(i);
-
+                j++;
             }
+
+            if(workList.get(i).getDateTimes().isEmpty()) {
+                workList.remove(i);
+                i=-1;
+            }
+            i++;
         }
+
         setupAdapter(workList);
+
     }
     private void bindListWorkOnProgressingWorkMode(List<Job_Model> workList){
-        List<Job_Model> featureWorkList = new ArrayList<>();
-
         final Calendar c = Calendar.getInstance();
         int yyyy = c.get(Calendar.YEAR);
-        int mm = c.get(Calendar.MONTH);
+        int mm = c.get(Calendar.MONTH)+1;
         int dd = c.get(Calendar.DAY_OF_MONTH);
         String sCurrentDate = yyyy+"/"+mm+"/"+dd;
         boolean compare = false;
@@ -263,9 +286,11 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        for (int i = 0;i<workList.size();i++){
+        int i=0;
+        while (i<workList.size()){
             //  for (Job_Model work: workList) {
-            for (int j = 0;j<workList.get(i).getDateTimes().size();j++){
+            int j=0;
+            while( j<workList.get(i).getDateTimes().size()){
                 //  for(ShiftWork_Model shiftwork:work.getDateTimes()){
                 try {
                     gotDate = (Date) formatter.parse(workList.get(i).getDateTimes().get(j).getDate());
@@ -278,11 +303,19 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
                     Log.d("An:Scurrdate",sCurrentDate);
                     Log.d("An:currdate",currentDate.toString());
                     workList.get(i).getDateTimes().remove(j);
+                    j=-1;
 
                 }
-                if(workList.get(i).getDateTimes().isEmpty()) workList.remove(i);
+                j++;
             }
+
+            if(workList.get(i).getDateTimes().isEmpty()) {
+                workList.remove(i);
+                i=-1;
+            }
+            i++;
         }
+
         setupAdapter(workList);
     }
     private void bindListWorkOnHistoryWorkMode(List<Job_Model> workList){
@@ -301,25 +334,34 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        for (int i = 0;i<workList.size();i++){
+        int i=0;
+       while (i<workList.size()){
             //  for (Job_Model work: workList) {
-            for (int j = 0;j<workList.get(i).getDateTimes().size();j++){
+            int j=0;
+            while( j<workList.get(i).getDateTimes().size()){
                 //  for(ShiftWork_Model shiftwork:work.getDateTimes()){
                 try {
                     gotDate = (Date) formatter.parse(workList.get(i).getDateTimes().get(j).getDate());
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
-                if(gotDate.compareTo(currentDate)==1) {
+                if(gotDate.compareTo(currentDate)>=0) {
                     Log.d("An:Sgotdate",workList.get(i).getDateTimes().get(j).getDate());
                     Log.d("An:gotdate",gotDate.toString());
                     Log.d("An:Scurrdate",sCurrentDate);
                     Log.d("An:currdate",currentDate.toString());
                     workList.get(i).getDateTimes().remove(j);
+                    j=-1;
 
                 }
-                if(workList.get(i).getDateTimes().isEmpty()) workList.remove(i);
+                j++;
             }
+
+           if(workList.get(i).getDateTimes().isEmpty()) {
+               workList.remove(i);
+               i=-1;
+           }
+           i++;
         }
 
 

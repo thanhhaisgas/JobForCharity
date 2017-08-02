@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
@@ -129,13 +131,18 @@ public class WorkAdapter extends BaseExpandableListAdapter {
         TextView txtStatus = (TextView) convertView
                 .findViewById(R.id.item_datetime_status);
         TextView txtSalary = (TextView) convertView.findViewById(R.id.item_salary);
-
+        ImageView imgArrow = (ImageView) convertView.findViewById(R.id.imgArrowDatetime);
         if(!deleted_status.equals("true")) {
+
             txtDate.setText(mDate);
             txtBeginTime.setText(beginTime);
             txtEndTime.setText(endTime);
             txtStatus.setText(status);
             txtSalary.setText(salary);
+        }
+        else{
+//            imgArrow.setVisibility(View.GONE);
+
         }
 
         return convertView;

@@ -1,18 +1,18 @@
 [
     {
-        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\pass_login.png",
-        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\mipmap-hdpi\\pass_login.png"
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/mipmap-hdpi/mail_login.png",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/mipmap-hdpi/mail_login.png"
     },
     {
-        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\mail_login.png",
-        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\mipmap-hdpi\\mail_login.png"
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/mipmap-hdpi/pass_login.png",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/mipmap-hdpi/pass_login.png"
     }
 ]
