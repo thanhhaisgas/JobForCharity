@@ -142,9 +142,8 @@ public class JobsCategory extends AppCompatActivity {
         if (getIntent().getStringExtra("searchType").compareTo(KeyValueFirebase.SEARCHTYPE_ALL)==0){
             NameCategory = "Searching";
             setSupportActionBar(toolbarJobsCategory);
-            int idImgCategory = getIntent().getIntExtra("idImgCategory", R.drawable.icon_category_home);
             txtJobNameCategory.setText(NameCategory);
-            imgJobCategory.setImageResource(idImgCategory);
+            imgJobCategory.setImageResource(R.drawable.icon_category_search);
         }
     }
 

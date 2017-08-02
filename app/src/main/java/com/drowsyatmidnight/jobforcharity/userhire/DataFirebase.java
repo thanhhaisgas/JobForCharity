@@ -223,7 +223,7 @@ public class DataFirebase {
                 for (DataSnapshot dsp : dataSnapshot.getChildren()){
                     for (DataSnapshot date : dsp.child("DateTimes").getChildren()){
                         ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
-                        if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.UNAVAILABLE)==0&&shiftWork_model.getHirerUID().compareTo(KeyValueFirebase.UID)==0) {
+                        if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.UNAVAILABLE)==0&&shiftWork_model.getHirerUID().compareTo(KeyValueFirebase.UID)==0&&shiftWork_model.getDeletedStatus().compareTo("true")!=0) {
                             listDate.add(shiftWork_model);
                         }
                     }
@@ -251,27 +251,10 @@ public class DataFirebase {
     }
 
     public static void getCountCategory(final String s, final TextView txtCount) {
-        databaseReference.child("JOBS").addValueEventListener(new ValueEventListener() {
+        databaseReference.child("CATEGORIES").child(s).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                List<ShiftWork_Model> listDate = new ArrayList<>();
-                int count = 0;
-                for (DataSnapshot dsp : dataSnapshot.getChildren()){
-                    String category = (String) dsp.child("category").getValue();
-                    if (category.compareTo(s)==0){
-                        for (DataSnapshot date : dsp.child("DateTimes").getChildren()){
-                            ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
-                            if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0&&shiftWork_model.getDeletedStatus().compareTo("true")!=0) {
-                                listDate.add(shiftWork_model);
-                            }
-                        }
-                        if (listDate.size()>0){
-                            count += 1;
-                        }
-                        listDate = new ArrayList<>();
-                    }
-                }
-                txtCount.setText(" "+String.valueOf(count));
+                txtCount.setText((String) dataSnapshot.child("count").getValue());
             }
 
             @Override
@@ -280,6 +263,49 @@ public class DataFirebase {
             }
         });
     }
+
+    /*public static void updateCountCategory(final String type, final String s, String jobID) {
+        databaseReference.child("JOBS").child(jobID).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                boolean checkUpdate = true;
+                for (DataSnapshot date : dataSnapshot.child("DateTimes").getChildren()){
+                    ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
+                    if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0&&shiftWork_model.getDeletedStatus().compareTo("true")!=0) {
+                        checkUpdate = true;
+                        break;
+                    }else {
+                        checkUpdate = false;
+                        continue;
+                    }
+                }
+                if (!checkUpdate){
+                    databaseReference.child("CATEGORIES").child(s).addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            String current = (String) dataSnapshot.child("count").getValue();
+                            if (type.compareTo(KeyValueFirebase.CANCEL)==0){
+                                dataSnapshot.getRef().child("count").setValue(String.valueOf(1+Integer.parseInt(current)));
+                            }
+                            if (type.compareTo(KeyValueFirebase.RENT)==0){
+                                dataSnapshot.getRef().child("count").setValue(String.valueOf(Integer.parseInt(current)-1));
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }*/
 
     public static void getJobInHistory(final List<Job_Model> job_models, final RecyclerView lvJobInProgress, final Context context) {
         databaseReference.child("JOBS").addValueEventListener(new ValueEventListener() {

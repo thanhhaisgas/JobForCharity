@@ -856,6 +856,7 @@
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <dimen name="dp10">10dp</dimen>
+    <dimen name="dp100">100dp</dimen>
     <dimen name="dp15">15dp</dimen>
     <dimen name="dp18">18dp</dimen>
     <dimen name="dp20">20dp</dimen>
@@ -1078,6 +1079,7 @@
     <string name="search_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="search_behavior2" translatable="false">com.lapism.searchview.SearchBehavior</string>
     <string name="search_menu_title">Search</string>
+    <string name="send">Send</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up"><u>New here? Sign up</u></string>
     <string name="status_bar_notification_info_overflow">999+</string>

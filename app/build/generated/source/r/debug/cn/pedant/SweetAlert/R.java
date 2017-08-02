@@ -319,7 +319,7 @@ public final class R {
         public static final int common_circle_width = 0x7f080069;
         public static final int disabled_alpha_material_dark = 0x7f080088;
         public static final int disabled_alpha_material_light = 0x7f080089;
-        public static final int progress_circle_radius = 0x7f0800b3;
+        public static final int progress_circle_radius = 0x7f0800b4;
     }
     public static final class drawable {
         public static final int abc_btn_check_material = 0x7f020003;
@@ -366,16 +366,16 @@ public final class R {
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f020050;
         public static final int abc_textfield_search_material = 0x7f020051;
         public static final int blue_button_background = 0x7f020057;
-        public static final int dialog_background = 0x7f020072;
-        public static final int error_center_x = 0x7f020073;
-        public static final int error_circle = 0x7f020074;
-        public static final int gray_button_background = 0x7f02007c;
-        public static final int ic_launcher = 0x7f020091;
-        public static final int red_button_background = 0x7f0200bd;
-        public static final int success_bow = 0x7f0200c1;
-        public static final int success_circle = 0x7f0200c2;
-        public static final int warning_circle = 0x7f0200ca;
-        public static final int warning_sigh = 0x7f0200cb;
+        public static final int dialog_background = 0x7f020075;
+        public static final int error_center_x = 0x7f020077;
+        public static final int error_circle = 0x7f020078;
+        public static final int gray_button_background = 0x7f020080;
+        public static final int ic_launcher = 0x7f020096;
+        public static final int red_button_background = 0x7f0200c3;
+        public static final int success_bow = 0x7f0200c7;
+        public static final int success_circle = 0x7f0200c8;
+        public static final int warning_circle = 0x7f0200d0;
+        public static final int warning_sigh = 0x7f0200d1;
     }
     public static final class id {
         public static final int action_bar = 0x7f0e009b;

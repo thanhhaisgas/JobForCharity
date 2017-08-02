@@ -54,6 +54,7 @@
     <string name="Dialog_title_rent_success">Your job has been added!</string>
     <string name="Dialog_title_cancel_success">Your job has been remove</string>
     <string name="thank_you">Thank you!</string>
+    <string name="send">Send</string>
 
     <!--Spinner categories-->
     <string-array name="spinner_categories">

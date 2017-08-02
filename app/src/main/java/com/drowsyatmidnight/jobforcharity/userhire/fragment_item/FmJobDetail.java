@@ -1,7 +1,9 @@
 package com.drowsyatmidnight.jobforcharity.userhire.fragment_item;
 
 import android.app.AlertDialog;
-import android.content.DialogInterface;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -21,10 +23,13 @@ import android.widget.Toast;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
+import com.drowsyatmidnight.jobforcharity.model.User_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.JobDetail;
 import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.AdapterDateTimes;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -100,6 +105,7 @@ public class FmJobDetail extends Fragment{
                     if (btnRentJob.getText().toString().toUpperCase().compareTo(KeyValueFirebase.RENT.toUpperCase())==0){
                         showWarningDialogRent(getString(R.string.Dialog_title_warning), getString(R.string.Dialog_content_rent_warning),
                                 getString(R.string.Dialog_title_rent_success), getString(R.string.Dialog_content_rent_success), KeyValueFirebase.RENT);
+                        //DataFirebase.updateCountCategory(KeyValueFirebase.RENT, getArguments().getString("category"), getArguments().getString("JobID"));
                     }
                     if (btnRentJob.getText().toString().toUpperCase().compareTo(KeyValueFirebase.DONE.toUpperCase())==0){
                         DataFirebase.updateRentJob(adapterDateTimes.listSelected, KeyValueFirebase.UID, JobID, KeyValueFirebase.DONE);
@@ -116,6 +122,7 @@ public class FmJobDetail extends Fragment{
                 }else {
                     showWarningDialogRent(getString(R.string.Dialog_title_warning), getString(R.string.Dialog_content_cancel_warning),
                             getString(R.string.Dialog_title_cancel_success), "", KeyValueFirebase.CANCEL);
+                    //DataFirebase.updateCountCategory(KeyValueFirebase.CANCEL, getArguments().getString("category"), getArguments().getString("JobID"));
                 }
             }
         });
@@ -173,24 +180,48 @@ public class FmJobDetail extends Fragment{
         ImageView imgProfileReview = (ImageView) dialogView.findViewById(R.id.imgProfileReview);
         imgProfileReview.setImageResource(R.drawable.test);
         final RatingBar rateBarReview = (RatingBar) dialogView.findViewById(R.id.rateBarReview);
+        LayerDrawable stars = (LayerDrawable) rateBarReview.getProgressDrawable();
+        stars.getDrawable(2).setColorFilter(Color.YELLOW, PorterDuff.Mode.SRC_ATOP);
+        stars.getDrawable(0).setColorFilter(Color.GRAY, PorterDuff.Mode.SRC_ATOP);
+        stars.getDrawable(1).setColorFilter(Color.TRANSPARENT, PorterDuff.Mode.SRC_ATOP);
         final EditText edCommentReviews = (EditText) dialogView.findViewById(R.id.edCommentReviews);
-        dialogBuilder.setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
+        final TextView txtNameReview = (TextView) dialogView.findViewById(R.id.txtNameReview);
+        DataFirebase.getUserInfo(getArguments().getString("workerID"), new DataFirebase.OnGetDataListener() {
+                    @Override
+                    public void onStart() {
+
+                    }
+
+                    @Override
+                    public void onSuccess(DataSnapshot data) {
+                        User_Model user_model = data.getValue(User_Model.class);
+                        txtNameReview.setText(user_model.getLName()+" "+user_model.getFName());
+                    }
+
+                    @Override
+                    public void onFailed(DatabaseError databaseError) {
+
+                    }
+                });
+        Button btnReviewCacel = (Button) dialogView.findViewById(R.id.btnReviewCacel);
+        Button btnReviewSend = (Button) dialogView.findViewById(R.id.btnReviewSend);
+        final AlertDialog alertDialog = dialogBuilder.create();
+        alertDialog.show();
+        btnReviewCacel.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss();
+            public void onClick(View v) {
+                alertDialog.dismiss();
                 showThankYou();
             }
         });
-        dialogBuilder.setPositiveButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
+        btnReviewSend.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {
+            public void onClick(View v) {
                 DataFirebase.pushReviews(rateBarReview.getNumStars(), edCommentReviews.getText().toString(), JobID, KeyValueFirebase.UID, getArguments().getString("workerID"));
                 showThankYou();
+                alertDialog.dismiss();
             }
         });
-        dialogBuilder.setTitle(R.string.review);
-        AlertDialog alertDialog = dialogBuilder.create();
-        alertDialog.show();
     }
 
     private void showThankYou(){

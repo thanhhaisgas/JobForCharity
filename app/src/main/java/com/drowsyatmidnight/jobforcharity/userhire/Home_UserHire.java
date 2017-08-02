@@ -11,13 +11,21 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
+import com.drowsyatmidnight.jobforcharity.model.User_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmCategory;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobInHistory;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobInProgress;
+import com.google.firebase.crash.FirebaseCrash;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.lapism.searchview.SearchView;
 
 import butterknife.BindView;
@@ -52,6 +60,29 @@ public class Home_UserHire extends AppCompatActivity
         onNavigationItemSelected(navigationView.getMenu().getItem(0));
         searchViewHome.bringToFront();
         navigationView.bringToFront();
+        FirebaseCrash.setCrashCollectionEnabled(false);
+        View headerView = LayoutInflater.from(this).inflate(R.layout.nav_header_home_user_hire, navigationView, false);
+        navigationView.addHeaderView(headerView);
+        ImageView profile_imageNav = (ImageView)headerView.findViewById(R.id.profile_imageNav);
+        final TextView profile_NameNav = (TextView) headerView.findViewById(R.id.profile_NameNav);
+        profile_imageNav.setImageResource(R.drawable.test);
+        DataFirebase.getUserInfo(KeyValueFirebase.UID, new DataFirebase.OnGetDataListener() {
+            @Override
+            public void onStart() {
+
+            }
+
+            @Override
+            public void onSuccess(DataSnapshot data) {
+                User_Model user_model = data.getValue(User_Model.class);
+                profile_NameNav.setText(user_model.getLName()+" "+user_model.getFName());
+            }
+
+            @Override
+            public void onFailed(DatabaseError databaseError) {
+
+            }
+        });
         setUpSearchView();
     }
 

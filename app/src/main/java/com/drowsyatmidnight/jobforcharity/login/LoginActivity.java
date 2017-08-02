@@ -119,6 +119,9 @@ public class LoginActivity extends AppCompatActivity {
             sweetAlertDialog.setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
                 @Override
                 public void onClick(SweetAlertDialog sweetAlertDialog) {
+                    viewLogin.setVisibility(View.VISIBLE);
+                    viewEmployer.setVisibility(View.GONE);
+                    viewEmployee.setVisibility(View.GONE);
                     sweetAlertDialog.dismiss();
                 }
             });
