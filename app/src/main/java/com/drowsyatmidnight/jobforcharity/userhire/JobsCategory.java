@@ -63,8 +63,14 @@ public class JobsCategory extends AppCompatActivity {
         searchViewCategory.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                DataFirebase.searchJobOrderCategory(NameCategory,lvJobsCategory,JobsCategory.this,JobsCategory.this, query);
-                searchViewCategory.close(true);
+                if (getIntent().getStringExtra("searchType").compareTo(KeyValueFirebase.SEARCHTYPE_CATEGORY)==0){
+                    DataFirebase.searchJobOrderCategory(NameCategory,lvJobsCategory,JobsCategory.this,JobsCategory.this, query, txtJobCountCategory);
+                    searchViewCategory.close(true);
+                }
+                if (getIntent().getStringExtra("searchType").compareTo(KeyValueFirebase.SEARCHTYPE_ALL)==0){
+                    DataFirebase.getAllJob(query,lvJobsCategory,JobsCategory.this,JobsCategory.this, txtJobCountCategory);
+                    searchViewCategory.close(true);
+                }
                 return false;
             }
 
@@ -76,8 +82,13 @@ public class JobsCategory extends AppCompatActivity {
     }
 
     private void setUpListJobs() {
-        DataFirebase.getCountCategory(NameCategory,txtJobCountCategory);
-        DataFirebase.getJobsCategory(NameCategory,lvJobsCategory,this,JobsCategory.this);
+        if (getIntent().getStringExtra("searchType").compareTo(KeyValueFirebase.SEARCHTYPE_CATEGORY)==0){
+            DataFirebase.getJobsCategory(NameCategory,lvJobsCategory,this,JobsCategory.this, txtJobCountCategory);
+        }
+        if (getIntent().getStringExtra("searchType").compareTo(KeyValueFirebase.SEARCHTYPE_ALL)==0){
+            DataFirebase.getAllJob(getIntent().getStringExtra("query"),lvJobsCategory,this,JobsCategory.this, txtJobCountCategory);
+        }
+
     }
 
     private void setUpToolBar() {
@@ -109,23 +120,32 @@ public class JobsCategory extends AppCompatActivity {
     }
 
     private void setUpView() {
-        NameCategory = getIntent().getStringExtra("NameCategory");
-        String categoryColor = getIntent().getStringExtra("categoryColor");
-        int idImgCategory = getIntent().getIntExtra("idImgCategory", R.drawable.icon_category_home);
-        int position = getIntent().getIntExtra("position", 0);
-        List<String> categoryColorLight = Arrays.asList(getResources().getStringArray(R.array.list_light_color_category));
-        List<String> categoryColorDark = Arrays.asList(getResources().getStringArray(R.array.list_dark_color_category));
-        txtJobNameCategory.setText(NameCategory);
-        imgJobCategory.setImageResource(idImgCategory);
-        lnJobCatagory.setBackgroundColor(Color.parseColor(categoryColor));
-        setSupportActionBar(toolbarJobsCategory);
-        toolbarJobsCategory.setBackgroundColor(Color.parseColor(categoryColor));
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(Color.parseColor(categoryColorDark.get(position)));
+        if (getIntent().getStringExtra("searchType").compareTo(KeyValueFirebase.SEARCHTYPE_CATEGORY)==0){
+            NameCategory = getIntent().getStringExtra("NameCategory");
+            String categoryColor = getIntent().getStringExtra("categoryColor");
+            int idImgCategory = getIntent().getIntExtra("idImgCategory", R.drawable.icon_category_home);
+            int position = getIntent().getIntExtra("position", 0);
+            List<String> categoryColorLight = Arrays.asList(getResources().getStringArray(R.array.list_light_color_category));
+            List<String> categoryColorDark = Arrays.asList(getResources().getStringArray(R.array.list_dark_color_category));
+            txtJobNameCategory.setText(NameCategory);
+            imgJobCategory.setImageResource(idImgCategory);
+            lnJobCatagory.setBackgroundColor(Color.parseColor(categoryColor));
+            setSupportActionBar(toolbarJobsCategory);
+            toolbarJobsCategory.setBackgroundColor(Color.parseColor(categoryColor));
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                Window window = getWindow();
+                window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+                window.setStatusBarColor(Color.parseColor(categoryColorDark.get(position)));
+            }
+            bgActivityJobsCategory.setBackgroundColor(Color.parseColor(categoryColorLight.get(position)));
         }
-        bgActivityJobsCategory.setBackgroundColor(Color.parseColor(categoryColorLight.get(position)));
+        if (getIntent().getStringExtra("searchType").compareTo(KeyValueFirebase.SEARCHTYPE_ALL)==0){
+            NameCategory = "Searching";
+            setSupportActionBar(toolbarJobsCategory);
+            int idImgCategory = getIntent().getIntExtra("idImgCategory", R.drawable.icon_category_home);
+            txtJobNameCategory.setText(NameCategory);
+            imgJobCategory.setImageResource(idImgCategory);
+        }
     }
 
     @Override

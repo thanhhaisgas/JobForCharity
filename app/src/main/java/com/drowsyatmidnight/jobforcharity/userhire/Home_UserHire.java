@@ -1,5 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.userhire;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
@@ -65,6 +66,11 @@ public class Home_UserHire extends AppCompatActivity
         searchViewHome.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
+                Intent goSearch = new Intent(Home_UserHire.this, JobsCategory.class);
+                goSearch.putExtra("searchType", KeyValueFirebase.SEARCHTYPE_ALL);
+                goSearch.putExtra("query", query);
+                startActivity(goSearch);
+                searchViewHome.clearFocus();
                 return false;
             }
 

@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.JobsCategory;
+import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.holder.CategoryHolder;
 
 import java.util.Arrays;
@@ -67,6 +68,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
                 goJobCategory.putExtra("idImgCategory", mResourceImg[position]);
                 goJobCategory.putExtra("categoryColor", categoryColor.get(position));
                 goJobCategory.putExtra("position", position);
+                goJobCategory.putExtra("searchType", KeyValueFirebase.SEARCHTYPE_CATEGORY);
                 context.startActivity(goJobCategory);
                 activity.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }

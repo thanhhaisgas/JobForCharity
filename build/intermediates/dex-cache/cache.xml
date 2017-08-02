@@ -223,7 +223,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="9820658b4dbe0aee4dd4693eda62ca8f81b2449b">
+        sha1="24b405a73ba20c8864f75b2525be8cb45fce2167">
         <dex dex="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_61a4a985d71f4b0ff3864544340b488ce311c3ac\classes.dex" />
     </item>
 

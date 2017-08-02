@@ -15,4 +15,6 @@ public class KeyValueFirebase {
     public static final String DONE = "Done";
     public static final String JOB_COMPLETED = "completed";
     public static final String JOB_EXPERIED = "job_experied";
+    public static final String SEARCHTYPE_CATEGORY = "category";
+    public static final String SEARCHTYPE_ALL = "all_category";
 }

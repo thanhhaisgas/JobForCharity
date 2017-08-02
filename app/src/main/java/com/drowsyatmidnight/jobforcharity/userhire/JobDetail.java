@@ -1,26 +1,37 @@
 package com.drowsyatmidnight.jobforcharity.userhire;
 
+import android.Manifest;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.internal.NavigationMenu;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.drowsyatmidnight.jobforcharity.R;
+import com.drowsyatmidnight.jobforcharity.model.User_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.TabsJobDetailPagerAdapter;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobDetail;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmReviews;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -62,12 +73,13 @@ public class JobDetail extends AppCompatActivity {
 
     private TabsJobDetailPagerAdapter adapter;
     private OnMenuFabSelected onMenuFabSelected;
+    private Intent call_message;
 
-    public interface OnMenuFabSelected{
+    public interface OnMenuFabSelected {
         void onSelected(int i);
     }
 
-    public void setOnMenuFabSelected(OnMenuFabSelected onMenuFabSelected){
+    public void setOnMenuFabSelected(OnMenuFabSelected onMenuFabSelected) {
         this.onMenuFabSelected = onMenuFabSelected;
     }
 
@@ -92,7 +104,28 @@ public class JobDetail extends AppCompatActivity {
         imgBackground.setColorFilter(filter);
         profile_image.setImageResource(R.drawable.test);
         imgBackground.setImageResource(R.drawable.test);
-        DataFirebase.getUserInfo(getIntent().getStringExtra("workerUID"),txtTenDetail,txtPhoneNumDetail,txtEmailDetail,rateBar,txtCountRate);
+        DataFirebase.getUserInfo(getIntent().getStringExtra("workerUID"), new DataFirebase.OnGetDataListener() {
+            @Override
+            public void onStart() {
+
+            }
+
+            @Override
+            public void onSuccess(DataSnapshot data) {
+                User_Model user_model = data.getValue(User_Model.class);
+                txtTenDetail.setText(user_model.getLName() + " " + user_model.getFName());
+                txtPhoneNumDetail.setText(user_model.getMobilePhone());
+                txtEmailDetail.setText(user_model.getEmail());
+                rateBar.setRating(Float.parseFloat(user_model.getRate())/(Float.parseFloat(user_model.getCountRate())));
+                txtCountRate.setText(user_model.getCountRate() + " reviews");
+            }
+
+            @Override
+            public void onFailed(DatabaseError databaseError) {
+
+            }
+        });
+        Log.d("sdt", txtTenDetail.getText().toString());
         setSupportActionBar(toolbarJobDetail);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -101,14 +134,14 @@ public class JobDetail extends AppCompatActivity {
     }
 
     private void addEvents() {
-        fabButtonDetail.setMenuListener(new SimpleMenuListenerAdapter(){
+        fabButtonDetail.setMenuListener(new SimpleMenuListenerAdapter() {
             @Override
             public boolean onPrepareMenu(NavigationMenu navigationMenu) {
-                if (getIntent().getStringExtra("view_type").compareTo(KeyValueFirebase.VIEW_JOBDETAILS)==0){
+                if (getIntent().getStringExtra("view_type").compareTo(KeyValueFirebase.VIEW_JOBDETAILS) == 0) {
                     navigationMenu.findItem(R.id.option_done).setVisible(false);
                     navigationMenu.findItem(R.id.option_cancel).setVisible(false);
                 }
-                if (getIntent().getStringExtra("view_type").compareTo(KeyValueFirebase.VIEW_JOBINPROGRESS)==0){
+                if (getIntent().getStringExtra("view_type").compareTo(KeyValueFirebase.VIEW_JOBINPROGRESS) == 0) {
                     navigationMenu.findItem(R.id.option_hire).setVisible(false);
                 }
                 return true;
@@ -117,10 +150,51 @@ public class JobDetail extends AppCompatActivity {
             @Override
             public boolean onMenuItemSelected(MenuItem menuItem) {
                 int itemid = menuItem.getItemId();
-                switch (itemid){
+                switch (itemid) {
                     case R.id.option_call:
+                        DataFirebase.getUserInfo(getIntent().getStringExtra("workerUID"), new DataFirebase.OnGetDataListener() {
+                            @Override
+                            public void onStart() {
+
+                            }
+
+                            @Override
+                            public void onSuccess(DataSnapshot data) {
+                                User_Model user_model = data.getValue(User_Model.class);
+                                call_message = new Intent(Intent.ACTION_CALL);
+                                call_message.setData(Uri.parse("tel:" + user_model.getMobilePhone()));
+                                if (ActivityCompat.checkSelfPermission(JobDetail.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                                    ActivityCompat.requestPermissions(JobDetail.this, new String[]{Manifest.permission.CALL_PHONE},1);
+                                }else{
+                                    startActivity(call_message);
+                                }
+                            }
+
+                            @Override
+                            public void onFailed(DatabaseError databaseError) {
+
+                            }
+                        });
                         break;
                     case R.id.option_text:
+                        DataFirebase.getUserInfo(getIntent().getStringExtra("workerUID"), new DataFirebase.OnGetDataListener() {
+                            @Override
+                            public void onStart() {
+
+                            }
+
+                            @Override
+                            public void onSuccess(DataSnapshot data) {
+                                User_Model user_model = data.getValue(User_Model.class);
+                                call_message = new Intent(Intent.ACTION_VIEW, Uri.parse( "sms:" + user_model.getMobilePhone()));
+                                startActivity(call_message);
+                            }
+
+                            @Override
+                            public void onFailed(DatabaseError databaseError) {
+
+                            }
+                        });
                         break;
                     case R.id.option_hire:
                         onMenuFabSelected.onSelected(1);
@@ -135,6 +209,20 @@ public class JobDetail extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode){
+            case 1:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    startActivity(call_message);
+                } else {
+                    Toast.makeText(JobDetail.this, "Permission denied to to call_message your employee", Toast.LENGTH_SHORT).show();
+                }
+                return;
+        }
     }
 
     private void setupAppBar() {

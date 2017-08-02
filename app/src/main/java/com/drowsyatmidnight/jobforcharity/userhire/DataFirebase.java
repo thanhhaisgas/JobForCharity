@@ -5,14 +5,12 @@ import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.model.Category_Model;
 import com.drowsyatmidnight.jobforcharity.model.Job_Model;
 import com.drowsyatmidnight.jobforcharity.model.Review_Model;
 import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
-import com.drowsyatmidnight.jobforcharity.model.User_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.JobCategotyAdapter;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.JobInHistoryApdapter;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.JobInProGressAdapter;
@@ -36,21 +34,23 @@ import java.util.List;
 public class DataFirebase {
     private static DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
 
-    public static void getUserInfo(String UID, final TextView txtTenDetail, final TextView txtPhoneNumDetail, final TextView txtEmailDetail, final RatingBar ratingBar, final TextView txtCountRate){
+    public interface OnGetDataListener {
+        void onStart();
+        void onSuccess(DataSnapshot data);
+        void onFailed(DatabaseError databaseError);
+    }
+
+    public static void getUserInfo(String UID, final OnGetDataListener dataListener){
+        dataListener.onStart();
         databaseReference.child("USERS").child(UID).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                User_Model user_model = dataSnapshot.getValue(User_Model.class);
-                txtTenDetail.setText(user_model.getLName()+" "+user_model.getFName());
-                txtPhoneNumDetail.setText(user_model.getMobilePhone());
-                txtEmailDetail.setText(user_model.getEmail());
-                ratingBar.setRating(Float.parseFloat(user_model.getRate()));
-                txtCountRate.setText(user_model.getCountRate()+" reviews");
+                dataListener.onSuccess(dataSnapshot);
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
+                dataListener.onFailed(databaseError);
             }
         });
     }
@@ -74,7 +74,46 @@ public class DataFirebase {
         });
     }
 
-    public static void getJobsCategory(final String categoryName, final RecyclerView lvJobsCategory, final Context context, final Activity activity){
+    public static void getAllJob(final String query, final RecyclerView lvJobsCategory, final Context context, final Activity activity, final TextView txtJobCountCategory){
+        databaseReference.child("JOBS").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                List<ShiftWork_Model> listDate = new ArrayList<>();
+                List<Job_Model> listJob = new ArrayList<>();
+                for (DataSnapshot dsp : dataSnapshot.getChildren()){
+                    String category = (String) dsp.child("category").getValue();
+                    for (DataSnapshot date : dsp.child("DateTimes").getChildren()){
+                        ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
+                        if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0&&shiftWork_model.getDeletedStatus().compareTo("true")!=0) {
+                            listDate.add(shiftWork_model);
+                        }
+                    }
+                    if (listDate.size()>0){
+                        String workName = (String) dsp.child("workName").getValue();
+                        String workerUID = (String) dsp.child("workerUID").getValue();
+                        String description = (String) dsp.child("description").getValue();
+                        String JobID = (String) dsp.child("JobID").getValue();
+                        if (workName.contains(query)){
+                            listJob.add(new Job_Model(listDate,category,description,workerUID,workName,JobID));
+                        }
+                    }
+                    listDate = new ArrayList<>();
+                }
+                txtJobCountCategory.setText(" "+String.valueOf(listJob.size()));
+                JobCategotyAdapter jobCategotyAdapter = new JobCategotyAdapter(context, listJob, activity);
+                lvJobsCategory.setAdapter(jobCategotyAdapter);
+                LinearLayoutManager layoutManager = new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false);
+                lvJobsCategory.setLayoutManager(layoutManager);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    public static void getJobsCategory(final String categoryName, final RecyclerView lvJobsCategory, final Context context, final Activity activity, final TextView txtJobCountCategory){
         databaseReference.child("JOBS").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -99,6 +138,7 @@ public class DataFirebase {
                         listDate = new ArrayList<>();
                     }
                 }
+                txtJobCountCategory.setText(" "+String.valueOf(listJob.size()));
                 JobCategotyAdapter jobCategotyAdapter = new JobCategotyAdapter(context, listJob, activity);
                 lvJobsCategory.setAdapter(jobCategotyAdapter);
                 LinearLayoutManager layoutManager = new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false);
@@ -210,11 +250,28 @@ public class DataFirebase {
         });
     }
 
-    public static void getCountCategory(String s, final TextView txtCount) {
-        databaseReference.child("CATEGORIES").child(s).addValueEventListener(new ValueEventListener() {
+    public static void getCountCategory(final String s, final TextView txtCount) {
+        databaseReference.child("JOBS").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                txtCount.setText(" "+dataSnapshot.child("count").getValue());
+                List<ShiftWork_Model> listDate = new ArrayList<>();
+                int count = 0;
+                for (DataSnapshot dsp : dataSnapshot.getChildren()){
+                    String category = (String) dsp.child("category").getValue();
+                    if (category.compareTo(s)==0){
+                        for (DataSnapshot date : dsp.child("DateTimes").getChildren()){
+                            ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
+                            if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0&&shiftWork_model.getDeletedStatus().compareTo("true")!=0) {
+                                listDate.add(shiftWork_model);
+                            }
+                        }
+                        if (listDate.size()>0){
+                            count += 1;
+                        }
+                        listDate = new ArrayList<>();
+                    }
+                }
+                txtCount.setText(" "+String.valueOf(count));
             }
 
             @Override
@@ -232,7 +289,7 @@ public class DataFirebase {
                 for (DataSnapshot dsp : dataSnapshot.getChildren()){
                     for (DataSnapshot date : dsp.child("DateTimes").getChildren()){
                         ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
-                        if ((shiftWork_model.getStatus().compareTo(KeyValueFirebase.JOB_COMPLETED)==0)&&shiftWork_model.getHirerUID().compareTo(KeyValueFirebase.UID)==0) {
+                        if ((shiftWork_model.getStatus().compareTo(KeyValueFirebase.JOB_COMPLETED)==0)&&shiftWork_model.getHirerUID().compareTo(KeyValueFirebase.UID)==0&&shiftWork_model.getDeletedStatus().compareTo("true")!=0) {
                             listDate.add(shiftWork_model);
                         }
                     }
@@ -327,7 +384,7 @@ public class DataFirebase {
     }
 
 
-    public static void searchJobOrderCategory(final String categoryName, final RecyclerView lvJobsCategory, final Context context, final Activity activity, final String query) {
+    public static void searchJobOrderCategory(final String categoryName, final RecyclerView lvJobsCategory, final Context context, final Activity activity, final String query, final TextView txtJobCountCategory) {
         databaseReference.child("JOBS").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -338,7 +395,7 @@ public class DataFirebase {
                     if (category.compareTo(categoryName)==0){
                         for (DataSnapshot date : dsp.child("DateTimes").getChildren()){
                             ShiftWork_Model shiftWork_model = date.getValue(ShiftWork_Model.class);
-                            if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0) {
+                            if (shiftWork_model.getStatus().compareTo(KeyValueFirebase.AVAILABLE)==0&&shiftWork_model.getDeletedStatus().compareTo("true")!=0) {
                                 listDate.add(shiftWork_model);
                             }
                         }
@@ -354,6 +411,7 @@ public class DataFirebase {
                         listDate = new ArrayList<>();
                     }
                 }
+                txtJobCountCategory.setText(" "+String.valueOf(listJob.size()));
                 JobCategotyAdapter jobCategotyAdapter = new JobCategotyAdapter(context, listJob, activity);
                 lvJobsCategory.setAdapter(jobCategotyAdapter);
                 LinearLayoutManager layoutManager = new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false);
