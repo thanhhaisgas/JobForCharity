@@ -1,5 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.userhire.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
@@ -11,6 +12,7 @@ import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.model.Job_Model;
 import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.JobDetail;
+import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.holder.JobHolder;
 
 import java.io.Serializable;
@@ -22,11 +24,13 @@ import java.util.List;
 
 public class JobCategotyAdapter extends RecyclerView.Adapter<JobHolder> {
     private Context context;
+    private Activity activity;
     private View rootView;
     private LayoutInflater layoutInflater;
     private List<Job_Model> job_models;
 
-    public JobCategotyAdapter(Context context, List<Job_Model> job_models) {
+    public JobCategotyAdapter(Context context, List<Job_Model> job_models, Activity activity) {
+        this.activity = activity;
         this.context = context;
         this.job_models = job_models;
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -47,9 +51,15 @@ public class JobCategotyAdapter extends RecyclerView.Adapter<JobHolder> {
             public void onClick(View v) {
                 Intent goDetail = new Intent(context, JobDetail.class);
                 goDetail.putExtra("workName", job_models.get(position).getWorkName());
-                goDetail.putExtra("description", job_models.get(position).getDiscription());
+                goDetail.putExtra("description", job_models.get(position).getDescription());
+                goDetail.putExtra("JobID", job_models.get(position).getJobID());
                 goDetail.putExtra("shiftWorks", (Serializable) job_models.get(position).getDateTimes());
+                goDetail.putExtra("workerUID", job_models.get(position).getWokerUID());
+                goDetail.putExtra("category", job_models.get(position).getCategory());
+                goDetail.putExtra("view_type", KeyValueFirebase.VIEW_JOBDETAILS);
+                goDetail.putExtra("workerID", job_models.get(position).getWokerUID());
                 context.startActivity(goDetail);
+                activity.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
     }

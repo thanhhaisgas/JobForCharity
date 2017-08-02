@@ -36,7 +36,7 @@ public class ShiftWork_Model implements Serializable {
     }
 
     public void setEndTime(String endTime) {
-        EndTime = endTime;
+        this.EndTime = endTime;
     }
 
     public String getStatus() {
@@ -44,15 +44,31 @@ public class ShiftWork_Model implements Serializable {
     }
 
     public void setStatus(String status) {
-        Status = status;
+        this.Status = status;
     }
 
     public String getHirerUID() {
-        return HirerUID;
+        return hirerUID;
     }
 
     public void setHirerUID(String hirerUID) {
-        HirerUID = hirerUID;
+        this.hirerUID = hirerUID;
+    }
+
+    public String getSalary() {
+        return Salary;
+    }
+
+    public void setSalary(String salary) {
+        Salary = salary;
+    }
+
+    public String getDeletedStatus() {
+        return deletedStatus;
+    }
+
+    public void setDeletedStatus(String deletedStatus) {
+        this.deletedStatus = deletedStatus;
     }
 
     private String DateTimeID;
@@ -60,7 +76,8 @@ public class ShiftWork_Model implements Serializable {
     private String BeginTime;
     private String EndTime;
     private String Status;
-    private String HirerUID;
-
+    private String hirerUID;
+    private String Salary;
+    private String deletedStatus;
 
 }

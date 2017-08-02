@@ -13,6 +13,7 @@ import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.drowsyatmidnight.jobforcharity.R;
+import com.lapism.searchview.SearchView;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -35,6 +36,7 @@ public class JobsCategory_ViewBinding implements Unbinder {
     target.lnJobCatagory = Utils.findRequiredViewAsType(source, R.id.lnJobCatagory, "field 'lnJobCatagory'", LinearLayout.class);
     target.toolbarJobsCategory = Utils.findRequiredViewAsType(source, R.id.toolbarJobsCategory, "field 'toolbarJobsCategory'", Toolbar.class);
     target.bgActivityJobsCategory = Utils.findRequiredViewAsType(source, R.id.bgActivityJobsCategory, "field 'bgActivityJobsCategory'", CoordinatorLayout.class);
+    target.searchViewCategory = Utils.findRequiredViewAsType(source, R.id.searchViewCategory, "field 'searchViewCategory'", SearchView.class);
   }
 
   @Override
@@ -51,5 +53,6 @@ public class JobsCategory_ViewBinding implements Unbinder {
     target.lnJobCatagory = null;
     target.toolbarJobsCategory = null;
     target.bgActivityJobsCategory = null;
+    target.searchViewCategory = null;
   }
 }

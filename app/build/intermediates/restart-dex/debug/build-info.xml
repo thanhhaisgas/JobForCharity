@@ -6,30 +6,30 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1501117630116"
+    timestamp="1501673901483"
     token="-2221192567533442568"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2604" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="30" />
+        duration="0" />
     <task
         name="verifier"
-        duration="69" />
+        duration="0" />
 
     <artifact
-        location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
+        location="E:\Android\CoderSchool\final\JobForCharity\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1501117572936"
+        timestamp="1501670347034"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -70,11 +70,42 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1501117630116"
+        timestamp="1501673357588"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
         <artifact
             location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1501673860744"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\Android\CoderSchool\final\JobForCharity\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1501673901483"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\Android\CoderSchool\final\JobForCharity\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
+    <dimen name="coordinator_layout_offset">@dimen/keyline_1</dimen>
+    <dimen name="fab_margin">@dimen/keyline_1</dimen>
+    <dimen name="fab_menu_item_margin_top">0dp</dimen>
+    <dimen name="mini_fab_margin_bottom">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="mini_fab_margin_left">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="mini_fab_margin_right">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="mini_fab_margin_top">@dimen/keyline_1_minus_8dp</dimen>
     <dimen name="notification_content_margin_start">0dp</dimen>
     <dimen name="notification_main_column_padding_top">0dp</dimen>
     <dimen name="notification_media_narrow_margin">12dp</dimen>
+    <dimen name="search_height">48dp</dimen>
+    <dimen name="search_menu_item_margin">4dp</dimen>
+    <dimen name="search_menu_item_margin_left_right">4dp</dimen>
+    <dimen name="search_toolbar_margin_big_left_right">8dp</dimen>
+    <dimen name="search_toolbar_margin_small_left_right">8dp</dimen>
+    <dimen name="search_toolbar_margin_top">8dp</dimen>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
     <style name="Base.TextAppearance.AppCompat.Body2" parent="android:TextAppearance.Material.Body2"/>
@@ -277,6 +290,8 @@
     <style name="TextAppearance.AppCompat.Notification.Title.Media">
         <item name="android:textColor">@color/primary_text_default_material_dark</item>
     </style>
+    <style name="Theme.AppInvite.Preview.Base" parent="@android:style/Theme.Material.Light.DialogWhenLarge.NoActionBar">
+</style>
     <style name="Widget.AppCompat.NotificationActionContainer" parent="">
         <item name="android:background">@drawable/notification_action_background</item>
     </style>

@@ -6,7 +6,15 @@
     <color name="btnSignIn">#F44336</color>
     <color name="dark_transparent">#30ffffff</color>
     <color name="moredark_transparent">#30000000</color>
+    <color name="verydark_transparent">#80000000</color>
+    <color name="white_transparent">#80ffffff</color>
     <color name="user1">#60009688</color>
+
+    <!--userHirer-->
+    <color name="colorPrimaryUserHirer">#5dba60</color>
+    <color name="colorPrimaryDarkUserHirer">#278933</color>
+    <color name="colorAccentUserHirer">#90ed8f</color>
+    <color name="colorBackground">#E6E6E6</color>
 
     <color name="colorPrimaryHirer">#00695c</color>
 </resources>

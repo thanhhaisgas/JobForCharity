@@ -8,16 +8,24 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_view2.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\layout\\search_view2.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_home_user_hire.xml",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\nav_header_home_user_hire.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\7f915fe4ffed73513e3c945c2422a86c87431733\\output\\res\\layout\\alert_dialog.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
@@ -34,6 +42,14 @@
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_home_user_hire.xml",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\app_bar_home_user_hire.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_performing_neededworks.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\fragment_performing_neededworks.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_joblist.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\activity_joblist.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_what_new.xml",
@@ -56,24 +72,56 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fab_speed_dial_bottom.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\3ca13f6740313e266ea81ca00726a521f05325df\\output\\res\\layout\\fab_speed_dial_bottom.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_job_in_progress.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\item_job_in_progress.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\job_in_progress.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\job_in_progress.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_expired_neededworks.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\fragment_expired_neededworks.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_item.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\layout\\search_item.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_detailjob_times.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\item_detailjob_times.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fab_menu_item_end.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\3ca13f6740313e266ea81ca00726a521f05325df\\output\\res\\layout\\fab_menu_item_end.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fab_speed_dial_top.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\3ca13f6740313e266ea81ca00726a521f05325df\\output\\res\\layout\\fab_speed_dial_top.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -82,6 +130,14 @@
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_view.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\2634e3cf01a253589c309b3b9c904549ebec8153\\output\\res\\layout\\search_view.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fab_menu_item_start.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\3ca13f6740313e266ea81ca00726a521f05325df\\output\\res\\layout\\fab_menu_item_start.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\job_detail_userinfo.xml",
@@ -116,6 +172,10 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\review_dialog.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\review_dialog.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\job_detail_jobinfo.xml",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\job_detail_jobinfo.xml"
     },
@@ -138,6 +198,10 @@
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_all_neededworks.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\fragment_all_neededworks.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -212,6 +276,14 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_finished_neededworks.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\fragment_finished_neededworks.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_detailjob_date.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\item_detailjob_date.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
@@ -252,12 +324,24 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_neededjobs_mngmnt.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\activity_neededjobs_mngmnt.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_datetime.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\item_datetime.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_review.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\item_review.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -274,5 +358,9 @@
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_job.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\layout\\activity_create_job.xml"
     }
 ]

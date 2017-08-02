@@ -1,5 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.userhire.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -9,7 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.drowsyatmidnight.jobforcharity.R;
+import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.JobsCategory;
+import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.holder.CategoryHolder;
 
 import java.util.Arrays;
@@ -21,6 +24,7 @@ import java.util.List;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
     private Context context;
+    private Activity activity;
     private View rootView;
     private LayoutInflater layoutInflater;
     private List<String> categoryName;
@@ -35,8 +39,9 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
             R.drawable.icon_category_other
     };
 
-    public CategoryAdapter(Context context) {
+    public CategoryAdapter(Context context, Activity activity) {
         this.context = context;
+        this.activity = activity;
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         categoryName = Arrays.asList(context.getResources().getStringArray(R.array.listCategoryName));
         categoryColor = Arrays.asList(context.getResources().getStringArray(R.array.list_color_category));
@@ -54,6 +59,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
         holder.imgCategory.setImageResource(mResourceImg[position]);
         holder.imgCategory.setBackgroundColor(Color.parseColor(categoryColor.get(position)));
         holder.txtNameCategory.setText(categoryName.get(position));
+        DataFirebase.getCountCategory(categoryName.get(position), holder.txtJobCountCategory);
         holder.cardViewCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,7 +68,9 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
                 goJobCategory.putExtra("idImgCategory", mResourceImg[position]);
                 goJobCategory.putExtra("categoryColor", categoryColor.get(position));
                 goJobCategory.putExtra("position", position);
+                goJobCategory.putExtra("searchType", KeyValueFirebase.SEARCHTYPE_CATEGORY);
                 context.startActivity(goJobCategory);
+                activity.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
     }

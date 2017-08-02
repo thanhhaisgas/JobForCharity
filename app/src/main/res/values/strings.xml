@@ -40,6 +40,21 @@
     <string name="begin_time_label">Begin time</string>
     <string name="job_list_label">End time</string>
     <string name="create_label">Post</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="your_comment">Your comment...</string>
+    <string name="ok">OK</string>
+    <string name="review">Review</string>
+    <string name="job_detail">Job details</string>
+    <string name="Dialog_content_rent_warning">Your job will be added in \"Work in progress\".</string>
+    <string name="Dialog_content_rent_success">Go to \"Work in progress\" to view your job.</string>
+    <string name="Dialog_content_cancel_warning">Your job will be removed from your list.</string>
+    <string name="Dialog_content_done_warning">Thank you for donate to our charity fund.</string>
+    <string name="Dialog_title_warning">Are you sure?</string>
+    <string name="Dialog_title_rent_success">Your job has been added!</string>
+    <string name="Dialog_title_cancel_success">Your job has been remove</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="send">Send</string>
 
     <!--Spinner categories-->
     <string-array name="spinner_categories">

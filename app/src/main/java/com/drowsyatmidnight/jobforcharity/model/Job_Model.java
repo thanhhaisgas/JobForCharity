@@ -47,12 +47,21 @@ public class Job_Model {
         WorkName = workName;
     }
 
-    public Job_Model(List<ShiftWork_Model> dateTimes, String category, String description, String wokerUID, String workName) {
+    public String getJobID() {
+        return JobID;
+    }
+
+    public void setJobID(String jobID) {
+        JobID = jobID;
+    }
+
+    public Job_Model(List<ShiftWork_Model> dateTimes, String category, String description, String wokerUID, String workName, String jobID) {
         DateTimes = dateTimes;
         Category = category;
         Description = description;
         WokerUID = wokerUID;
         WorkName = workName;
+        JobID = jobID;
     }
 
     private List<ShiftWork_Model> DateTimes;
@@ -60,8 +69,6 @@ public class Job_Model {
     private String Description;
     private String WokerUID;
     private String WorkName;
-
-
-
+    private String JobID;
 
 }

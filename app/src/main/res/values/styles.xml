@@ -26,6 +26,9 @@
     <style name="fragment"  parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryUserHirer</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkUserHirer</item>
+        <item name="colorAccent">@color/colorAccentUserHirer</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

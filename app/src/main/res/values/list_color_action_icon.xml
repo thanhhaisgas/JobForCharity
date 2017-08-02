@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="fab_menu_item_colors">
+        <item>@android:color/holo_red_dark</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_green_light</item>
+        <item>@android:color/holo_orange_dark</item>
+        <item>@android:color/black</item>
+    </integer-array>
+</resources>
