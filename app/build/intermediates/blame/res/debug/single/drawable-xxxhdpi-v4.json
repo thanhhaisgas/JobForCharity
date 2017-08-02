@@ -44,6 +44,10 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_arrow_drop_down_black_24dp.png",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\23905a2aef4ce07d8e35cc3a0f2ec6310a6a6bea\\output\\res\\drawable-xxxhdpi-v4\\ic_arrow_drop_down_black_24dp.png"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\design_ic_visibility.png",
         "source": "C:\\Users\\haint\\.android\\build-cache\\df39fa5d06ca8986c89a0d751c05817f9ec4ed75\\output\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
     },

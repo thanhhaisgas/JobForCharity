@@ -4,58 +4,106 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
+
+
+
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbarHirer"
+            android:id="@+id/WorkerToolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryHirer"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimaryWorker"
+            android:weightSum="1"
             app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgWorker"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/test"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvViewMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Home"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+                >
+
+
+            </FrameLayout>
+
+
         </android.support.v7.widget.Toolbar>
 
-        <android.support.design.widget.TabLayout
-            android:id="@+id/tabLayoutHirer"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/colorPrimaryHirer"/>
+
     </android.support.design.widget.AppBarLayout>
 
+
     <android.support.v4.widget.NestedScrollView
-        android:id="@+id/nestedScrollViewHirer"
+        android:id="@+id/nestedScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
         app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
-        >
 
-        <LinearLayout
+        <FrameLayout
+
+            android:id="@+id/mywork_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            android:layout_height="match_parent"/>
 
-            <android.support.v4.view.ViewPager
-                android:id="@+id/viewpagerHirer"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-            </android.support.v4.view.ViewPager>
-        </LinearLayout>
+
     </android.support.v4.widget.NestedScrollView>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_compose"
+        android:id="@+id/fab_addJob"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
-        android:background="@color/colorPrimaryHirer"
+        android:background="@color/colorPrimaryWorker"
         android:src="@drawable/ic_add_neededjob_24dp"
-        app:backgroundTint="@color/colorPrimaryHirer"
+        app:backgroundTint="@color/colorPrimaryWorker"
 
-       />
+        />
+    <com.github.fabtransitionactivity.SheetLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        app:ft_container_gravity="center"
+        app:ft_color="@color/colorPrimaryWorker"
+        android:elevation="2dp"/>
 </android.support.design.widget.CoordinatorLayout>

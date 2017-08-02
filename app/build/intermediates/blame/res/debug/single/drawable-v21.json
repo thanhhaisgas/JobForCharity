@@ -12,6 +12,10 @@
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\selector.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\23905a2aef4ce07d8e35cc3a0f2ec6310a6a6bea\\output\\res\\drawable-v21\\selector.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_slideshow.xml",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
     },

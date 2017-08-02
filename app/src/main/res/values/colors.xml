@@ -17,4 +17,7 @@
     <color name="colorBackground">#E6E6E6</color>
 
     <color name="colorPrimaryHirer">#00695c</color>
+	<color name="colorPrimaryWorker">#4f85b7</color>
+    <color name="colorDarkWorker">#135887</color>
+    <color name="colorLightWorker">#82b5e9</color>
 </resources>

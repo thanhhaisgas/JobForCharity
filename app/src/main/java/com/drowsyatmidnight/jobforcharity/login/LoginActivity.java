@@ -18,6 +18,7 @@ import com.drowsyatmidnight.jobforcharity.Utils.ValidChecking;
 import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
 import com.drowsyatmidnight.jobforcharity.userhire.Home_UserHire;
 import com.drowsyatmidnight.jobforcharity.userhire.KeyValueFirebase;
+import com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MyWorksMngmntActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -141,6 +142,13 @@ public class LoginActivity extends AppCompatActivity {
                         public void onClick(View v) {
                             Intent goHomeUserHire = new Intent(LoginActivity.this, Home_UserHire.class);
                             startActivity(goHomeUserHire);
+                        }
+                    });
+                    viewEmployee.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent goHomeUserWorker = new Intent(LoginActivity.this, MyWorksMngmntActivity.class);
+                            startActivity(goHomeUserWorker);
                         }
                     });
 

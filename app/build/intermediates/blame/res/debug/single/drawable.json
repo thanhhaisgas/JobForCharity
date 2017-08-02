@@ -108,12 +108,12 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\7f915fe4ffed73513e3c945c2422a86c87431733\\output\\res\\drawable\\error_center_x.xml"
     },
     {
-        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_edittext.xml",
@@ -154,6 +154,10 @@
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\23905a2aef4ce07d8e35cc3a0f2ec6310a6a6bea\\output\\res\\drawable\\arrow.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -214,6 +218,10 @@
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_category_bikeshare.png",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\drawable\\icon_category_bikeshare.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_drawable.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\23905a2aef4ce07d8e35cc3a0f2ec6310a6a6bea\\output\\res\\drawable\\spinner_drawable.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_background_cancel.xml",
@@ -300,6 +308,10 @@
         "source": "C:\\Users\\haint\\.android\\build-cache\\f322f4761e17467a7489d530c2b86c152eede0e2\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linear_border_fullbackground.xml",
+        "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\drawable\\linear_border_fullbackground.xml"
+    },
+    {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\haint\\.android\\build-cache\\6caa42be79a79888f62d308cc7d8673c5b3b41d8\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
@@ -354,6 +366,10 @@
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message_worker.png",
         "source": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\src\\main\\res\\drawable\\message_worker.png"
+    },
+    {
+        "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector.xml",
+        "source": "C:\\Users\\haint\\.android\\build-cache\\23905a2aef4ce07d8e35cc3a0f2ec6310a6a6bea\\output\\res\\drawable\\selector.xml"
     },
     {
         "merged": "E:\\Android\\CoderSchool\\final\\JobForCharity\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",

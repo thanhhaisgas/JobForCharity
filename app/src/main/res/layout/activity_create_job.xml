@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/layoutCreateJob"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               xmlns:ls="http://schemas.android.com/apk/res-auto"
@@ -8,13 +9,14 @@
               android:orientation="vertical"
               android:weightSum="1">
 
-    <android.support.v7.widget.Toolbar
+   <!-- <android.support.v7.widget.Toolbar
 
+        android:id="@+id/toolbar3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryHirer">
+        android:background="@color/colorDarkWorker">
 
-    </android.support.v7.widget.Toolbar>
+    </android.support.v7.widget.Toolbar>-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,23 +27,26 @@
 
         android:paddingTop="10dp"
         >
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Categories"
                 android:gravity="center"
-                android:textColor="@color/colorPrimaryHirer"
+                android:text="Categories"
+                android:textColor="@color/colorDarkWorker"
                 />
 
-            <android.support.v7.widget.AppCompatSpinner
+            <org.angmarch.views.NiceSpinner
+                android:textAlignment="center"
                 android:id="@+id/spinnerCategories"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:paddingBottom="@dimen/dp15"
                 android:paddingTop="@dimen/dp15"
                 />
@@ -54,6 +59,7 @@
             android:layout_height="match_parent"
             android:theme="@style/InputTextLabel"
             >
+
             <EditText
 
                 android:id="@+id/txtInputJobName"
@@ -74,6 +80,7 @@
 
 
             <EditText
+                android:gravity="top|left"
                 android:id="@+id/txtJobDetail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -87,7 +94,9 @@
 
 
     </LinearLayout>
-
+<android.support.v4.widget.Space
+    android:layout_width="match_parent"
+    android:layout_height="50dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -105,6 +114,7 @@
 
             <EditText
                 android:id="@+id/txtInputDate"
+                
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusableInTouchMode="false"
@@ -132,7 +142,7 @@
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
 
                     android:theme="@style/InputTextLabel"
                     >
@@ -145,15 +155,16 @@
                         android:focusableInTouchMode="false"
                         android:hint="Begin Time"
 
-                        android:singleLine="true"
+
                         />
+
 
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:theme="@style/InputTextLabel"
                     >
 
@@ -164,40 +175,87 @@
                         android:focusableInTouchMode="false"
                         android:hint="End Time"
 
-                        android:singleLine="true"
+
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:theme="@style/InputTextLabel"
+                    >
+
+                    <EditText
+
+                        android:id="@+id/txtInputSalary"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Salary"
                         />
 
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    </FrameLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/dp10"
+        android:orientation="horizontal"
+        
         >
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="Date Time list"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:textColor="@color/colorPrimaryHirer"
-            />
+            android:layout_weight="6"
+            android:gravity="center_vertical"
+          
+            android:textSize="22dp"
+            android:text="Date Time list"
+            android:textColor="@color/colorDarkWorker"/>
+
         <ImageButton
 
             android:id="@+id/btnAddDateTime"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_weight="1.5"
 
 
             android:background="@android:color/transparent"
-            android:src="@drawable/ic_add_green_24dp"/>
-    </LinearLayout>
+            android:src="@drawable/ic_playlist_add_30dp"/>
 
+        <ImageButton
+
+            android:id="@+id/btnDeleteDateTime"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+
+            android:layout_weight="2"
+
+
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_delete_sweep_30dp"/>
+
+
+        <!--android:background="@android:color/transparent"-->
+
+    </LinearLayout>
 
 
     <ListView
@@ -209,17 +267,17 @@
         android:layout_marginBottom="@dimen/dp10"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_weight="0.49"/>
+        android:layout_weight="0.85"/>
 
     <Button
+
         android:id="@+id/btnPostJob"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="44dp"
         android:layout_gravity="center"
         android:layout_margin="@dimen/dp10"
-
-        android:layout_weight="0.44"
-        android:background="@color/colorPrimaryHirer"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorDarkWorker"
 
         android:text="@string/create_label"
         android:textColor="@android:color/white"/>

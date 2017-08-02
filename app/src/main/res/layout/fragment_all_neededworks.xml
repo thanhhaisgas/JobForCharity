@@ -5,7 +5,12 @@
               android:layout_height="match_parent">
 
     <ExpandableListView
-        android:id="@+id/exMenu_AllNeededWorks"
+        android:id="@+id/exListJob"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+    </ExpandableListView>
 </LinearLayout>

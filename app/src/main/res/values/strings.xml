@@ -34,12 +34,6 @@
 
 
     <!--Activity Create Job resources-->
-    <string name="job_detail_label">Detail</string>
-    <string name="job_name_label">Job Name</string>
-    <string name="begin_date_label">Begin date</string>
-    <string name="begin_time_label">Begin time</string>
-    <string name="job_list_label">End time</string>
-    <string name="create_label">Post</string>
     <string name="cancel">Cancel</string>
     <string name="done">Done</string>
     <string name="your_comment">Your comment...</string>
@@ -56,13 +50,19 @@
     <string name="thank_you">Thank you!</string>
     <string name="send">Send</string>
 
-    <!--Spinner categories-->
-    <string-array name="spinner_categories">
-        <item>Category 1</item>
-        <item>Category 2</item>
-        <item>Category 3</item>
-        <item>Category 4</item>
-        <item>Category 5</item>
-    </string-array>
+    <!--Activity Create Job resources-->
+    <string name="job_detail_label">Detail</string>
+    <string name="job_name_label">Job Name</string>
+    <string name="begin_date_label">Begin date</string>
+    <string name="begin_time_label">Begin time</string>
+    <string name="job_list_label">End time</string>
+    <string name="create_label">Post</string>
+
+
+    <!--Worker strings-->
+    <string name="all_work_label">ALL WORKS</string>
+    <string name="future_work_label">FUTURE WORKS</string>
+    <string name="history_work_label">HISTORY</string>
+    <string name="progressing_work_label">PROGRESSING WORKS</string>
 
 </resources>

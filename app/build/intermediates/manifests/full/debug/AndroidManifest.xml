@@ -56,11 +56,11 @@
             android:name="com.drowsyatmidnight.jobforcharity.userhire.JobDetail"
             android:theme="@style/fragment" />
         <activity
-            android:name="com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.CreateWorkActivity"
-            android:theme="@style/joblistActivity" />
-        <activity
-            android:name="com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.NeededWorksMngmntActivity"
+            android:name="com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MyWorksMngmntActivity"
             android:theme="@style/NeededWorksMngmntActivity" />
+        <activity
+            android:name="com.drowsyatmidnight.jobforcharity.woker.View.Acitivities.MainActivity"
+            android:theme="@style/joblistActivity" />
         <activity
             android:name="com.google.android.gms.appinvite.PreviewActivity"
             android:exported="true"

@@ -1,59 +1,34 @@
 package com.drowsyatmidnight.jobforcharity.woker.Models.Entity;
 
+import java.util.List;
+
 /**
  * Created by davidtran on 7/24/17.
  */
 
 
 public class Work {
-    private String WorkID;
     private String WorkName;
-    private String HirerUID;
-    private String CategoryID;
-    /*List<Datetime> Datetimes;*/
+    private String Category;
     private String Description;
+    private String WorkerUID;
 
+    public Work(){
 
-    /*public List<Datetime> getDatetimes() {
-        return Datetimes;
     }
-
-    public void setDatetimes(List<Datetime> datetimes) {
-        Datetimes = datetimes;
-    }*/
-
-
-
-    public String getWorkID() {
-        return WorkID;
-    }
-
-    public void setWorkID(String workID) {
-        WorkID = workID;
-    }
-
-    public String getWorkName() {
-        return WorkName;
-    }
-
-    public void setWorkName(String workName) {
+    public Work(String category, String workName, String description) {
         WorkName = workName;
+        Category = category;
+        Description = description;
+
     }
 
-    public String getHirerUID() {
-        return HirerUID;
+    public String getCategory() {
+        return Category;
     }
 
-    public void setHirerUID(String hirerUID) {
-        HirerUID = hirerUID;
-    }
-
-    public String getCategoryID() {
-        return CategoryID;
-    }
-
-    public void setCategoryID(String categoryID) {
-        CategoryID = categoryID;
+    public void setCategory(String category) {
+        Category = category;
     }
 
     public String getDescription() {
@@ -64,12 +39,78 @@ public class Work {
         Description = description;
     }
 
-    public static class Datetime{
 
+
+    public String getWorkName() {
+        return WorkName;
+    }
+
+    public void setWorkName(String workName) {
+        WorkName = workName;
+    }
+
+
+
+    public String getWorkerUID() {
+        return WorkerUID;
+    }
+
+    public void setWorkerUID(String workerUID) {
+        WorkerUID = workerUID;
+    }
+
+
+
+
+
+
+   /* public List<Datetime> getDatetimes() {
+        return Datetimes;
+    }
+
+    public void setDatetimes(List<Datetime> datetimes) {
+        Datetimes = datetimes;
+    }*/
+
+
+
+
+    public static class Datetime {
+
+        public String getHirerUID() {
+            return HirerUID;
+        }
+
+        public void setHirerUID(String hirerUID) {
+            HirerUID = hirerUID;
+        }
+
+
+
+
+        private String HirerUID;
+        private String Status;
         private String Date;
         private String BeginTime;
         private String EndTime;
 
+        public String getSalary() {
+            return Salary;
+        }
+
+        public void setSalary(String salary) {
+            Salary = "$"+salary;
+        }
+
+        private String Salary;
+
+        public String getStatus() {
+            return Status;
+        }
+
+        public void setStatus(String status) {
+            Status = status;
+        }
         public void setDate(String date) {
             Date = date;
         }
@@ -93,8 +134,6 @@ public class Work {
         public String getEndTime() {
             return EndTime;
         }
-
-
 
 
     }
