@@ -1,7 +1,5 @@
 package com.drowsyatmidnight.jobforcharity.woker.Models.Entity;
 
-import com.drowsyatmidnight.jobforcharity.model.Job_Model;
-
 import java.util.ArrayList;
 import java.util.List;
 

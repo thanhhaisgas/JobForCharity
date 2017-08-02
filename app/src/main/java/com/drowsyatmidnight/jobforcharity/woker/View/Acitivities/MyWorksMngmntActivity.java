@@ -1,5 +1,9 @@
 package com.drowsyatmidnight.jobforcharity.woker.View.Acitivities;
 
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Build;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
 import android.os.Bundle;
@@ -12,6 +16,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +28,8 @@ import com.drowsyatmidnight.jobforcharity.login.Authority;
 import com.drowsyatmidnight.jobforcharity.woker.View.Adapters.CustomPagerAdapter;
 import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.AllNeededWorksFragment;
 import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.CreateWorkBottomSheetDialogFragment;
+import com.drowsyatmidnight.jobforcharity.woker.View.Utils.CommDateTimeAdapter;
+import com.github.fabtransitionactivity.SheetLayout;
 
 import java.util.ArrayList;
 
@@ -34,7 +42,8 @@ import de.hdodenhof.circleimageview.CircleImageView;
  */
 
 public class MyWorksMngmntActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener,
+        CommDateTimeAdapter,SheetLayout.OnFabAnimationEndListener {
     final int ALL_WORK_VIEW_MODE = 2;
     final int FEATURE_WORK_VIEW_MODE = 1;
     final int PROGRESSING_WORK_VIEW_MODE = 0;
@@ -49,8 +58,17 @@ public class MyWorksMngmntActivity extends AppCompatActivity
     CircleImageView imgWorker;
     @BindView(R.id.mywork_container)
     FrameLayout myword_container;
+    /*@BindView(R.id.fab_addJob)
+    android.support.design.widget.FloatingActionButton fab_addJob;*/
+
+    @BindView(R.id.bottom_sheet)
+    SheetLayout mSheetLayout;
     @BindView(R.id.fab_addJob)
-    android.support.design.widget.FloatingActionButton fab_addJob;
+    FloatingActionButton fab_addJob;
+
+    private static final int REQUEST_CODE = 1;
+
+
     CreateWorkBottomSheetDialogFragment bottomSheetDialogFragment = new CreateWorkBottomSheetDialogFragment();
     String workerUID = "";
     String workerPhotoURL = "";
@@ -68,11 +86,28 @@ public class MyWorksMngmntActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_worker);
         ButterKnife.bind(this);
-        icon = new int[]{
-                R.drawable.ic_list_white_24dp,
-                R.drawable.ic_playlist_play_white_24dp,
-                R.drawable.ic_playlist_finished_white_24dp,
-                R.drawable.ic_failed_white_24dp};
+
+        mSheetLayout.setFab(fab_addJob);
+        mSheetLayout.setFabAnimationEndListener(this);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Window window = getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(getResources().getColor(R.color.colorDarkWorker));
+        }
+
+        /*getParent().getView().setOnKeyListener( new OnKeyListener()
+        {
+            @Override
+            public boolean onKey( View v, int keyCode, KeyEvent event )
+            {
+                if( keyCode == KeyEvent.KEYCODE_BACK )
+                {
+                    return true;
+                }
+                return false;
+            }
+        } );*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
@@ -98,13 +133,15 @@ public class MyWorksMngmntActivity extends AppCompatActivity
 
     private void setupListener() {
 
-        //final Intent mIntent = new Intent(getApplicationContext(),CreateWorkActivity.class);
+
         fab_addJob.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                mSheetLayout.expandFab();
                 //show it
+/*
                 bottomSheetDialogFragment.show(getSupportFragmentManager(), bottomSheetDialogFragment.getTag());
+*/
             }
         });
     }
@@ -233,5 +270,37 @@ public class MyWorksMngmntActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onDateTimeDeletedSuccess() {
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        setupAllWorkFragment();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Toast.makeText(this,"12665",Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onFabAnimationEnd() {
+        bottomSheetDialogFragment.
+                show(getSupportFragmentManager(), bottomSheetDialogFragment.getTag());
+
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == REQUEST_CODE){
+            mSheetLayout.contractFab();
+        }
     }
 }

@@ -3,8 +3,8 @@ package com.drowsyatmidnight.jobforcharity.woker.Models;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.drowsyatmidnight.jobforcharity.model.Job_Model;
-import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Job_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.ShiftWork_Model;
 import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
 import com.drowsyatmidnight.jobforcharity.login.Authority;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -19,7 +19,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**

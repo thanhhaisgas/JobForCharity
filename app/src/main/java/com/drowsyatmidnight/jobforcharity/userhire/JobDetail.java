@@ -15,6 +15,7 @@ import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.userhire.adapter.TabsJobDetailPagerAdapter;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmJobDetail;
 import com.drowsyatmidnight.jobforcharity.userhire.fragment_item.FmUserReview;
+import com.drowsyatmidnight.jobforcharity.woker.View.Utils.DataFirebase;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

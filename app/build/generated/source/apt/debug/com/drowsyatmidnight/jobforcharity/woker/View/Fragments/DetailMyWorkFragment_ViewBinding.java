@@ -3,6 +3,7 @@ package com.drowsyatmidnight.jobforcharity.woker.View.Fragments;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.v4.widget.NestedScrollView;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
@@ -19,6 +20,7 @@ public class DetailMyWorkFragment_ViewBinding implements Unbinder {
   public DetailMyWorkFragment_ViewBinding(DetailMyWorkFragment target, View source) {
     this.target = target;
 
+    target.mScrollView = Utils.findRequiredViewAsType(source, R.id.scrollViewDetail, "field 'mScrollView'", NestedScrollView.class);
     target.detailNameJob = Utils.findRequiredViewAsType(source, R.id.detailNameJob, "field 'detailNameJob'", TextView.class);
     target.detailDescriptionJob = Utils.findRequiredViewAsType(source, R.id.detailDescriptionJob, "field 'detailDescriptionJob'", TextView.class);
     target.lvWorkDetailDateTime = Utils.findRequiredViewAsType(source, R.id.lvWorkDetailDateTime, "field 'lvWorkDetailDateTime'", ExpandableListView.class);
@@ -31,6 +33,7 @@ public class DetailMyWorkFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
+    target.mScrollView = null;
     target.detailNameJob = null;
     target.detailDescriptionJob = null;
     target.lvWorkDetailDateTime = null;

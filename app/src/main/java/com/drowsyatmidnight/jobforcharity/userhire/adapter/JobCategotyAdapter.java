@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.drowsyatmidnight.jobforcharity.R;
-import com.drowsyatmidnight.jobforcharity.model.Job_Model;
-import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Job_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.ShiftWork_Model;
 import com.drowsyatmidnight.jobforcharity.userhire.JobDetail;
 import com.drowsyatmidnight.jobforcharity.userhire.holder.JobHolder;
 

@@ -17,6 +17,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
+import com.drowsyatmidnight.jobforcharity.woker.View.Utils.DataFirebase;
 
 import java.util.Arrays;
 import java.util.List;

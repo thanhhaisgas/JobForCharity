@@ -1,30 +1,31 @@
 package com.drowsyatmidnight.jobforcharity.woker.View.Fragments;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.NestedScrollView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
-import android.widget.ImageView;
-import android.widget.RatingBar;
+import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.drowsyatmidnight.jobforcharity.R;
-import com.drowsyatmidnight.jobforcharity.model.Job_Model;
-import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
-import com.drowsyatmidnight.jobforcharity.userhire.DataFirebase;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.GroupedDateTimeWork;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Job_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.ShiftWork_Model;
 
 
-import com.drowsyatmidnight.jobforcharity.woker.View.Adapters.AdapterDateTimes;
+
+import com.drowsyatmidnight.jobforcharity.woker.View.Adapters.DetailDateTimeAdapter;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -33,6 +34,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -50,17 +52,22 @@ public class DetailMyWorkFragment extends Fragment{
 
     private SomeEvent someEvent;
 
-    private View rootView;
+@BindView(R.id.scrollViewDetail)
+    NestedScrollView mScrollView;
+
     @BindView(R.id.detailNameJob)
     TextView detailNameJob;
     @BindView(R.id.detailDescriptionJob)
     TextView detailDescriptionJob;
+
     @BindView(R.id.lvWorkDetailDateTime)
     ExpandableListView lvWorkDetailDateTime;
 
+    Map<String,List<ShiftWork_Model>> GroupedDateTime = new HashMap<>();
     private Job_Model mJobModel;
-    private AdapterDateTimes adapterDateTimes;
-    private List<ShiftWork_Model> shiftWork_models;
+    private DetailDateTimeAdapter mDetailDateTimeAdapter;
+
+    private List<GroupedDateTimeWork> mGroupedDateTimeWorkList = new ArrayList<>();
 
 
     public static DetailMyWorkFragment newInstance(Job_Model jobModel) {
@@ -83,12 +90,29 @@ public class DetailMyWorkFragment extends Fragment{
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mJobModel = getArguments().getParcelable("job_model");
+
+        mGroupedDateTimeWorkList = getGroupedDateTimeList();
+        //List<GroupedDateTimeWork> m = getGroupedDateTimeList();
+        for (GroupedDateTimeWork g: getGroupedDateTimeList()) {
+            Log.d("Group:",g.getDate());
+            for (ShiftWork_Model h:g.getShiftWorkModels()){
+                Log.d("item:",h.getBeginTime() + h.getEndTime());
+            }
+
+        }
+    }
+    private void setupAdapter(){
+        mDetailDateTimeAdapter = new DetailDateTimeAdapter(getContext(),mGroupedDateTimeWorkList,mJobModel,getActivity());
+        lvWorkDetailDateTime.setAdapter(mDetailDateTimeAdapter);
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.job_detail_jobinfo, container, false);
+        View rootView = inflater.inflate(R.layout.job_detail_jobinfo, container, false);
+        ButterKnife.bind(this,rootView);
+
+        setupAdapter();
         return rootView;
     }
 
@@ -103,21 +127,64 @@ public class DetailMyWorkFragment extends Fragment{
 
 
     }
+    private List<GroupedDateTimeWork> getGroupedDateTimeList(){
+        List<GroupedDateTimeWork> mGroupedDateTimeWorks = new ArrayList<>();
+        //Map<String,List<ShiftWork_Model>> map = new HashMap<>();
+        int i = 0;
+        while (i<mJobModel.getDateTimes().size()){
 
+            Log.d("An count group ","+1");
+            String date = mJobModel.getDateTimes().get(i).getDate();
+
+            GroupedDateTimeWork mGroupedDateTimeWork;
+
+            List<ShiftWork_Model> mShiftWorkModelList = new ArrayList<>();
+            mShiftWorkModelList.add(mJobModel.getDateTimes().get(i));
+            mJobModel.getDateTimes().remove(i);
+            for(int j=0;j<mJobModel.getDateTimes().size();j++){
+                if(mJobModel.getDateTimes().get(j).getDate().equals(date)){
+                   mShiftWorkModelList.add(mJobModel.getDateTimes().get(j));
+                    mJobModel.getDateTimes().remove(j);
+
+                    i=-1;
+                }
+            }
+            mGroupedDateTimeWork = new GroupedDateTimeWork(date,mShiftWorkModelList);
+            mGroupedDateTimeWorks.add(mGroupedDateTimeWork);
+            //map.put(date,mShiftWorkModelList);
+            //groupedDateTimes.add(map);
+            i++;
+        }
+        return mGroupedDateTimeWorks;
+
+        /*for (Map<String, List<ShiftWork_Model>> map:groupedDateTimes){
+            String group = map.keySet().toString();
+            Log.d("group:",group);
+            Log.d("item",map.get(group).toString());
+        }*/
+    }
 
 
     private void setUpView() {
 
         detailNameJob.setText(getArguments().getString("nameWork"));
         detailDescriptionJob.setText(getArguments().getString("Description"));
+        lvWorkDetailDateTime.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return false;
+            }
+        });
 
-        setUpTimes();
+
+
+
+
         setHeightLV();
-        lvWorkDetailDateTime.bringToFront();
     }
 
     private void setHeightLV() {
-        for (int i = 0; i < adapterDateTimes.getGroupCount(); i++)
+        for (int i = 0; i < mDetailDateTimeAdapter.getGroupCount(); i++)
             lvWorkDetailDateTime.expandGroup(i);
         setListViewHeight(lvWorkDetailDateTime);
         lvWorkDetailDateTime.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
@@ -185,56 +252,5 @@ public class DetailMyWorkFragment extends Fragment{
         listView.requestLayout();
     }
 
-    private void setUpTimes() {
-        shiftWork_models = new ArrayList<>();
-        shiftWork_models.addAll((Collection<? extends ShiftWork_Model>) getArguments().getSerializable("shiftWorks"));
-        HashMap<String, List<ShiftWork_Model>> timeJobs = new HashMap<String, List<ShiftWork_Model>>();
-        timeJobs = dateTimes(shiftWork_models);
 
-        List<String> date = new ArrayList<>(timeJobs.keySet());
-        adapterDateTimes = new AdapterDateTimes(rootView.getContext(),mJobModel, date, timeJobs, getArguments().getString("view_type"));
-        lvWorkDetailDateTime.setAdapter(adapterDateTimes);
-        lvWorkDetailDateTime.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                v.getParent().requestDisallowInterceptTouchEvent(true);
-                return false;
-            }
-        });
-    }
-    public static HashMap<String, List<ShiftWork_Model>> dateTimes(List<ShiftWork_Model> shiftWork_models) {
-        HashMap<String, List<ShiftWork_Model>> timeJobs = new HashMap<String, List<ShiftWork_Model>>();
-        List<ShiftWork_Model> timeBeginEnd = new ArrayList<>();
-        Collections.sort(shiftWork_models, new Comparator<ShiftWork_Model>() {
-            @Override
-            public int compare(ShiftWork_Model o1, ShiftWork_Model o2) {
-                return o1.getDate().compareTo(o2.getDate());
-            }
-        });
-        if (shiftWork_models.size() <= 1) {
-            timeBeginEnd.add(shiftWork_models.get(0));
-            timeJobs.put(shiftWork_models.get(0).getDate(), timeBeginEnd);
-        } else {
-            for (int i = 0; i < shiftWork_models.size(); i++) {
-                if ((i + 1) < shiftWork_models.size()) {
-                    if (shiftWork_models.get(i).getDate().compareTo(shiftWork_models.get(i + 1).getDate()) == 0) {
-                        timeBeginEnd.add(shiftWork_models.get(i));
-                    } else {
-                        timeBeginEnd.add(shiftWork_models.get(i));
-                        timeJobs.put(shiftWork_models.get(i).getDate(), timeBeginEnd);
-                        timeBeginEnd = new ArrayList<>();
-                    }
-                } else {
-                    if (shiftWork_models.get(i).getDate().compareTo(shiftWork_models.get(i - 1).getDate()) == 0) {
-                        timeBeginEnd.add(shiftWork_models.get(i));
-                        timeJobs.put(shiftWork_models.get(i).getDate(), timeBeginEnd);
-                    } else {
-                        timeBeginEnd.add(shiftWork_models.get(i));
-                        timeJobs.put(shiftWork_models.get(i).getDate(), timeBeginEnd);
-                    }
-                }
-            }
-        }
-        return timeJobs;
-    }
 }

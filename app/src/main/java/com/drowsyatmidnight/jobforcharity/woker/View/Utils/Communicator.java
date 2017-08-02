@@ -1,6 +1,6 @@
 package com.drowsyatmidnight.jobforcharity.woker.View.Utils;
 
-import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.ShiftWork_Model;
 import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
 
 /**

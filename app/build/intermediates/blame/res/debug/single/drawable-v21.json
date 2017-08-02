@@ -44,6 +44,10 @@
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/drawable-v21/ic_menu_send.xml"
     },
     {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-v21/selector.xml",
+        "source": "/Users/davidtran/.android/build-cache/51b437a642c453ecf06e05d648b9bec7a4e07679/output/res/drawable-v21/selector.xml"
+    },
+    {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
         "source": "/Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/res/drawable-v21/avd_show_password.xml"
     },

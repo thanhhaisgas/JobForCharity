@@ -11,6 +11,7 @@ import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.drowsyatmidnight.jobforcharity.R;
+import com.github.fabtransitionactivity.SheetLayout;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.IllegalStateException;
 import java.lang.Override;
@@ -31,6 +32,7 @@ public class MyWorksMngmntActivity_ViewBinding implements Unbinder {
     target.tvViewMode = Utils.findRequiredViewAsType(source, R.id.tvViewMode, "field 'tvViewMode'", TextView.class);
     target.imgWorker = Utils.findRequiredViewAsType(source, R.id.imgWorker, "field 'imgWorker'", CircleImageView.class);
     target.myword_container = Utils.findRequiredViewAsType(source, R.id.mywork_container, "field 'myword_container'", FrameLayout.class);
+    target.mSheetLayout = Utils.findRequiredViewAsType(source, R.id.bottom_sheet, "field 'mSheetLayout'", SheetLayout.class);
     target.fab_addJob = Utils.findRequiredViewAsType(source, R.id.fab_addJob, "field 'fab_addJob'", FloatingActionButton.class);
   }
 
@@ -45,6 +47,7 @@ public class MyWorksMngmntActivity_ViewBinding implements Unbinder {
     target.tvViewMode = null;
     target.imgWorker = null;
     target.myword_container = null;
+    target.mSheetLayout = null;
     target.fab_addJob = null;
   }
 }

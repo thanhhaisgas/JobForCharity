@@ -208,6 +208,10 @@
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/item_detailwork_date.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/layout/item_detailwork_date.xml"
+    },
+    {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/res/layout/design_navigation_menu_item.xml"
     },
@@ -240,10 +244,6 @@
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/item_detailjob_date.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/layout/item_detailjob_date.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
         "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/layout/activity_home.xml"
     },
@@ -254,6 +254,10 @@
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/layout_detailjobview.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/src/main/res/layout/layout_detailjobview.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
@@ -284,6 +288,10 @@
         "source": "/Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/spinner_list_item.xml",
+        "source": "/Users/davidtran/.android/build-cache/51b437a642c453ecf06e05d648b9bec7a4e07679/output/res/layout/spinner_list_item.xml"
+    },
+    {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
@@ -302,6 +310,10 @@
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
         "source": "/Users/davidtran/.android/build-cache/99776b8c39e09a652097b95f91f50d326bd9c964/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/bottom_sheet_layout.xml",
+        "source": "/Users/davidtran/.android/build-cache/4e755f0b29f576cedbd390e68a4aa45e8904dbf7/output/res/layout/bottom_sheet_layout.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/res/merged/debug/layout/job_detail_jobinfo.xml",

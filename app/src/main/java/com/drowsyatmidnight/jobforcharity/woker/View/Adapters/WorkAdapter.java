@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -13,16 +12,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.drowsyatmidnight.jobforcharity.R;
-import com.drowsyatmidnight.jobforcharity.model.Job_Model;
-import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Job_Model;
 import com.drowsyatmidnight.jobforcharity.woker.View.Fragments.DetailMyWorkFragment;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class WorkAdapter extends BaseExpandableListAdapter {
@@ -119,7 +114,7 @@ public class WorkAdapter extends BaseExpandableListAdapter {
         final String endTime = mJobModelList.get(groupPosition).getDateTimes().get(childPosition).getEndTime();
         final String status = mJobModelList.get(groupPosition).getDateTimes().get(childPosition).getStatus();
         final String salary = mJobModelList.get(groupPosition).getDateTimes().get(childPosition).getSalary();
-
+        final String deleted_status = mJobModelList.get(groupPosition).getDateTimes().get(childPosition).getDeletedStatus();
         if (convertView == null) {
             LayoutInflater infalInflater = (LayoutInflater) mContext
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -135,13 +130,13 @@ public class WorkAdapter extends BaseExpandableListAdapter {
                 .findViewById(R.id.item_datetime_status);
         TextView txtSalary = (TextView) convertView.findViewById(R.id.item_salary);
 
-
-        txtDate.setText(mDate);
-        txtBeginTime.setText(beginTime);
-        txtEndTime.setText(endTime);
-        txtStatus.setText(status);
-        txtSalary.setText(salary);
-
+        if(!deleted_status.equals("true")) {
+            txtDate.setText(mDate);
+            txtBeginTime.setText(beginTime);
+            txtEndTime.setText(endTime);
+            txtStatus.setText(status);
+            txtSalary.setText(salary);
+        }
 
         return convertView;
     }

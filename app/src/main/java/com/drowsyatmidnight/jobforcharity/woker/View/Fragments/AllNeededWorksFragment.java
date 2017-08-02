@@ -14,11 +14,12 @@ import android.widget.Toast;
 
 import com.drowsyatmidnight.jobforcharity.R;
 import com.drowsyatmidnight.jobforcharity.login.Authority;
-import com.drowsyatmidnight.jobforcharity.model.Job_Model;
-import com.drowsyatmidnight.jobforcharity.model.ShiftWork_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Job_Model;
+import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.ShiftWork_Model;
 import com.drowsyatmidnight.jobforcharity.woker.Models.Entity.Work;
 import com.drowsyatmidnight.jobforcharity.woker.Models.LoadWorkListener;
 import com.drowsyatmidnight.jobforcharity.woker.View.Adapters.WorkAdapter;
+import com.drowsyatmidnight.jobforcharity.woker.View.Utils.CommDateTimeAdapter;
 import com.drowsyatmidnight.jobforcharity.woker.View.Utils.Communicator;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -326,4 +327,6 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
         setupAdapter(workList);
 
     }
+
+
 }

@@ -41,14 +41,6 @@
     <string name="job_list_label">End time</string>
     <string name="create_label">Post</string>
 
-    <!--Spinner categories-->
-    <string-array name="spinner_categories">
-        <item>Category 1</item>
-        <item>Category 2</item>
-        <item>Category 3</item>
-        <item>Category 4</item>
-        <item>Category 5</item>
-    </string-array>
 
     <!--Worker strings-->
     <string name="all_work_label">ALL WORKS</string>

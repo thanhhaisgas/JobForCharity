@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="/Users/davidtran/.android/build-cache/51b437a642c453ecf06e05d648b9bec7a4e07679/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8c5c8c77477dfacfef6651859b5485c1c225c565">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_563c5ddd337973b280e3f83523ed75f258290a0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -18,6 +27,24 @@
         revision="25.0.3"
         sha1="0ebab9f821b02b5c29c0e41b64106019922f394e">
         <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b961ceba77d90bc6beb638f220b9a9e692368361/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidtran/.android/build-cache/4e755f0b29f576cedbd390e68a4aa45e8904dbf7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3c36a55900bd590cb464492c436d7d1aa5f9854d">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_81ab37da63020fadabeb4c998d1bca61889388c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/davidtran/.android/build-cache/eb54a03d04a77f4765ed301ed4354f083efb88bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4e01297e21f918ce3de5f20f1b7ab5682f125ff4">
+        <dex dex="/Users/davidtran/Desktop/ANDROID/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d17a300e99a44d3acd596edd92922421286a7540/classes.dex" />
     </item>
 
 </items>

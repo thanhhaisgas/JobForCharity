@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface CommDateTimeAdapter {
 
-    public void onSelectDateTime(List<Integer> selectedIndex);
+    public void onDateTimeDeletedSuccess();
 }

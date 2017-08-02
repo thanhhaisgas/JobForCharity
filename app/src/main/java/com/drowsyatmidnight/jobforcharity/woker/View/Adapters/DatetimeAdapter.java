@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -93,11 +94,11 @@ public class DatetimeAdapter extends BaseAdapter {
         // Return the completed view to render on screen
 
 
-        onItemSelectedListener(convertView,position);
+        //onItemSelectedListener(convertView,position);
         return convertView;
     }
 
-    private void onItemSelectedListener(View view, final int pos){
+    /*private void onItemSelectedListener(View view, final int pos){
         final View convertView = view;
         final LinearLayout mLinearLayout = (LinearLayout) convertView.findViewById(R.id.linearDateTime);
         mLinearLayout.setOnClickListener(new View.OnClickListener() {
@@ -131,5 +132,5 @@ public class DatetimeAdapter extends BaseAdapter {
         }
         indexSelected.add(pos);
 
-    }
+    }*/
 }
