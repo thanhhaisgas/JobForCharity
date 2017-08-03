@@ -20,6 +20,7 @@ public class DetailMyWorkFragment_ViewBinding implements Unbinder {
   public DetailMyWorkFragment_ViewBinding(DetailMyWorkFragment target, View source) {
     this.target = target;
 
+    target.tvUserHireInfo = Utils.findRequiredViewAsType(source, R.id.tvUserHireInfo, "field 'tvUserHireInfo'", TextView.class);
     target.mScrollView = Utils.findRequiredViewAsType(source, R.id.scrollViewDetail, "field 'mScrollView'", NestedScrollView.class);
     target.detailNameJob = Utils.findRequiredViewAsType(source, R.id.detailNameJob, "field 'detailNameJob'", TextView.class);
     target.detailDescriptionJob = Utils.findRequiredViewAsType(source, R.id.detailDescriptionJob, "field 'detailDescriptionJob'", TextView.class);
@@ -33,6 +34,7 @@ public class DetailMyWorkFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
+    target.tvUserHireInfo = null;
     target.mScrollView = null;
     target.detailNameJob = null;
     target.detailDescriptionJob = null;

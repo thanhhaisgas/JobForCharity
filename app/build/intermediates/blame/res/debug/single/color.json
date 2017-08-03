@@ -16,12 +16,12 @@
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/color/abc_tint_spinner.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/color/abc_tint_spinner.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",

@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.CardView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,22 +38,24 @@ import java.util.Map;
 public class DetailDateTimeAdapter extends BaseExpandableListAdapter {
     private ImageButton btnDeleteTime;
     public List<ShiftWork_Model> listSelected = new ArrayList<>();
-    CommDateTimeAdapter mCommDateTimeAdapter= null;
+    CommDateTimeAdapter mCommDateTimeAdapter = null;
     TextView dateHeader;
     TextView beginTimeItem;
     TextView endTimeItem;
     TextView salaryItem;
     TextView statusItem;
     Context mContext;
-Activity mActivity;
+    Activity mActivity;
     Job_Model mJobModel;
     Map<String, List<ShiftWork_Model>> map = new LinkedHashMap<String, List<ShiftWork_Model>>();
-    List<GroupedDateTimeWork> groupedDateTimeWorks =  new ArrayList<>();
+    List<GroupedDateTimeWork> groupedDateTimeWorks = new ArrayList<>();
+
     public DetailDateTimeAdapter(Context context, List<GroupedDateTimeWork> groupedDateTimeWorks, Job_Model job_model, Activity activity) {
         this.groupedDateTimeWorks = groupedDateTimeWorks;
         this.mContext = context;
         this.mJobModel = job_model;
         this.mActivity = activity;
+        LogDateTimeItem();
     }
 
     @Override
@@ -65,7 +68,7 @@ Activity mActivity;
 
        /* String value = example.get(name).toString();
         return map.keySet(groupPosition).;*/
-       return groupedDateTimeWorks.get(groupPosition).getShiftWorkModels().size();
+        return groupedDateTimeWorks.get(groupPosition).getShiftWorkModels().size();
     }
 
     @Override
@@ -102,7 +105,7 @@ Activity mActivity;
 
         if (convertView == null) {
             LayoutInflater layoutInflater = (LayoutInflater) this.mContext
-                    .getSystemService(Context.  LAYOUT_INFLATER_SERVICE);
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = layoutInflater.inflate(R.layout.item_detailwork_date, null);
         }
         dateHeader = (TextView) convertView.findViewById(R.id.txtJobDetailDate);
@@ -116,7 +119,7 @@ Activity mActivity;
 
         if (convertView == null) {
             LayoutInflater layoutInflater = (LayoutInflater) this.mContext
-                    .getSystemService(Context.  LAYOUT_INFLATER_SERVICE);
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = layoutInflater.inflate(R.layout.item_detailwork_times, null);
         }
 
@@ -135,6 +138,7 @@ Activity mActivity;
                 .get(groupPosition).getShiftWorkModels().get(childPosition).getStatus());
 
         btnDeleteTime = (ImageButton) convertView.findViewById(R.id.btnDeleteTime);
+        //Log.d("item",beginTimeItem.+"-"+endTimeItem+"-"+salaryItem + "-" + statusItem);
 
 
         String DateTimeID = groupedDateTimeWorks.get(groupPosition).getShiftWorkModels().get(childPosition).getDateTimeID();
@@ -149,9 +153,18 @@ Activity mActivity;
         return false;
     }
 
+    private void LogDateTimeItem() {
+        for (int i = 0; i < groupedDateTimeWorks.size(); i++) {
+            Log.d("group", groupedDateTimeWorks.get(i).getDate());
+            for (int j = 0; j < groupedDateTimeWorks.get(i).getShiftWorkModels().size(); j++) {
 
+                Log.d("item", groupedDateTimeWorks.get(i).getShiftWorkModels().get(j).getBeginTime());
 
-    private void deleteTimeListener(final String datetimeid , final Job_Model jobModel, ImageButton imageButton){
+            }
+        }
+    }
+
+    private void deleteTimeListener(final String datetimeid, final Job_Model jobModel, ImageButton imageButton) {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -164,11 +177,21 @@ Activity mActivity;
                             String mWorkerUID = (String) dsp.child("workerUID").getValue();
                             String mWorkName = (String) dsp.child("workName").getValue();
                             String mDescription = (String) dsp.child("description").getValue();
-                            if(jobModel.getWokerUID().compareTo(mWorkerUID)==0
-                                    && jobModel.getDescription().compareTo(mDescription)==0){
+                            if (jobModel.getWokerUID().compareTo(mWorkerUID) == 0
+                                    && jobModel.getDescription().compareTo(mDescription) == 0) {
 
                                 dsp.child("DateTimes").child(datetimeid).getRef()
                                         .child("deletedStatus").setValue("true");
+
+                                //Notify to refesh view
+                                /*mCommDateTimeAdapter = (CommDateTimeAdapter) mActivity;
+                                mCommDateTimeAdapter.onDapteTimeDeletedSuccess();
+                                notifyDataSetChanged();*/
+
+                                //Remove item from list if success
+                                updateDateTimeListAfterDelete(datetimeid);
+
+
                                 break;
 
                             }
@@ -182,8 +205,25 @@ Activity mActivity;
                 });
             }
         });
-      //notifyDataSetChanged();
-        mCommDateTimeAdapter = (CommDateTimeAdapter) mActivity;
-        mCommDateTimeAdapter.onDateTimeDeletedSuccess();
+        //notifyDataSetChanged();
+        /*mCommDateTimeAdapter = (CommDateTimeAdapter) mActivity;
+        mCommDateTimeAdapter.onDateTimeDeletedSuccess();*/
+    }
+
+    private void updateDateTimeListAfterDelete(String datetimeid) {
+        boolean checkDeleted = false;
+        for (int i = 0; i < groupedDateTimeWorks.size(); i++) {
+            for (int j = 0; j < groupedDateTimeWorks.get(i).getShiftWorkModels().size(); j++) {
+                if (groupedDateTimeWorks.get(i).getShiftWorkModels().get(j).getDateTimeID().equals(datetimeid)) {
+                    groupedDateTimeWorks.get(i).getShiftWorkModels().remove(j);
+                    checkDeleted = true;
+                    break;
+                }
+
+            }
+            if (checkDeleted == true) break;
+        }
+        notifyDataSetChanged();
+
     }
 }

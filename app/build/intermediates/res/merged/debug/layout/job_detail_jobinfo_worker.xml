@@ -28,19 +28,16 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_work_white_24dp"/>
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_person_24dp"/>
 
                 <TextView
-                    android:id="@+id/detailNameJob"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="@dimen/dp8"
-                    android:textColor="@android:color/black"
-                    android:textSize="50dp"
-                    tool:text="Chay xe om"/>
+                    android:id="@+id/tvUserHireInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"/>
+
 
             </LinearLayout>
 
@@ -52,6 +49,17 @@
                 android:weightSum="1">
 
                 <TextView
+                    android:id="@+id/detailNameJob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp8"
+                    android:textColor="@android:color/black"
+                    android:textSize="50dp"
+                    tool:text="Chay xe om"/>
+
+                <TextView
+                    android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/description"
@@ -66,11 +74,11 @@
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="11.93"
                     android:textColor="@android:color/black"
                     android:textSize="@dimen/dp18"
                     app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
-                    tool:text="Chay xe om khu akj dfsdf sf df asf asf saf ff as fsf"
-                    android:layout_weight="11.93"/>
+                    tool:text="Chay xe om khu akj dfsdf sf df asf asf saf ff as fsf"/>
 
 
             </LinearLayout>

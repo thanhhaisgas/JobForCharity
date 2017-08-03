@@ -1,4 +1,4 @@
-#Thu Aug 03 01:00:22 ICT 2017
+#Thu Aug 03 14:12:37 ICT 2017
 base.0=/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cfeb30d52ba3118dc3ca0fd272d2e29191946397
 renamed.1=classes2.dex
 renamed.0=classes.dex

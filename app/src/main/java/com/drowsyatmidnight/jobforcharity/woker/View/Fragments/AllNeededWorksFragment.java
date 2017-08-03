@@ -370,5 +370,4 @@ public class AllNeededWorksFragment extends Fragment implements LoadWorkListener
 
     }
 
-
 }

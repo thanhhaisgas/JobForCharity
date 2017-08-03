@@ -28,16 +28,16 @@
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/activity_main_worker.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_search_view.xml"
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/content_home_user_hire.xml",
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/content_home_user_hire.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -52,12 +52,12 @@
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/item_what_new.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/item_what_new.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/item_detailwork_date.xml",
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/item_detailwork_date.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/item_what_new.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/item_what_new.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/fragment_all_neededworks.xml",
@@ -76,12 +76,12 @@
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/item_review.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/fab_speed_dial_top.xml",
-        "source": "/Users/davidtran/.android/build-cache/08a06d3d665d68ebe56c47e750cc2808e8483549/output/res/layout/fab_speed_dial_top.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/fab_speed_dial_top.xml",
+        "source": "/Users/davidtran/.android/build-cache/08a06d3d665d68ebe56c47e750cc2808e8483549/output/res/layout/fab_speed_dial_top.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
@@ -144,12 +144,12 @@
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/fragment_performing_neededworks.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/item_datetime.xml",
-        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/item_datetime.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/item_datetime_worker.xml",
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/item_datetime_worker.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/item_datetime.xml",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/item_datetime.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/fragment_finished_neededworks.xml",
@@ -180,12 +180,12 @@
         "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/job_detail_userinfo.xml",
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/src/main/res/layout/job_detail_userinfo.xml"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/davidtran/.android/build-cache/3e273acddb992907da400481803fc782965f375f/output/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",

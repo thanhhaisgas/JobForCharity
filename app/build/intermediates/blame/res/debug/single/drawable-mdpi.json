@@ -72,6 +72,10 @@
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-mdpi/ic_info_outline_black_24dp.png"
     },
     {
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_person_24dp.png",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-mdpi/ic_person_24dp.png"
+    },
+    {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_add_neededjob_24dp.png",
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-mdpi/ic_add_neededjob_24dp.png"
     },

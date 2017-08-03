@@ -120,7 +120,7 @@ TextView tvUserHireInfo;
 
     private List<GroupedDateTimeWork> getGroupedDateTimeList(){
         List<GroupedDateTimeWork> mGroupedDateTimeWorks = new ArrayList<>();
-        //Map<String,List<ShiftWork_Model>> map = new HashMap<>();
+
         int i = 0;
         while (i<mJobModel.getDateTimes().size()){
 
@@ -131,19 +131,22 @@ TextView tvUserHireInfo;
 
             List<ShiftWork_Model> mShiftWorkModelList = new ArrayList<>();
             mShiftWorkModelList.add(mJobModel.getDateTimes().get(i));
-            mJobModel.getDateTimes().remove(i);
-            for(int j=0;j<mJobModel.getDateTimes().size();j++){
+
+
+            int j=0;
+            while(j<mJobModel.getDateTimes().size()){
                 if(mJobModel.getDateTimes().get(j).getDate().equals(date)){
                    mShiftWorkModelList.add(mJobModel.getDateTimes().get(j));
                     mJobModel.getDateTimes().remove(j);
 
+                    j=-1;
                     i=-1;
                 }
+                j++;
             }
             mGroupedDateTimeWork = new GroupedDateTimeWork(date,mShiftWorkModelList);
             mGroupedDateTimeWorks.add(mGroupedDateTimeWork);
-            //map.put(date,mShiftWorkModelList);
-            //groupedDateTimes.add(map);
+
             i++;
         }
         return mGroupedDateTimeWorks;

@@ -142,9 +142,7 @@ public class WorkAdapter extends BaseExpandableListAdapter {
         }
         else{
 //            imgArrow.setVisibility(View.GONE);
-
         }
-
         return convertView;
     }
 

@@ -24,12 +24,12 @@
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_attach_money_24dp.png"
     },
     {
-        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_history.png",
-        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_menu_history.png"
-    },
-    {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_phone.png",
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_phone.png"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_history.png",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_menu_history.png"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_work_in_progress.png",
@@ -62,6 +62,10 @@
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_keyboard_arrow_right_white_36dp.png",
         "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_keyboard_arrow_right_white_36dp.png"
+    },
+    {
+        "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_person_24dp.png",
+        "source": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_person_24dp.png"
     },
     {
         "merged": "/Users/davidtran/Desktop/ANDROID/Project Coderschool/JobForCharity/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_history_white_24dp.png",

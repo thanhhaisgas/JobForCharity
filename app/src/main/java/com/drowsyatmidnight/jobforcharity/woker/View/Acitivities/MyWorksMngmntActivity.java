@@ -65,7 +65,7 @@ public class MyWorksMngmntActivity extends AppCompatActivity
     SheetLayout mSheetLayout;
     @BindView(R.id.fab_addJob)
     FloatingActionButton fab_addJob;
-
+    AllNeededWorksFragment mAllNeededWorksFragment;
     private static final int REQUEST_CODE = 1;
 
 
@@ -147,14 +147,14 @@ public class MyWorksMngmntActivity extends AppCompatActivity
     }
 
     private void setupAllWorkFragment() {
-        Fragment mAllNeededWorksFragment = AllNeededWorksFragment.newInstance(ALL_WORK_VIEW_MODE);
+        mAllNeededWorksFragment = AllNeededWorksFragment.newInstance(ALL_WORK_VIEW_MODE);
         FragmentTransaction transaction = manager.beginTransaction();
         transaction.replace(R.id.mywork_container, mAllNeededWorksFragment);
         transaction.commit();
     }
 
     private void setupProccessingWorkFragment() {
-        Fragment mAllNeededWorksFragment = AllNeededWorksFragment.newInstance(PROGRESSING_WORK_VIEW_MODE);
+        mAllNeededWorksFragment = AllNeededWorksFragment.newInstance(PROGRESSING_WORK_VIEW_MODE);
 
         FragmentTransaction transaction = manager.beginTransaction();
         transaction.replace(R.id.mywork_container, mAllNeededWorksFragment);
@@ -162,7 +162,7 @@ public class MyWorksMngmntActivity extends AppCompatActivity
     }
 
     private void setupFutureWorkFragment() {
-        Fragment mAllNeededWorksFragment = AllNeededWorksFragment.newInstance(FEATURE_WORK_VIEW_MODE);
+        mAllNeededWorksFragment = AllNeededWorksFragment.newInstance(FEATURE_WORK_VIEW_MODE);
 
         FragmentTransaction transaction = manager.beginTransaction();
         transaction.replace(R.id.mywork_container, mAllNeededWorksFragment);
@@ -170,7 +170,7 @@ public class MyWorksMngmntActivity extends AppCompatActivity
     }
 
     private void setupHistoryWorkFragment() {
-        Fragment mAllNeededWorksFragment = AllNeededWorksFragment.newInstance(HISTORY_VIEW_MODE);
+        mAllNeededWorksFragment = AllNeededWorksFragment.newInstance(HISTORY_VIEW_MODE);
 
         FragmentTransaction transaction = manager.beginTransaction();
         transaction.replace(R.id.mywork_container, mAllNeededWorksFragment);
@@ -274,6 +274,7 @@ public class MyWorksMngmntActivity extends AppCompatActivity
 
     @Override
     public void onDateTimeDeletedSuccess() {
+        mAllNeededWorksFragment.loadWorkFromFirebase();
 
     }
 
